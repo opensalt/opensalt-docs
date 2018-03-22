@@ -1,8 +1,8 @@
-\ |IMG1|\ 
+\ |IMG1|\
 
-OpenSALT v.1.3 - User Manual (draft) 
+OpenSALT v.1.3 - User Manual (draft)
 
-\ |STYLE0|\ 
+\ |STYLE0|\
 
 +---------+------------+-------+-----------------------+----------------+
 |Name     |Organization|Date   |Revision Notes         |Document Version|
@@ -14,7 +14,7 @@ OpenSALT v.1.3 - User Manual (draft)
 |         |            |       |                       |                |
 +---------+------------+-------+-----------------------+----------------+
 
-\ |STYLE1|\ 
+\ |STYLE1|\
 
 | `Introduction <#hb79795d3e46b47696c7c5b6d3a41e>`_
 | `1.0  Audience <#h1911265d3f1258581a361721a6cd74>`_
@@ -111,18 +111,18 @@ OpenSALT v.1.3 - User Manual (draft)
 Introduction
 ============
 
-\ |STYLE2|\ 
+\ |STYLE2|\
 
-CASE establishes a new, global technical standard for the exchange of machine readable, linked data versions of state and national academic standards, local learning objectives and targets, or any workplace, military, or higher education competencies representing skills, knowledge, or abilities. To learn more please visit: \ |LINK1|\ 
+CASE establishes a new, global technical standard for the exchange of machine readable, linked data versions of state and national academic standards, local learning objectives and targets, or any workplace, military, or higher education competencies representing skills, knowledge, or abilities. To learn more please visit: \ |LINK1|\
 
-\ |STYLE3|\ 
+\ |STYLE3|\
 
 To support CASE, PCG Education (A national public sector consulting practice); ACT Inc and SchoolCity (both leading curriculum and assessment providers), partnered on the development of the open source project called OpenSALT, that provides a free, IMS-conformance certified tool that enables education organizations to manage and publish frameworks and crosswalks to other standards.
 
-Developed as an open source project, OpenSALT provides for easy exchange of state standards data and provides for and enables alignment services to align educational content to learning standards, as well as correlate (Crosswalk) between different state standards and competency frameworks. 
+Developed as an open source project, OpenSALT provides for easy exchange of state standards data and provides for and enables alignment services to align educational content to learning standards, as well as correlate (Crosswalk) between different state standards and competency frameworks.
 
 
-\ |STYLE4|\ 
+\ |STYLE4|\
 
 * Easily create derivative frameworks from national standards for use within States
 
@@ -146,7 +146,7 @@ Developed as an open source project, OpenSALT provides for easy exchange of stat
 1.0  Audience
 =============
 
-This document is intended as a complete guide for using OpenSALT. This document is specially designed for all users with advanced permissions or non-specialists who may find the document useful as a  point of reference. By reading this guide, you will learn how to use OpenSALT through the elements of the graphical user interface (GUI) and explanations of some of the advanced features to provide best practices. This guide will help you to navigate and easily use OpenSALT. The functions and features described in this guide will indicate any role restrictions or limitations as to what users can access or interact with the given system function. 
+This document is intended as a complete guide for using OpenSALT. This document is specially designed for all users with advanced permissions or non-specialists who may find the document useful as a  point of reference. By reading this guide, you will learn how to use OpenSALT through the elements of the graphical user interface (GUI) and explanations of some of the advanced features to provide best practices. This guide will help you to navigate and easily use OpenSALT. The functions and features described in this guide will indicate any role restrictions or limitations as to what users can access or interact with the given system function.
 
 .. _h486792f4a12b6443784e11c1032c:
 
@@ -171,47 +171,47 @@ The user interface should support the latest versions of the following web brows
 
 .. _h556146c2387114251125619317e27:
 
-2.0  OpenSALT Structure and Access 
+2.0  OpenSALT Structure and Access
 ===================================
 
-OpenSALT is designed to be an open, publicly accessible, framework site that allows transparency in frameworks and crosswalks. By design users are able to traverse and view the published frameworks and content by accessing the main url for the given site. OpenSALT then utilizes a login that allows provisioned users to create, edit and otherwise interact with the frameworks for the site. 
+OpenSALT is designed to be an open, publicly accessible, framework site that allows transparency in frameworks and crosswalks. By design users are able to traverse and view the published frameworks and content by accessing the main url for the given site. OpenSALT then utilizes a login that allows provisioned users to create, edit and otherwise interact with the frameworks for the site.
 
 .. _h5064c4520537f221a7341492e6a4025:
 
 2.1 OpenSALT Structure
 ----------------------
 
-OpenSALT goes to the home page by default, and also has a document tree view. The Doc Tree View shows a framework and information about the framework on the right hand side, where logged in users with proper permissions can edit items, associate with other framework items, and copy other framework items into the current framework. 
+OpenSALT goes to the home page by default, and also has a document tree view. The Doc Tree View shows a framework and information about the framework on the right hand side, where logged in users with proper permissions can edit items, associate with other framework items, and copy other framework items into the current framework.
 
 .. _h673d3c62a785f726a6b6333444e4b70:
 
 2.2 OpenSALT Home Page
 ----------------------
 
-The image below is an example of an OpenSALT site, OpenSALT.net hosted by PCG. When user launches opensalt.net in a browser, the user is presented with the open view of the site.  
+The image below is an example of an OpenSALT site, OpenSALT.net hosted by PCG. When user launches opensalt.net in a browser, the user is presented with the open view of the site.
 
-\ |IMG2|\ 
+\ |IMG2|\
 
 This is a view of an OpenSALT site hosted by ACT, located at frameworks.act.org
 
-\ |IMG3|\ 
+\ |IMG3|\
 
 All public, non-provisioned users are able to view the frameworks and content with each form this view. Navigating the frameworks will be further discussed in a later section of this document.
 
 .. _h6a553f521677b3b627ff294828321:
 
-2.3 Log into OpenSALT 
+2.3 Log into OpenSALT
 ----------------------
 
-For provisioned users the \ |STYLE5|\  button will launch a login screen that will enable deeper system usage and open up available menus for further interaction with OpenSALT.  
+For provisioned users the \ |STYLE5|\  button will launch a login screen that will enable deeper system usage and open up available menus for further interaction with OpenSALT.
 
-\ |IMG4|\ 
+\ |IMG4|\
 
 Provisioned users can enter in their \ |STYLE6|\  (user’s email) and \ |STYLE7|\  then click the \ |STYLE8|\  button to access the admin functions for OpenSALT.
 
-\ |IMG5|\ 
+\ |IMG5|\
 
-After logging in a provisioned user will now see the \ |STYLE9|\  button replaced by “Signed in as \ |STYLE10|\ ” (email) with a menu icon  and two new buttons on the main frame of the page:  \ |STYLE11|\  and \ |STYLE12|\ 
+After logging in a provisioned user will now see the \ |STYLE9|\  button replaced by “Signed in as \ |STYLE10|\ ” (email) with a menu icon  and two new buttons on the main frame of the page:  \ |STYLE11|\  and \ |STYLE12|\
 
 .. _h5b52241c7178667e18023622a381f1:
 
@@ -220,14 +220,14 @@ After logging in a provisioned user will now see the \ |STYLE9|\  button replace
 
 All provisioned users should log out of OpenSALT when finished with their session. To logout, click on the expansion menu next to the user name and select \ |STYLE13|\ .
 
-\ |IMG6|\ 
+\ |IMG6|\
 
 .. _h1b685a27e68c571dd1c317e122f34:
 
 3.0  User Roles and Permissions
 ===============================
 
-OpenSALT currently has five user roles with specified permissions for the tool: 
+OpenSALT currently has five user roles with specified permissions for the tool:
 
 #. Super User
 
@@ -241,16 +241,16 @@ OpenSALT currently has five user roles with specified permissions for the tool:
 
 #. Public (non-authenticated)
 
-The Chart below provides an overview of the users and their provisioned roles and detailed descriptions follow.  
+The Chart below provides an overview of the users and their provisioned roles and detailed descriptions follow.
 
-\ |IMG7|\ 
+\ |IMG7|\
 
 .. _h155d6d5f4916497a1c6b10341f214165:
 
 3.1 Super User
 --------------
 
-This is the top level in the user hierarchy for OpenSALT. A Super User has full permissions to the site and can create and manage organizations, manage users across all organizations, and manage all frameworks and content across all organizations.  
+This is the top level in the user hierarchy for OpenSALT. A Super User has full permissions to the site and can create and manage organizations, manage users across all organizations, and manage all frameworks and content across all organizations.
 
 * view any framework
 
@@ -424,7 +424,7 @@ The Organization Reviewer is an org member with no roles assigned. They can log 
 
 * change their password
 
-* Add comments if comments are turned on 
+* Add comments if comments are turned on
 
 * They can \ |STYLE24|\  make personal frameworks.
 
@@ -444,17 +444,17 @@ The Public User is the default user for all who visit an OpenSALT site. This use
 4.0 Organization Management
 ===========================
 
-\ |STYLE27|\ 
+\ |STYLE27|\
 
-As discussed in section 2.1 Open SALT is designed to b a multi-tenant environment housing multiple organizations and users, though keeping all securely separated. In order to establish the separation, the Super User will need to create and manage organizations. 
+As discussed in section 2.1 Open SALT is designed to b a multi-tenant environment housing multiple organizations and users, though keeping all securely separated. In order to establish the separation, the Super User will need to create and manage organizations.
 
 To access the \ |STYLE28|\  page, after logging in the user should click the triangular menu icon next to their user name in the header of the page. The menu will expand with several options depending on the user’s role. Click on \ |STYLE29|\  to open the page.
 
-\ |IMG8|\ 
+\ |IMG8|\
 
-The \ |STYLE30|\   is the default page displayed when a Super User accesses the \ |STYLE31|\  function of OpenSALT. The list will display all organizations that the are currently in the given instance of OpenSALT. The \ |STYLE32|\  provides the OpenSALT unique ID number, the Organization Name, and Actions for the organizations (\ |STYLE33|\  and \ |STYLE34|\ ). The page also has a button to \ |STYLE35|\ . 
+The \ |STYLE30|\   is the default page displayed when a Super User accesses the \ |STYLE31|\  function of OpenSALT. The list will display all organizations that the are currently in the given instance of OpenSALT. The \ |STYLE32|\  provides the OpenSALT unique ID number, the Organization Name, and Actions for the organizations (\ |STYLE33|\  and \ |STYLE34|\ ). The page also has a button to \ |STYLE35|\ .
 
-\ |IMG9|\ 
+\ |IMG9|\
 
 .. _h2e38184e3252357f696d5953437a1433:
 
@@ -465,21 +465,21 @@ There are two ways to view an individual organization’s information beyond the
 
 #. On the \ |STYLE37|\  click on the linked \ |STYLE38|\  number for the selected organization.
 
-\ |IMG10|\ 
+\ |IMG10|\
 
-#. On the \ |STYLE39|\  click on the \ |STYLE40|\  button in the \ |STYLE41|\  section of the Organization table for the selected organization. 
+#. On the \ |STYLE39|\  click on the \ |STYLE40|\  button in the \ |STYLE41|\  section of the Organization table for the selected organization.
 
-\ |IMG11|\ 
+\ |IMG11|\
 
-The \ |STYLE42|\  screen will display for the selected user. 
+The \ |STYLE42|\  screen will display for the selected user.
 
-\ |IMG12|\ 
+\ |IMG12|\
 
-The Super User can see the Organization’s unique ID value and the Organization’s name. 
+The Super User can see the Organization’s unique ID value and the Organization’s name.
 
 From the \ |STYLE43|\  screen the Super User can:
 
-* return the \ |STYLE44|\  by clicking the \ |STYLE45|\ 
+* return the \ |STYLE44|\  by clicking the \ |STYLE45|\
 
 * edit the organization by clicking on the \ |STYLE46|\  button
 
@@ -490,13 +490,13 @@ From the \ |STYLE43|\  screen the Super User can:
 4.2 Add/Create Organization
 ---------------------------
 
-To create a new user, click on the \ |STYLE48|\  button at the bottom right of the \ |STYLE49|\ . 
+To create a new user, click on the \ |STYLE48|\  button at the bottom right of the \ |STYLE49|\ .
 
-\ |IMG13|\ 
+\ |IMG13|\
 
 The Add an Organization page will display:
 
-\ |IMG14|\ 
+\ |IMG14|\
 
 The admin will need to enter in the following required fields:
 
@@ -504,7 +504,7 @@ The admin will need to enter in the following required fields:
 
 Then click on the \ |STYLE51|\  button to create the organization.
 
-If the Admin wants to cancel, and not create the organization, click the \ |STYLE52|\  button. 
+If the Admin wants to cancel, and not create the organization, click the \ |STYLE52|\  button.
 
 .. _h6e6b6c492a472a26603a601b4348370:
 
@@ -513,11 +513,11 @@ If the Admin wants to cancel, and not create the organization, click the \ |STYL
 
 An Admin can access the \ |STYLE53|\  screen using two paths:
 
-#. On the \ |STYLE54|\  click on the \ |STYLE55|\  button in the \ |STYLE56|\  section of the Organization table for the selected organization. \ |IMG15|\ 
+#. On the \ |STYLE54|\  click on the \ |STYLE55|\  button in the \ |STYLE56|\  section of the Organization table for the selected organization. \ |IMG15|\
 
-#. On the \ |STYLE57|\  screen click on the \ |STYLE58|\  button. 
+#. On the \ |STYLE57|\  screen click on the \ |STYLE58|\  button.
 
-\ |IMG16|\ 
+\ |IMG16|\
 
 The \ |STYLE59|\  screen will display and allow the Admin to update the user’s information.
 
@@ -527,7 +527,7 @@ The \ |STYLE59|\  screen will display and allow the Admin to update the user’s
 
 Then click on the \ |STYLE61|\  button to save the changes.
 
-If the Admin wants to cancel, and not edit the the organization, click the \ |STYLE62|\  button. 
+If the Admin wants to cancel, and not edit the the organization, click the \ |STYLE62|\  button.
 
 The Admin can also delete the organization from this screen by clicking on the \ |STYLE63|\  button.
 
@@ -536,15 +536,15 @@ The Admin can also delete the organization from this screen by clicking on the \
 4.4 Delete Organization
 -----------------------
 
-If an organization  needs to be completed removed from OpenSALT, the Admin should delete the organization. There are two methods to delete an organization. 
+If an organization  needs to be completed removed from OpenSALT, the Admin should delete the organization. There are two methods to delete an organization.
 
-#. From the \ |STYLE64|\  click on the \ |STYLE65|\  button for the selected organization. The \ |STYLE66|\  page will be displayed and the Admin can click the \ |STYLE67|\  button to terminate the organization. Once deleted the organization cannot be restored. If the organization is needed, the Admin will need to create a new organization.  
+#. From the \ |STYLE64|\  click on the \ |STYLE65|\  button for the selected organization. The \ |STYLE66|\  page will be displayed and the Admin can click the \ |STYLE67|\  button to terminate the organization. Once deleted the organization cannot be restored. If the organization is needed, the Admin will need to create a new organization.
 
-\ |IMG18|\ 
+\ |IMG18|\
 
-#. From the \ |STYLE68|\  click on the \ |STYLE69|\  button for the selected organization. The \ |STYLE70|\  page will be displayed and the Admin can click the \ |STYLE71|\  button to terminate the organization. Once deleted the organization cannot be restored. If the organization is needed, the Admin will need to create a new organization.  
+#. From the \ |STYLE68|\  click on the \ |STYLE69|\  button for the selected organization. The \ |STYLE70|\  page will be displayed and the Admin can click the \ |STYLE71|\  button to terminate the organization. Once deleted the organization cannot be restored. If the organization is needed, the Admin will need to create a new organization.
 
-\ |IMG19|\ 
+\ |IMG19|\
 
 .. _h80265f116c6c7b4877762ed5412155:
 
@@ -556,17 +556,17 @@ If an organization  needs to be completed removed from OpenSALT, the Admin shoul
 5.1 Change Password
 -------------------
 
-\ |STYLE72|\ 
+\ |STYLE72|\
 
 All provisioned users have the ability to change their password from the temporary one created by the Admin or as part of a good practice to regularly update their password to maintain a good security protocol.
 
-To access the \ |STYLE73|\  page, after logging in the user should click the triangular menu icon next to their user name in the header of the page. The menu will expand with several options depending on the user’s role. However all provisioned users will have the menu option: \ |STYLE74|\ . Click on \ |STYLE75|\  to open the page. 
+To access the \ |STYLE73|\  page, after logging in the user should click the triangular menu icon next to their user name in the header of the page. The menu will expand with several options depending on the user’s role. However all provisioned users will have the menu option: \ |STYLE74|\ . Click on \ |STYLE75|\  to open the page.
 
-\ |IMG20|\ 
+\ |IMG20|\
 
 On the \ |STYLE76|\  page the user will enter in the following required fields:
 
-\ |IMG21|\ 
+\ |IMG21|\
 
     \ |STYLE77|\  Existing current password
 
@@ -576,44 +576,44 @@ On the \ |STYLE76|\  page the user will enter in the following required fields:
 
     The user will then click the \ |STYLE80|\  button.
 
-If the entered values validate as correct, the old password is equal to the user’s current password and the new and repeat passwords are the same, the system will change the user's password to the newly selected value. If alny of the data is not validated, the system will prompt the user to correct the information before the change password can be completed. 
+If the entered values validate as correct, the old password is equal to the user’s current password and the new and repeat passwords are the same, the system will change the user's password to the newly selected value. If alny of the data is not validated, the system will prompt the user to correct the information before the change password can be completed.
 
 .. _h42723a63d41151f712948537a568079:
 
 5.2 Manage Users
 ----------------
 
-\ |STYLE81|\ 
+\ |STYLE81|\
 
-User account management is controlled by the Super Users and the Organization Admins. To access the \ |STYLE82|\  page, after logging in the user should click the triangular menu icon next to their user name in the header of the page. Click on \ |STYLE83|\  to open the page. 
+User account management is controlled by the Super Users and the Organization Admins. To access the \ |STYLE82|\  page, after logging in the user should click the triangular menu icon next to their user name in the header of the page. Click on \ |STYLE83|\  to open the page.
 
-\ |IMG22|\ 
+\ |IMG22|\
 
 .. _hfc27428297e2b766e5a37643a705f:
 
 5.2.1 View User
 ~~~~~~~~~~~~~~~
 
-\ |STYLE84|\ 
+\ |STYLE84|\
 
-The \ |STYLE85|\  is the default page displayed when a Super User or Organization Admin accesses the \ |STYLE86|\  function of OpenSALT. The list will display all users that the are currently in the given instance of OpenSALT. Super Users will see all users in all organizations, whereas Organization Admins will only see the users within their organization.  The User List will display the OpenSALT unique ID for the user (as system generated incremented number), the Organization the user belongs to, the Username (email) The user's role, and available actions (\ |STYLE87|\ , \ |STYLE88|\ , \ |STYLE89|\ ) for the user. The page also has a button to \ |STYLE90|\ . 
+The \ |STYLE85|\  is the default page displayed when a Super User or Organization Admin accesses the \ |STYLE86|\  function of OpenSALT. The list will display all users that the are currently in the given instance of OpenSALT. Super Users will see all users in all organizations, whereas Organization Admins will only see the users within their organization.  The User List will display the OpenSALT unique ID for the user (as system generated incremented number), the Organization the user belongs to, the Username (email) The user's role, and available actions (\ |STYLE87|\ , \ |STYLE88|\ , \ |STYLE89|\ ) for the user. The page also has a button to \ |STYLE90|\ .
 
-\ |IMG23|\ 
+\ |IMG23|\
 
 .. _h146b5979664d766a2a69263e3512862:
 
 5.2.2 Add/Create User
 ~~~~~~~~~~~~~~~~~~~~~
 
-\ |STYLE91|\ 
+\ |STYLE91|\
 
-To create a new user, click on the \ |STYLE92|\  button at the bottom right of the \ |STYLE93|\ . 
+To create a new user, click on the \ |STYLE92|\  button at the bottom right of the \ |STYLE93|\ .
 
-\ |IMG24|\ 
+\ |IMG24|\
 
 The \ |STYLE94|\  page will display:
 
-\ |IMG25|\ 
+\ |IMG25|\
 
 The admin will need to enter in the following required fields:
 
@@ -627,32 +627,32 @@ The admin will need to enter in the following required fields:
 
 Then click on the \ |STYLE98|\  button to create the user.
 
-If the Admin wants to cancel, and not create the user, click the \ |STYLE99|\  button. 
+If the Admin wants to cancel, and not create the user, click the \ |STYLE99|\  button.
 
 .. _h6e39602150137e754564a16671b646:
 
 5.2.3 Show User
 ~~~~~~~~~~~~~~~
 
-\ |STYLE100|\ 
+\ |STYLE100|\
 
 There are two ways to view an individual user’s information beyond the \ |STYLE101|\  table view.
 
 #. On the \ |STYLE102|\  click on the linked \ |STYLE103|\  number for the selected user.
 
-\ |IMG26|\ 
+\ |IMG26|\
 
-#. On the \ |STYLE104|\  click on the \ |STYLE105|\  button in the \ |STYLE106|\  section of the User table for the selected user. \ |IMG27|\ 
+#. On the \ |STYLE104|\  click on the \ |STYLE105|\  button in the \ |STYLE106|\  section of the User table for the selected user. \ |IMG27|\
 
-The \ |STYLE107|\  screen will display for the selected user. 
+The \ |STYLE107|\  screen will display for the selected user.
 
-\ |IMG28|\ 
+\ |IMG28|\
 
-The Super User or Organization Admin can see the user’s Organization, Username, and assigned Role. 
+The Super User or Organization Admin can see the user’s Organization, Username, and assigned Role.
 
 From the \ |STYLE108|\  screen the Admin can:
 
-*  return the \ |STYLE109|\  by clicking the \ |STYLE110|\ 
+*  return the \ |STYLE109|\  by clicking the \ |STYLE110|\
 
 * edit the user by clicking on the \ |STYLE111|\  button
 
@@ -663,31 +663,31 @@ From the \ |STYLE108|\  screen the Admin can:
 5.2.4 Edit User
 ~~~~~~~~~~~~~~~
 
-\ |STYLE113|\ 
+\ |STYLE113|\
 
 An Admin can access the \ |STYLE114|\  screen using two paths:
 
-#. On the \ |STYLE115|\  click on the \ |STYLE116|\  button in the \ |STYLE117|\  section of the User table for the selected user. \ |IMG29|\ 
+#. On the \ |STYLE115|\  click on the \ |STYLE116|\  button in the \ |STYLE117|\  section of the User table for the selected user. \ |IMG29|\
 
-#. On the \ |STYLE118|\  screen click on the \ |STYLE119|\  button. 
+#. On the \ |STYLE118|\  screen click on the \ |STYLE119|\  button.
 
-\ |IMG30|\ 
+\ |IMG30|\
 
 The \ |STYLE120|\  screen will display and allow the Admin to update the user’s information.
 
 \ |IMG31|\  The Admin can update/correct the following fields:
 
-    \ |STYLE121|\ : If needed, type the user’s new email address. This will change the username that is entered when the user logs in. 
+    \ |STYLE121|\ : If needed, type the user’s new email address. This will change the username that is entered when the user logs in.
 
     Password: If needed, type in a new temporary password for the user. This password will not be viewable after creating the user. The Admin needs to take note of the temporary password entered to share with the user and the user will need to enter this password to change their password to a non-temporary secure password.
 
-    \ |STYLE122|\ : If needed, select a new role for the user and uncheck the previous role. 
+    \ |STYLE122|\ : If needed, select a new role for the user and uncheck the previous role.
 
     \ |STYLE123|\ : If needed, change the organization Select the user’s organization (note Organization Admins will only have their organization displayed, whereas Super Users will see all Organizations within the given OpenSALT site)
 
 Then click on the \ |STYLE124|\  button to save the changes.
 
-If the Admin wants to cancel, and not edit the the user, click the \ |STYLE125|\  button. 
+If the Admin wants to cancel, and not edit the the user, click the \ |STYLE125|\  button.
 
 The Admin can also \ |STYLE126|\  the user from this screen by clicking on the \ |STYLE127|\  button.
 
@@ -696,45 +696,45 @@ The Admin can also \ |STYLE126|\  the user from this screen by clicking on the \
 5.2.5 Suspend User
 ~~~~~~~~~~~~~~~~~~
 
-\ |STYLE128|\ 
+\ |STYLE128|\
 
-If an admin needs to prevent the user from accessing the OpenSALT instance, but needs to maintain the user’s account  in the system ,the admin can \ |STYLE129|\  the user’s account.   
+If an admin needs to prevent the user from accessing the OpenSALT instance, but needs to maintain the user’s account  in the system ,the admin can \ |STYLE129|\  the user’s account.
 
-To suspend an account the Admin will need to be on the User List page and select the \ |STYLE130|\  button for the selected user. 
+To suspend an account the Admin will need to be on the User List page and select the \ |STYLE130|\  button for the selected user.
 
-\ |IMG32|\ 
+\ |IMG32|\
 
-After clicking on the \ |STYLE131|\  button, the user will be immediately suspended. The \ |STYLE132|\  is updated to reflect the suspension and the account can now only be viewed through the \ |STYLE133|\  button or unsuspended with the \ |STYLE134|\  button. 
+After clicking on the \ |STYLE131|\  button, the user will be immediately suspended. The \ |STYLE132|\  is updated to reflect the suspension and the account can now only be viewed through the \ |STYLE133|\  button or unsuspended with the \ |STYLE134|\  button.
 
-\ |IMG33|\ 
+\ |IMG33|\
 
 .. _h4d2e44565174e175b786376651a7d7c:
 
 5.2.6 Reinstate User
 ~~~~~~~~~~~~~~~~~~~~
 
-\ |STYLE135|\ 
+\ |STYLE135|\
 
-To reinstate a user’s account the Admin will access the \ |STYLE136|\  and click on the \ |STYLE137|\  button for the selected user. The \ |STYLE138|\  will update and the account will be immediately unsuspended and the user can log in with the original credentials. If the user needs to have their password reset, the Admin can the edit the user by clicking the \ |STYLE139|\  button for the selected user and updated the password. 
+To reinstate a user’s account the Admin will access the \ |STYLE136|\  and click on the \ |STYLE137|\  button for the selected user. The \ |STYLE138|\  will update and the account will be immediately unsuspended and the user can log in with the original credentials. If the user needs to have their password reset, the Admin can the edit the user by clicking the \ |STYLE139|\  button for the selected user and updated the password.
 
-\ |IMG34|\ 
+\ |IMG34|\
 
 .. _h3c3329734240281c30b512222591212:
 
 5.2.7 Delete User
 ~~~~~~~~~~~~~~~~~
 
-\ |STYLE140|\ 
+\ |STYLE140|\
 
-If a user needs to be completed removed from OpenSALT, the Admin should delete the user. There are two methods to delete a user. 
+If a user needs to be completed removed from OpenSALT, the Admin should delete the user. There are two methods to delete a user.
 
-#. From the \ |STYLE141|\  click on the \ |STYLE142|\  button for the selected user. The \ |STYLE143|\  page will be displayed and the Admin can click the \ |STYLE144|\  button to terminate the user account. Once deleted the account cannot be restored. If the account is needed, the Admin will need to create a new user account. 
+#. From the \ |STYLE141|\  click on the \ |STYLE142|\  button for the selected user. The \ |STYLE143|\  page will be displayed and the Admin can click the \ |STYLE144|\  button to terminate the user account. Once deleted the account cannot be restored. If the account is needed, the Admin will need to create a new user account.
 
-\ |IMG35|\ 
+\ |IMG35|\
 
 #. From the \ |STYLE145|\  click on the \ |STYLE146|\  button for the selected user. The \ |STYLE147|\  page will be displayed and the Admin can click the \ |STYLE148|\  button to terminate the user account. Once deleted the account cannot be restored. If the account is needed, the Admin will need to create a new user account.
 
-\ |IMG36|\ 
+\ |IMG36|\
 
 .. _h26624554674c365425514b624a121c24:
 
@@ -746,7 +746,7 @@ If a user needs to be completed removed from OpenSALT, the Admin should delete t
 6.1 Navigate and View Frameworks
 --------------------------------
 
-OpenSALT is designed to be a simple application with few UI screens. The Application has two (2) primary screens for users to view and manger Frameworks and items: 
+OpenSALT is designed to be a simple application with few UI screens. The Application has two (2) primary screens for users to view and manger Frameworks and items:
 
 #.  OpenSalt Home / Contents View Page
 
@@ -762,54 +762,54 @@ OpenSALT is designed to be a simple application with few UI screens. The Applica
 6.1.1.1 Public View
 ^^^^^^^^^^^^^^^^^^^
 
-When a  user launches an OpenSALT instance through their browser they will reach the Public view of the OpenSALT site. The following images represent a few of the current OpenSALT sites in operation. 
+When a  user launches an OpenSALT instance through their browser they will reach the Public view of the OpenSALT site. The following images represent a few of the current OpenSALT sites in operation.
 
-\ |IMG37|\ 
+\ |IMG37|\
 
-\ |IMG38|\ 
+\ |IMG38|\
 
-\ |IMG39|\ 
+\ |IMG39|\
 
-\ |IMG40|\ 
+\ |IMG40|\
 
-Note the default view has consistency from site to site. The variation is in the organization’s ability to add their organization logo and the content of the frameworks in the list.  
+Note the default view has consistency from site to site. The variation is in the organization’s ability to add their organization logo and the content of the frameworks in the list.
 
-Public users can view all Organizations with Draft and Adopted Frameworks on the OpenSALT site. 
+Public users can view all Organizations with Draft and Adopted Frameworks on the OpenSALT site.
 
-The default view is for all of the Organizations to be listed and their frameworks to be collapsed. 
+The default view is for all of the Organizations to be listed and their frameworks to be collapsed.
 
-\ |IMG41|\ 
+\ |IMG41|\
 
-The user can expand the ORganizations to see all available Frameworks by clicking on either the arrow to the left of the Organization name or on the name itself. 
+The user can expand the ORganizations to see all available Frameworks by clicking on either the arrow to the left of the Organization name or on the name itself.
 
-\ |IMG42|\ 
+\ |IMG42|\
 
 .. _h7997a7f1949334b7f84a24785861b:
 
 6.1.1.2 Credentialed View
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If a user has credentials and logs into OpenSALT they will have additional buttons on this page, depending on their role and permissions. Additionally they will be able to see all frameworks that are in a Private Draft status as well.  
+If a user has credentials and logs into OpenSALT they will have additional buttons on this page, depending on their role and permissions. Additionally they will be able to see all frameworks that are in a Private Draft status as well.
 
-\ |IMG43|\ 
+\ |IMG43|\
 
 .. _h715a2b6d63b2a41b18341215f345f:
 
 6.1.2 Display Frameworks Page
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-When a user click on a framework on the \ |STYLE149|\  OpenSALT will open the \ |STYLE150|\  page for the select framework. 
+When a user click on a framework on the \ |STYLE149|\  OpenSALT will open the \ |STYLE150|\  page for the select framework.
 
 .. _h473664e5a545502f3e27165c142d:
 
 6.1.2.1 Public View
 ^^^^^^^^^^^^^^^^^^^
 
-\ |IMG44|\ 
+\ |IMG44|\
 
-As a user clicks on a framework item, the Item Details frame will update to reflect the specifics for the selected item. 
+As a user clicks on a framework item, the Item Details frame will update to reflect the specifics for the selected item.
 
-\ |IMG45|\ 
+\ |IMG45|\
 
 .. _hb622c455c38115d3972105a6f2f751e:
 
@@ -818,7 +818,7 @@ As a user clicks on a framework item, the Item Details frame will update to refl
 
 Credentialed users will have additional administrative controls and functions on the Display Framework page, depending on their role and permissions.
 
-\ |IMG46|\ 
+\ |IMG46|\
 
 .. _h2c1d74277104e41780968148427e:
 
@@ -835,134 +835,134 @@ Credentialed users will have additional administrative controls and functions on
 6.2.1 Import Frameworks
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-\ |STYLE151|\ 
+\ |STYLE151|\
 
-OpenSALT has two methods for importing in an existing CASE-compliant framework into the site.  
+OpenSALT has two methods for importing in an existing CASE-compliant framework into the site.
 
 #. Import from ASN
 
 #. Import CASE-compliant file (JSON)
 
-To import data the user must first log into OpenSALT. After login, the \ |STYLE152|\  button will be displayed at the top of the screen. 
+To import data the user must first log into OpenSALT. After login, the \ |STYLE152|\  button will be displayed at the top of the screen.
 
-\ |IMG47|\ 
+\ |IMG47|\
 
-Click on the \ |STYLE153|\  button to open the \ |STYLE154|\  window.  From this window the user can either \ |STYLE155|\  or \ |STYLE156|\  \ |STYLE157|\  \ |STYLE158|\  using the provided template. 
+Click on the \ |STYLE153|\  button to open the \ |STYLE154|\  window.  From this window the user can either \ |STYLE155|\  or \ |STYLE156|\  \ |STYLE157|\  \ |STYLE158|\  using the provided template.
 
-\ |IMG48|\ 
+\ |IMG48|\
 
- 
+
 
 .. _h3f23193f6633791f3f387f632bb3d54:
 
 6.2.1.1 Import from ASN
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-Achievement Standards Network (ASN), powered by D2L, is a collection of machine-readable representations of learning objectives. ASN was created through funding by the \ |LINK2|\  and the \ |LINK3|\  and is now owned and operated by D2L. This source can provide users with a starting foundation for creating meaningful CASE-compliant frameworks. However the data in ASN may not be current nor accurate and complete. It is up to the individual users and organizations to determine the accuracy of any imported data into OpenSALT. However because of the ability to provide a good starting point for Frameworks content in OpenSALT, the application allows users to do a direct import from a given ASN url. 
+Achievement Standards Network (ASN), powered by D2L, is a collection of machine-readable representations of learning objectives. ASN was created through funding by the \ |LINK2|\  and the \ |LINK3|\  and is now owned and operated by D2L. This source can provide users with a starting foundation for creating meaningful CASE-compliant frameworks. However the data in ASN may not be current nor accurate and complete. It is up to the individual users and organizations to determine the accuracy of any imported data into OpenSALT. However because of the ability to provide a good starting point for Frameworks content in OpenSALT, the application allows users to do a direct import from a given ASN url.
 
 In a seperate browser window or tab navigate to ASN’s Standards: \ |LINK4|\ .
 
 
-Select the correct Jurisdiction or Publishing Organization of Framework to be imported. 
+Select the correct Jurisdiction or Publishing Organization of Framework to be imported.
 
-\ |IMG49|\ 
+\ |IMG49|\
 
-Click on the Framework Document to be imported. 
+Click on the Framework Document to be imported.
 
-\ |IMG50|\ 
+\ |IMG50|\
 
 When the ASN Framework Page displays, copy the URL in the browser window (Or just the ID number at the end), and return to your OpenSALT tab.
 
-\ |IMG51|\ 
+\ |IMG51|\
 
 On the \ |STYLE159|\  window, paste the \ |STYLE160|\  into the box on the \ |STYLE161|\  \ |STYLE162|\  Then click \ |STYLE163|\ .
 
-\ |IMG52|\ 
+\ |IMG52|\
 
-If you do not want to import a framework, click on the Close button to return to the \ |STYLE164|\  page. 
+If you do not want to import a framework, click on the Close button to return to the \ |STYLE164|\  page.
 
 A new publisher will be created named: \ |STYLE165|\ . When expanded, the imported Framework will be displayed.
 
-\ |IMG53|\ 
+\ |IMG53|\
 
-When a Framework package is imported from ASN, the default for the \ |STYLE166|\  will be ‘\ |STYLE167|\ ’. and the \ |STYLE168|\  will be blank. When an \ |STYLE169|\  is blank, the Framework package is by default publicly visible on the OpenSALT instance. However because the ASN data should be validated, the best practice is for the user that imported the Framework package to edit the Framework details and update both the \ |STYLE170|\  and the \ |STYLE171|\  values after the import from ASN. 
+When a Framework package is imported from ASN, the default for the \ |STYLE166|\  will be ‘\ |STYLE167|\ ’. and the \ |STYLE168|\  will be blank. When an \ |STYLE169|\  is blank, the Framework package is by default publicly visible on the OpenSALT instance. However because the ASN data should be validated, the best practice is for the user that imported the Framework package to edit the Framework details and update both the \ |STYLE170|\  and the \ |STYLE171|\  values after the import from ASN.
 
-To edit the \ |STYLE172|\  and \ |STYLE173|\  fields, expand the \ |STYLE174|\  and click on the newly imported \ |STYLE175|\ . 
+To edit the \ |STYLE172|\  and \ |STYLE173|\  fields, expand the \ |STYLE174|\  and click on the newly imported \ |STYLE175|\ .
 
-\ |IMG54|\ 
+\ |IMG54|\
 
-On the \ |STYLE176|\  page, click on the \ |STYLE177|\  button in the \ |STYLE178|\ . 
+On the \ |STYLE176|\  page, click on the \ |STYLE177|\  button in the \ |STYLE178|\ .
 
-\ |IMG55|\ 
+\ |IMG55|\
 
-The \ |STYLE179|\  window will open and allow the user to update the necessary fields. 
+The \ |STYLE179|\  window will open and allow the user to update the necessary fields.
 
-The user may want to change the value in the \ |STYLE180|\  field from ‘\ |STYLE181|\ ’ to the source organization. In this example the source \ |STYLE182|\  is \ |STYLE183|\ .  
+The user may want to change the value in the \ |STYLE180|\  field from ‘\ |STYLE181|\ ’ to the source organization. In this example the source \ |STYLE182|\  is \ |STYLE183|\ .
 
-Additionally the user should change the \ |STYLE184|\  to either \ |STYLE185|\  or \ |STYLE186|\ . \ |STYLE187|\  will allow the Framework to be visibly by all users, including the Public user thought it will let user know that the Framework is still being reviewed and is not yet ready to be \ |STYLE188|\ . \ |STYLE189|\  will hide the Framework from the Public users until the Editor or Admin is ready to change the stats to make it available for others to see. 
+Additionally the user should change the \ |STYLE184|\  to either \ |STYLE185|\  or \ |STYLE186|\ . \ |STYLE187|\  will allow the Framework to be visibly by all users, including the Public user thought it will let user know that the Framework is still being reviewed and is not yet ready to be \ |STYLE188|\ . \ |STYLE189|\  will hide the Framework from the Public users until the Editor or Admin is ready to change the stats to make it available for others to see.
 
-\ |IMG56|\ \ |IMG57|\ 
+\ |IMG56|\ \ |IMG57|\
 
 To \ |STYLE190|\  the updated, click the \ |STYLE191|\  button.
 
 To \ |STYLE192|\  and abandon any changes, click the \ |STYLE193|\  button.
 
-Further information on \ |STYLE194|\  is explained the previous section \ |LINK5|\ . 
+Further information on \ |STYLE194|\  is explained the previous section \ |LINK5|\ .
 
 .. _h492d5a3a552796702d752a28184f16:
 
-6.2.1.2 Import CASE-Compliant (JSON) File 
+6.2.1.2 Import CASE-Compliant (JSON) File
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-OpenSALT allows users to import known CASE-compliant framework files into the system. Click on the \ |STYLE195|\  tab in the  \ |STYLE196|\  window. Then click \ |STYLE197|\ 
+OpenSALT allows users to import known CASE-compliant framework files into the system. Click on the \ |STYLE195|\  tab in the  \ |STYLE196|\  window. Then click \ |STYLE197|\
 
-\ |IMG58|\ 
+\ |IMG58|\
 
 Navigate on your computer to the correct Case-compliant JSON file to import then  click \ |STYLE198|\ .
 
-\ |IMG59|\ 
+\ |IMG59|\
 
 The filename will display in the Choose File box, then click the \ |STYLE199|\  button to import the framework.
 
-\ |IMG60|\ 
+\ |IMG60|\
 
-To cancel the action and not import the file, click on the \ |STYLE200|\  button. 
+To cancel the action and not import the file, click on the \ |STYLE200|\  button.
 
 .. _h0203b6f35784a134519337c451c6f5c:
 
-6.2.1.2 Import framework from SALT Spreadsheet Template 
+6.2.1.2 Import framework from SALT Spreadsheet Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 [Content Pending 1.2 Version]
 
 .. _h1d5d104a7b4f6a7c4a7715d503b1470:
 
-6.2.2  Manually Create Frameworks 
+6.2.2  Manually Create Frameworks
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-\ |STYLE201|\ 
+\ |STYLE201|\
 
-To Create a \ |STYLE202|\  manually the credentialed user will click on the Create a new Framework button on the \ |STYLE203|\  after logging into OpenSALT.  
+To Create a \ |STYLE202|\  manually the credentialed user will click on the Create a new Framework button on the \ |STYLE203|\  after logging into OpenSALT.
 
-\ |IMG61|\ 
+\ |IMG61|\
 
-On the \ |STYLE204|\  page, completed at a minimum the mandatory fields, though all fields should be filled in by best practice. 
+On the \ |STYLE204|\  page, completed at a minimum the mandatory fields, though all fields should be filled in by best practice.
 
-\ |IMG62|\ 
+\ |IMG62|\
 
-The following fields will display on the \ |STYLE205|\  page: 
+The following fields will display on the \ |STYLE205|\  page:
 
 * \ |STYLE206|\  The title as it appears on the cover of the Official Source artifact, although it may be a title created by the Publisher. This is a mandatory field in OpenSALT. .
 
-* \ |STYLE207|\  The the entity that authorized or created the competency framework. It could be an education agency, higher education institution, professional body. It is the owner of the competency framework (e.g CCSSO, TEA, NGSS). This is a mandatory field for OpenSALT and will act as the Organization Folder on the Framework Contents/OpenSALT Home page. 
+* \ |STYLE207|\  The the entity that authorized or created the competency framework. It could be an education agency, higher education institution, professional body. It is the owner of the competency framework (e.g CCSSO, TEA, NGSS). This is a mandatory field for OpenSALT and will act as the Organization Folder on the Framework Contents/OpenSALT Home page.
 
-* \ |STYLE208|\  The URL of the artifact adopted by the Standard Setting Entity. Often this document is published in html and/or as pdf and is used by the standard setting entity as part of its approval process. Since it is not the intent of this specification to fully reproduce the human-facing content and formatting of the source document, it is recommended that this document be transmitted as part of the competency framework package. This is an optional field in OpenSALT, though best practices indicate it should be filled in. 
+* \ |STYLE208|\  The URL of the artifact adopted by the Standard Setting Entity. Often this document is published in html and/or as pdf and is used by the standard setting entity as part of its approval process. Since it is not the intent of this specification to fully reproduce the human-facing content and formatting of the source document, it is recommended that this document be transmitted as part of the competency framework package. This is an optional field in OpenSALT, though best practices indicate it should be filled in.
 
-* \ |STYLE209|\  The entity that loads and publishes the Framework. Note that in  many cases, the Standard Setting Entity may lack technical capabilities to publish the Competency Framework in a standard format so a third party may be displayed. This is an optional field in OpenSALT, though best practices indicate it should be filled in. 
+* \ |STYLE209|\  The entity that loads and publishes the Framework. Note that in  many cases, the Standard Setting Entity may lack technical capabilities to publish the Competency Framework in a standard format so a third party may be displayed. This is an optional field in OpenSALT, though best practices indicate it should be filled in.
 
-* \ |STYLE210|\  This field allows users to enter in a user friendly URL name. example: \ |LINK6|\  vs  \ |LINK7|\ 
+* \ |STYLE210|\  This field allows users to enter in a user friendly URL name. example: \ |LINK6|\  vs  \ |LINK7|\
 
-* \ |STYLE211|\  Users will have the option to select from a few choices to indicate the Organization that created the Framework in OpenSALT. 
+* \ |STYLE211|\  Users will have the option to select from a few choices to indicate the Organization that created the Framework in OpenSALT.
 
     * \ |STYLE212|\  - Private Framework created by an individual user
 
@@ -970,15 +970,15 @@ The following fields will display on the \ |STYLE205|\  page:
 
     * \ |STYLE214|\  - Super Editor or Super User can select any Organization in OpenSALT.
 
-* \ |STYLE215|\  This is used to separate any version information expressed by the Official Source artifact. Once and CF Pkg has been approved and published, any changes to an CF Item will constitute a new version of the CF Doc. This is an optional field in OpenSALT. If best practices are not followed, this field may be blank. 
+* \ |STYLE215|\  This is used to separate any version information expressed by the Official Source artifact. Once and CF Pkg has been approved and published, any changes to an CF Item will constitute a new version of the CF Doc. This is an optional field in OpenSALT. If best practices are not followed, this field may be blank.
 
-* \ |STYLE216|\  The description is typically created by the the Publisher as a standard description of the Competency Framework.This is an optional field in OpenSALT. If best practices are not followed, this field may be blank. 
+* \ |STYLE216|\  The description is typically created by the the Publisher as a standard description of the Competency Framework.This is an optional field in OpenSALT. If best practices are not followed, this field may be blank.
 
-* \ |STYLE217|\  This is a string expressing the general subject area of the Competency Framework (e.g. Mathematics). This is an optional field in OpenSALT. If best practices are not followed, this field may be blank. 
+* \ |STYLE217|\  This is a string expressing the general subject area of the Competency Framework (e.g. Mathematics). This is an optional field in OpenSALT. If best practices are not followed, this field may be blank.
 
 * \ |STYLE218|\  HTML Language Country Code VIA- country code from \ |LINK8|\ . This is an optional field in OpenSALT, though best practice indicates the filled should be filled in. However OpenSALT assumes English if not other language value is entered.
 
-* \ |STYLE219|\  Adoption status displays the Framework's current status as Draft, Private Draft,  Adopted, or Deprecated.  OpenSALT assumes Adopted as the default if no status is specifically selected for the framework. This is an optional field in OpenSALT. If best practices are not followed, this field may be blank. OpenSALT assumes Adopted as the default if no status is specifically selected for the framework. 
+* \ |STYLE219|\  Adoption status displays the Framework's current status as Draft, Private Draft,  Adopted, or Deprecated.  OpenSALT assumes Adopted as the default if no status is specifically selected for the framework. This is an optional field in OpenSALT. If best practices are not followed, this field may be blank. OpenSALT assumes Adopted as the default if no status is specifically selected for the framework.
 
     * \ |STYLE220|\ : Able to be edited by Editors and Admins in an organization. Able to be viewed by the public.
 
@@ -988,64 +988,64 @@ The following fields will display on the \ |STYLE205|\  page:
 
     * \ |STYLE223|\  Was once published, however it is now out of date
 
-* \ |STYLE224|\  The date that the CF Doc status started. This is an optional field in OpenSALT. 
+* \ |STYLE224|\  The date that the CF Doc status started. This is an optional field in OpenSALT.
 
-* \ |STYLE225|\  This date is often only known when a new status is started. This is an optional field in OpenSALT. 
+* \ |STYLE225|\  This date is often only known when a new status is started. This is an optional field in OpenSALT.
 
-* \ |STYLE226|\  Notes or comments generated by the Framework Publisher about the context of the Framework. This is an optional field in OpenSALT. 
+* \ |STYLE226|\  Notes or comments generated by the Framework Publisher about the context of the Framework. This is an optional field in OpenSALT.
 
 To \ |STYLE227|\  the Framework, click the \ |STYLE228|\  button.
 
 To \ |STYLE229|\  and abandon any changes, click the \ |STYLE230|\  button.
 
-When a Framework is created the \ |STYLE231|\  page will refresh and will indicate that are loaded with the framework. 
+When a Framework is created the \ |STYLE231|\  page will refresh and will indicate that are loaded with the framework.
 
-\ |IMG63|\ 
+\ |IMG63|\
 
 Open SALT Provides the user with suggestions for how to add items to the framework.
 
-\ |IMG64|\ 
+\ |IMG64|\
 
 .. _h2a278644e81e7672704d5078541c5:
 
 6.2.3 Edit Frameworks
 ~~~~~~~~~~~~~~~~~~~~~
 
-\ |STYLE232|\ 
+\ |STYLE232|\
 
-To \ |STYLE233|\  a \ |STYLE234|\  the credentialed user will select the appropriate \ |STYLE235|\  from the \ |STYLE236|\  Page by expanding the \ |STYLE237|\  and clicking on the desired \ |STYLE238|\ .  \ |IMG65|\ 
+To \ |STYLE233|\  a \ |STYLE234|\  the credentialed user will select the appropriate \ |STYLE235|\  from the \ |STYLE236|\  Page by expanding the \ |STYLE237|\  and clicking on the desired \ |STYLE238|\ .  \ |IMG65|\
 
-On the \ |STYLE239|\  page, click on the \ |STYLE240|\  button in the \ |STYLE241|\ . 
+On the \ |STYLE239|\  page, click on the \ |STYLE240|\  button in the \ |STYLE241|\ .
 
-\ |IMG66|\ 
+\ |IMG66|\
 
-The \ |STYLE242|\  window will open and allow the user to update the necessary fields. 
+The \ |STYLE242|\  window will open and allow the user to update the necessary fields.
 
-\ |IMG67|\ 
+\ |IMG67|\
 
-The following fields will display on the Edit Document window. Note some may be edited and others have fixed values: 
+The following fields will display on the Edit Document window. Note some may be edited and others have fixed values:
 
 * \ |STYLE243|\  The title as it appears on the cover of the Official Source artifact, although it may be a title created by the Publisher. This is a mandatory field in OpenSALT.
 
-* \ |STYLE244|\  The the entity that authorized or created the competency framework. It could be an education agency, higher education institution, professional body. It is the owner of the competency framework (e.g CCSSO, TEA, NGSS). This is a mandatory field for OpenSALT and will act as the Organization Folder on the Framework Contents/OpenSALT Home page. 
+* \ |STYLE244|\  The the entity that authorized or created the competency framework. It could be an education agency, higher education institution, professional body. It is the owner of the competency framework (e.g CCSSO, TEA, NGSS). This is a mandatory field for OpenSALT and will act as the Organization Folder on the Framework Contents/OpenSALT Home page.
 
-* \ |STYLE245|\  The URL of the artifact adopted by the Standard Setting Entity. Often this document is published in html and/or as pdf and is used by the standard setting entity as part of its approval process. Since it is not the intent of this specification to fully reproduce the human-facing content and formatting of the source document, it is recommended that this document be transmitted as part of the competency framework package. This is an optional field in OpenSALT, though best practices indicate it should be filled in. 
+* \ |STYLE245|\  The URL of the artifact adopted by the Standard Setting Entity. Often this document is published in html and/or as pdf and is used by the standard setting entity as part of its approval process. Since it is not the intent of this specification to fully reproduce the human-facing content and formatting of the source document, it is recommended that this document be transmitted as part of the competency framework package. This is an optional field in OpenSALT, though best practices indicate it should be filled in.
 
-* \ |STYLE246|\  The entity that loads and publishes the Framework. Note that in  many cases, the Standard Setting Entity may lack technical capabilities to publish the Competency Framework in a standard format so a third party may be displayed. This is an optional field in OpenSALT, though best practices indicate it should be filled in. 
+* \ |STYLE246|\  The entity that loads and publishes the Framework. Note that in  many cases, the Standard Setting Entity may lack technical capabilities to publish the Competency Framework in a standard format so a third party may be displayed. This is an optional field in OpenSALT, though best practices indicate it should be filled in.
 
-* \ |STYLE247|\  This field allows users to enter in a user friendly URL name. example: \ |LINK9|\  vs  \ |LINK10|\ 
+* \ |STYLE247|\  This field allows users to enter in a user friendly URL name. example: \ |LINK9|\  vs  \ |LINK10|\
 
 * \ |STYLE248|\  If a Framework is not a personal Framework, and rather is an Organizational Framework, the associated Organization that created or imported the Framework will be displayed. \ |STYLE249|\  If the Framework is a personal Framework owned by an individual user, the user’s name will be displayed. Otherwise the OpenSALT will assume a value of none because the Framework is not owned by a single user rather is owned by an Organization.
 
-* \ |STYLE250|\  This is used to separate any version information expressed by the Official Source artifact. Once and CF Pkg has been approved and published, any changes to an CF Item will constitute a new version of the CF Doc. This is an optional field in OpenSALT. If best practices are not followed, this field may be blank. 
+* \ |STYLE250|\  This is used to separate any version information expressed by the Official Source artifact. Once and CF Pkg has been approved and published, any changes to an CF Item will constitute a new version of the CF Doc. This is an optional field in OpenSALT. If best practices are not followed, this field may be blank.
 
-* \ |STYLE251|\  The description is typically created by the the Publisher as a standard description of the Competency Framework.This is an optional field in OpenSALT. If best practices are not followed, this field may be blank. 
+* \ |STYLE251|\  The description is typically created by the the Publisher as a standard description of the Competency Framework.This is an optional field in OpenSALT. If best practices are not followed, this field may be blank.
 
-* \ |STYLE252|\  This is a string expressing the general subject area of the Competency Framework (e.g. Mathematics). This is an optional field in OpenSALT. If best practices are not followed, this field may be blank. 
+* \ |STYLE252|\  This is a string expressing the general subject area of the Competency Framework (e.g. Mathematics). This is an optional field in OpenSALT. If best practices are not followed, this field may be blank.
 
 * \ |STYLE253|\  HTML Language Country Code VIA- country code from \ |LINK11|\ . This is an optional field in OpenSALT, though best practice indicates the filled should be filled in. However OpenSALT assumes English if not other language value is entered.
 
-* \ |STYLE254|\  Adoption status displays the Framework's current status as Draft, Private Draft,  Adopted, or Deprecated.  OpenSALT assumes Adopted as the default if no status is specifically selected for the framework. This is an optional field in OpenSALT. If best practices are not followed, this field may be blank. OpenSALT assumes Adopted as the default if no status is specifically selected for the framework. 
+* \ |STYLE254|\  Adoption status displays the Framework's current status as Draft, Private Draft,  Adopted, or Deprecated.  OpenSALT assumes Adopted as the default if no status is specifically selected for the framework. This is an optional field in OpenSALT. If best practices are not followed, this field may be blank. OpenSALT assumes Adopted as the default if no status is specifically selected for the framework.
 
     * \ |STYLE255|\ : Able to be edited by Editors and Admins in an organization. Able to be viewed by the public.
 
@@ -1055,11 +1055,11 @@ The following fields will display on the Edit Document window. Note some may be 
 
     * \ |STYLE258|\  Was once published, however it is now out of date
 
-* \ |STYLE259|\  The date that the CF Doc status started. This is an optional field in OpenSALT. 
+* \ |STYLE259|\  The date that the CF Doc status started. This is an optional field in OpenSALT.
 
-* \ |STYLE260|\  This date is often only known when a new status is started. This is an optional field in OpenSALT. 
+* \ |STYLE260|\  This date is often only known when a new status is started. This is an optional field in OpenSALT.
 
-* \ |STYLE261|\  Notes or comments generated by the Framework Publisher about the context of the Framework. This is an optional field in OpenSALT. 
+* \ |STYLE261|\  Notes or comments generated by the Framework Publisher about the context of the Framework. This is an optional field in OpenSALT.
 
 To \ |STYLE262|\  the updated, click the \ |STYLE263|\  button.
 
@@ -1067,69 +1067,69 @@ To \ |STYLE264|\  and abandon any changes, click the \ |STYLE265|\  button.
 
 .. _ha6bf1778138296b7384e6b3d144c:
 
-6.2.4 Delete Frameworks  
+6.2.4 Delete Frameworks
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-\ |STYLE266|\ 
+\ |STYLE266|\
 
-OpenSALT allows Super Users and Organization Admins to delete Frameworks if needed. Note once a Framework is deleted the action can not be undone. The framework and all associations will be permanently removed from the database. 
+OpenSALT allows Super Users and Organization Admins to delete Frameworks if needed. Note once a Framework is deleted the action can not be undone. The framework and all associations will be permanently removed from the database.
 
-To delete a framework the Super User or Organization Admin will first need to log into OpenSALT. 
+To delete a framework the Super User or Organization Admin will first need to log into OpenSALT.
 
-Next view the selected Framework by expanding the organization and clicking on the selected Framework. 
+Next view the selected Framework by expanding the organization and clicking on the selected Framework.
 
-\ |IMG68|\ 
+\ |IMG68|\
 
-Take note of the document number in the Framework’s URL address in the browser bar of the \ |STYLE267|\  page. 
+Take note of the document number in the Framework’s URL address in the browser bar of the \ |STYLE267|\  page.
 
-\ |IMG69|\ 
+\ |IMG69|\
 
-Note the current URL will be:  
+Note the current URL will be:
 
-    \ |STYLE268|\ 
+    \ |STYLE268|\
 
 *  \ |STYLE269|\  = the path for the general view of the Framework
 
-* \ |STYLE270|\  =  the unique document number for the selected Framework 
+* \ |STYLE270|\  =  the unique document number for the selected Framework
 
 Change the url path in the browser to:
 
-     https: \ |STYLE271|\ 
+     https: \ |STYLE271|\
 
-The \ |STYLE272|\  Page will display for the selected Framework. 
+The \ |STYLE272|\  Page will display for the selected Framework.
 
-\ |IMG70|\ 
+\ |IMG70|\
 
-Confirm and confirm again you have the correct Framework selected. 
+Confirm and confirm again you have the correct Framework selected.
 
-Once you are sure the correct Framework is selected and you are ready to \ |STYLE273|\ , click the \ |STYLE274|\  button at the bottom of the page. 
+Once you are sure the correct Framework is selected and you are ready to \ |STYLE273|\ , click the \ |STYLE274|\  button at the bottom of the page.
 
-\ |IMG71|\ 
+\ |IMG71|\
 
-Note this action can not be undone. Do not click \ |STYLE275|\  if you need to abort the action. If you need to return to your Frameworks and \ |STYLE276|\  the current select, click on the \ |STYLE277|\  button. 
+Note this action can not be undone. Do not click \ |STYLE275|\  if you need to abort the action. If you need to return to your Frameworks and \ |STYLE276|\  the current select, click on the \ |STYLE277|\  button.
 
-\ |IMG72|\ 
+\ |IMG72|\
 
 .. _h10414a76521969321d1aa7b43555d10:
 
 6.3 Framework Items
 -------------------
 
-Items can be created for Frameworks either by importing existing data using the OpenSALT template or by manually creating the items. 
+Items can be created for Frameworks either by importing existing data using the OpenSALT template or by manually creating the items.
 
 .. _h405471134e472ab58320531a7c422:
 
-6.3.1 Import Items with OpenSALT Template 
+6.3.1 Import Items with OpenSALT Template
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Users can create their own CASE-compliant data files to load into OpenSALT using a provided template and guide. This allows users to easily import their items or standards into their created framework and eliminates the need for manually entering the data into the system. The template can be found here:  \ |LINK12|\ . 
+Users can create their own CASE-compliant data files to load into OpenSALT using a provided template and guide. This allows users to easily import their items or standards into their created framework and eliminates the need for manually entering the data into the system. The template can be found here:  \ |LINK12|\ .
 
 .. _h5777746416576973633711c4a42414c:
 
 6.3.1.1 CSV Loading Guide for CASE
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The CSV Loading Guide for CASE provides a step by step explanation on the process to convert frameworks into CASE-Compliant data. The guide contains six (6) tabs  to walk the user through the process. Most of these tabs are explanations of the process and the final tab is the template itself. 
+The CSV Loading Guide for CASE provides a step by step explanation on the process to convert frameworks into CASE-Compliant data. The guide contains six (6) tabs  to walk the user through the process. Most of these tabs are explanations of the process and the final tab is the template itself.
 
 Tab 1: Step 1 Read This
 
@@ -1137,15 +1137,15 @@ An Overview of the process for creating the CSV to import the data.
 
 Step 1: Create New Framework
 
-\ |IMG73|\ 
+\ |IMG73|\
 
 Step 2: Select “Import Children”
 
-\ |IMG74|\ 
+\ |IMG74|\
 
 Step 3: Select your CSV
 
-\ |IMG75|\ 
+\ |IMG75|\
 
 Step 4: If your CSV has associations to external frameworks in the full human readable terms (ie  CCSS.MATH.Content.K.CC.A.1) select the framework you want to associate it too. If nothing just leave alone
 
@@ -1153,33 +1153,33 @@ Step 5: Select Import Children
 
 Tab 2: CF DOC
 
-This graphic shows what is  required to create a Framework. Please note this data does not need to be contained in the CSV file as it will be created when the user creates the framework in OpenSALT.  
+This graphic shows what is  required to create a Framework. Please note this data does not need to be contained in the CSV file as it will be created when the user creates the framework in OpenSALT.
 
-\ |IMG76|\ 
+\ |IMG76|\
 
 Tab 3: CF ITEM
 
-Explanation of the item fields that will be included in template for the Framework. Note that technically only fullStatement and humanCodingScheme are required.  \ |IMG77|\ 
+Explanation of the item fields that will be included in template for the Framework. Note that technically only fullStatement and humanCodingScheme are required.  \ |IMG77|\
 
 Tab 4: CF Association
 
-The process for associations which can be associated in the template if desired, though associations may be easier managed in the UI itself after the Framework is created and imported.  
+The process for associations which can be associated in the template if desired, though associations may be easier managed in the UI itself after the Framework is created and imported.
 
-\ |IMG78|\   
+\ |IMG78|\
 
 Tab 5: Example Standards File
 
 The fifth tab is an example or sample of a filled in/completed template with data to be imported into OpenSALT.
 
-\ |IMG79|\ 
+\ |IMG79|\
 
 Tab 6: Template
 
-The template itself that will be used to add the data into the correct format and  saved as a CSV to import into OpenSALT.   
+The template itself that will be used to add the data into the correct format and  saved as a CSV to import into OpenSALT.
 
-\ |IMG80|\ 
+\ |IMG80|\
 
-Notes: The only required fields are fullStatement and HumanCodingScheme. SequenceNumber or IsChildOf are needed to properly created nested trees of statements as well. 
+Notes: The only required fields are fullStatement and HumanCodingScheme. SequenceNumber or IsChildOf are needed to properly created nested trees of statements as well.
 
 .. _h9291733595a7a78664a32f6e6f6f12:
 
@@ -1188,38 +1188,38 @@ Notes: The only required fields are fullStatement and HumanCodingScheme. Sequenc
 
 After reviewing the \ |STYLE278|\  and the user will need to format their data into the Template Tab then save the file locally to their computer as a CSV file. This will save only the Template Tab and convert the data from an Excel file to a CSV file for import.
 
-\ |IMG81|\ 
+\ |IMG81|\
 
-Next the user will need to Import the items/children for the Frameworks. Click on the \ |STYLE279|\  button in the \ |STYLE280|\  on the right of the selected framework to open the \ |STYLE281|\  window. 
+Next the user will need to Import the items/children for the Frameworks. Click on the \ |STYLE279|\  button in the \ |STYLE280|\  on the right of the selected framework to open the \ |STYLE281|\  window.
 
-\ |IMG82|\ 
+\ |IMG82|\
 
- Select the tab for where your template file is located. If the CSV is stored locally on your computer,  click on the Import local File tab. Browse and select your file with the Choose File button. If a specific Framework to be associated is preferred, mark that selection otherwise the default is All. Then click the Import Children button to import the items for the framework. 
+ Select the tab for where your template file is located. If the CSV is stored locally on your computer,  click on the Import local File tab. Browse and select your file with the Choose File button. If a specific Framework to be associated is preferred, mark that selection otherwise the default is All. Then click the Import Children button to import the items for the framework.
 
-\ |IMG83|\ 
+\ |IMG83|\
 
-Alternatively if the template is stored in your GitHub repository, click on the Import from GitHUb tab and login to connect to your file and import the items for the framework. 
+Alternatively if the template is stored in your GitHub repository, click on the Import from GitHUb tab and login to connect to your file and import the items for the framework.
 
-\ |IMG84|\ 
+\ |IMG84|\
 
 The items will be loaded and the Framework Display page will be refreshed.
 
-\ |IMG85|\ 
+\ |IMG85|\
 
- 
+
 
 .. _h23320351bb10619415c7276b33c:
 
 6.3.1.3  Error Log
 ^^^^^^^^^^^^^^^^^^
 
-On import, error messages will display when a file is missing fields. These error messages can be retrieved afterwards by clicking on “error log” in the admin console. 
+On import, error messages will display when a file is missing fields. These error messages can be retrieved afterwards by clicking on “error log” in the admin console.
 
-\ |IMG86|\ 
+\ |IMG86|\
 
 (Sample log)
 
-\ |IMG87|\ 
+\ |IMG87|\
 
 .. _h760426c237f1dae3397155354c:
 
@@ -1234,7 +1234,7 @@ Item full statements can be formatted using three different methods / pure UTF8 
 
 * Limited HTML tags
 
-These three formatting options for text can be combined in-line with limitations. 
+These three formatting options for text can be combined in-line with limitations.
 
 .. _h7d786e1625325662166b2742346719:
 
@@ -1250,7 +1250,7 @@ ul, ol, li, b, i, u, br, p
 6.3.2.2 Using Markdown
 ^^^^^^^^^^^^^^^^^^^^^^
 
-Note that since OpenSALT uses markdown(\ |LINK13|\ ) as the primary formatting language, there could be unintended formatting consequences when importing from external sources such as ASN. 
+Note that since OpenSALT uses markdown(\ |LINK13|\ ) as the primary formatting language, there could be unintended formatting consequences when importing from external sources such as ASN.
 
 .. _h712252444f3010471e714d613052609:
 
@@ -1259,7 +1259,7 @@ Note that since OpenSALT uses markdown(\ |LINK13|\ ) as the primary formatting l
 
 The LaTeX system supports plain text writing of all KaTeX functions listed \ |LINK14|\ . In-line LaTeX is formatted as braced between dollar signs ($):
 
-\ |IMG88|\ 
+\ |IMG88|\
 
 Alternatively, block text LaTeX is formatted as braced between double dollar signs ($$).
 
@@ -1272,7 +1272,7 @@ Alternatively, block text LaTeX is formatted as braced between double dollar sig
 
 LaTeX formatting may be combined in-line with plain text in the markdown editor:
 
-\ |IMG89|\ 
+\ |IMG89|\
 
 .. _h4e5c635d39551b1721751d107e72a28:
 
@@ -1283,104 +1283,104 @@ HTML and LaTeX cannot be combined in-line with anything else.
 
 .. _h5e7e11124273126f13a587e68482f6e:
 
-6.3.2.6 Using the Modes of Markdown Editor UI 
+6.3.2.6 Using the Modes of Markdown Editor UI
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The markdown editor is accessed by clicking on the “Edit” button for an item:
 
-\ |IMG90|\ 
+\ |IMG90|\
 
 The markdown editor has 11 functional buttons to manipulate Full Statement text, from left to right they are: Bold, Italics, Heading, Quote, Generic List, Numbered List, Insert Table, Insert Horizontal Line, Toggle Preview, Toggle Side by Side, Toggle Full Screen. These text-editing options are depicted below:
 
-\ |IMG91|\ 
+\ |IMG91|\
 
 In the subsections below example text is showin in two columns; the first column shows the Markdown special characters, while the right column shows the text in the way it presents to the end user.
 
 Bold 6.3.2.6.1
 
-Text may be \ |STYLE282|\  by clicking icon 1/11 in the Full Statement toolbar: \ |IMG92|\ 
+Text may be \ |STYLE282|\  by clicking icon 1/11 in the Full Statement toolbar: \ |IMG92|\
 
 In the Markdown editor, Bold special character text is indicated by \*\* on either end of the statement:
 
-\ |IMG93|\ 
+\ |IMG93|\
 
 Italics 6.3.2.6.2
 
-Text may be \ |STYLE283|\  by clicking icon 2/11 in the Full Statement toolbar: \ |IMG94|\ 
+Text may be \ |STYLE283|\  by clicking icon 2/11 in the Full Statement toolbar: \ |IMG94|\
 
 In the Markdown editor, Italics special character text is indicated by \* on either end of the statement:
 
-\ |IMG95|\ 
+\ |IMG95|\
 
 Heading 6.3.2.6.3
 
-Text may be converted into a header by clicking icon 3/11 icon in the Full Statement toolbar: \ |IMG96|\ 
+Text may be converted into a header by clicking icon 3/11 icon in the Full Statement toolbar: \ |IMG96|\
 
 In the Markdown editor, Heading special character text is indicated by #, which precedes the statement:
 
-\ |IMG97|\ 
+\ |IMG97|\
 
 Quote 6.3.2.6.4
 
-Text may be converted into a header by clicking icon 4/11 icon in the Full Statement toolbar: \ |IMG98|\ 
+Text may be converted into a header by clicking icon 4/11 icon in the Full Statement toolbar: \ |IMG98|\
 
 In the Markdown editor, Quote special character text is indicated by >, which precedes the statement:
 
-\ |IMG99|\ 
+\ |IMG99|\
 
 Generic List 6.3.2.6.5
 
-Text may be converted into a bulleted list by clicking icon 5/11 icon in the Full Statement toolbar: \ |IMG100|\ 
+Text may be converted into a bulleted list by clicking icon 5/11 icon in the Full Statement toolbar: \ |IMG100|\
 
 In the Markdown editor, Generic List special character text is indicated by >, which precedes the statement:
 
-\ |IMG101|\ 
+\ |IMG101|\
 
 Numbered List 6.3.2.6.6
 
-Text may be converted into an enumerated list by clicking icon 6/11 icon in the Full Statement toolbar: \ |IMG102|\ 
+Text may be converted into an enumerated list by clicking icon 6/11 icon in the Full Statement toolbar: \ |IMG102|\
 
 In the Markdown editor, Generic List special character text is indicated by \*, which precedes the statement:
 
-\ |IMG103|\ 
+\ |IMG103|\
 
 Insert Table 6.3.2.6.7
 
-A table may be inserted by clicking icon 7/11 icon in the Full Statement toolbar: \ |IMG104|\ 
+A table may be inserted by clicking icon 7/11 icon in the Full Statement toolbar: \ |IMG104|\
 
 In the Markdown editor, Columns headings and associated text are separated by inserting a Horizontal Line:
 
-\ |IMG105|\ 
+\ |IMG105|\
 
 Insert Horizontal Line 6.3.2.6.8
 
-A horizontal line may be inserted by clicking icon 8/11 icon in the Full Statement toolbar: \ |IMG106|\ 
+A horizontal line may be inserted by clicking icon 8/11 icon in the Full Statement toolbar: \ |IMG106|\
 
 In the Markdown editor, a solid horizontal line is indicated by ----- between text statements:
 
-\ |IMG107|\ 
+\ |IMG107|\
 
 Toggle Preview 6.3.2.6.9
 
-An editor toggle between Markdown special characters vs. end user  view of text by clicking icon 9/11 icon in the Full Statement toolbar: \ |IMG108|\ 
+An editor toggle between Markdown special characters vs. end user  view of text by clicking icon 9/11 icon in the Full Statement toolbar: \ |IMG108|\
 
 The toggle shifts between preview mode and pure text edit mode.
 
 Toggle SIde by Side 6.3.2.6.10
 
-An editor may view Markdown pure text and its rendered view simultaneously by clicking icon 10/11 icon in the Full Statement toolbar: \ |IMG109|\ 
+An editor may view Markdown pure text and its rendered view simultaneously by clicking icon 10/11 icon in the Full Statement toolbar: \ |IMG109|\
 
 This two column view is depicted in all examples above and is the easiest way to edit and format text.
 
 Toggle Full Screen 6.3.2.6.11
 
-An editor may expand the Full Statement textarea by clicking icon 11/11 icon in the Full Statement toolbar: \ |IMG110|\ 
+An editor may expand the Full Statement textarea by clicking icon 11/11 icon in the Full Statement toolbar: \ |IMG110|\
 
 This does not cause the area to expand to the full monitor width, bur rather to the width of the pop-up dialogue.
 
 Underline 6.3.2.6.12
 
-Underline may be utilized by entering Markdown’s emphasis tag, or placing _underscore_ on either end of a word or phrase. 
+Underline may be utilized by entering Markdown’s emphasis tag, or placing _underscore_ on either end of a word or phrase.
 
 .. _h692547f3e2dc3667114b432974477:
 
@@ -1394,21 +1394,21 @@ Line Break after markdown table requires the following input: $~$ or an HTML <br
 6.3.3 Create Items Manually
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-\ |STYLE284|\ 
+\ |STYLE284|\
 
-When a Framework is created it is item neutral and is open for organizational content to be added based on the user’s needs. In addition to the Item import in section \ |LINK15|\ , OpenSALT allows users to manually create items and organize the data through the OpenSALT UI. 
+When a Framework is created it is item neutral and is open for organizational content to be added based on the user’s needs. In addition to the Item import in section \ |LINK15|\ , OpenSALT allows users to manually create items and organize the data through the OpenSALT UI.
 
-On the \ |STYLE285|\  page, click on the Item or Framework name that will act as a parent for the item to be added. Then in the \ |STYLE286|\  click on the \ |STYLE287|\  button. 
+On the \ |STYLE285|\  page, click on the Item or Framework name that will act as a parent for the item to be added. Then in the \ |STYLE286|\  click on the \ |STYLE287|\  button.
 
-\ |IMG111|\ 
+\ |IMG111|\
 
-The \ |STYLE288|\  window will display. 
+The \ |STYLE288|\  window will display.
 
-Enter in the appropriate values for all available fields. At a minimum enter in  mandatory \ |STYLE289|\ 
+Enter in the appropriate values for all available fields. At a minimum enter in  mandatory \ |STYLE289|\
 
 * \ |STYLE290|\ : The the main content of the CF Item. It is used to express both nodes and granular statements. If the statement is part of a list, the list enumeration should not be included in the statement and should instead be contained in the List Enumeration in Source Document. This is a mandatory field in OpenSALT.
 
-* \ |STYLE291|\ : The ID sometimes used by humans to identify a CF Item. It often will use concatenated codes expressing its position in the taxonomy and abbreviations to convey other classification information (e.g. K.CC.1.1). This is an optional field in OpenSALT. 
+* \ |STYLE291|\ : The ID sometimes used by humans to identify a CF Item. It often will use concatenated codes expressing its position in the taxonomy and abbreviations to convey other classification information (e.g. K.CC.1.1). This is an optional field in OpenSALT.
 
 * \ |STYLE292|\ Used to parse out enumerations or bullets that precede CF Item statements. This is an optional field in OpenSALT..
 
@@ -1420,68 +1420,68 @@ Enter in the appropriate values for all available fields. At a minimum enter in 
 
 * \ |STYLE296|\  	The current US K12 defined vocabulary is to use CEDS https://ceds.ed.gov/cedselementdetaiCF.aspx?termid=8267. Multiple values are allowed via comma delimitation and should be used to express grade spans. This is an optional field in OpenSALT and may be blank.
 
-* \ |STYLE297|\  e.g., "Standard," "Benchmark," "Strand," or "Topic." or "Level 1, Level 2,..." This is an optional field in OpenSALT and may be blank.	
+* \ |STYLE297|\  e.g., "Standard," "Benchmark," "Strand," or "Topic." or "Level 1, Level 2,..." This is an optional field in OpenSALT and may be blank.
 
 * \ |STYLE298|\   Systems may filter for content with particular licences to support discovery. This is an optional field in OpenSALT and may be blank.
 
 * \ |STYLE299|\  In some cases, this can be used to contain additional information found in the original source document. This is an optional field in OpenSALT and may be blank.
 
-\ |IMG112|\ 
+\ |IMG112|\
 
-To \ |STYLE300|\  the item, click the \ |STYLE301|\  button. 
+To \ |STYLE300|\  the item, click the \ |STYLE301|\  button.
 
-To \ |STYLE302|\  and discard the changes, click the \ |STYLE303|\  button. 
+To \ |STYLE302|\  and discard the changes, click the \ |STYLE303|\  button.
 
 .. _h3e4c72359f11834c363160506a4f:
 
 6.3.4 Parent vs Child Items
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Once the Item is created it will by default only be a child of the item it was created for. 
+Once the Item is created it will by default only be a child of the item it was created for.
 
-\ |IMG113|\ 
+\ |IMG113|\
 
-To add items nested below the item created, the user will need to make this item a Parent item. Highlight the item on in the \ |STYLE304|\  and click on the \ |STYLE305|\  button in the \ |STYLE306|\ . 
+To add items nested below the item created, the user will need to make this item a Parent item. Highlight the item on in the \ |STYLE304|\  and click on the \ |STYLE305|\  button in the \ |STYLE306|\ .
 
-\ |IMG114|\ 
+\ |IMG114|\
 
-The bullet icon on the left of the item in the \ |STYLE307|\  will update to reflect it is now a P\ |STYLE308|\   and the buttons in the \ |STYLE309|\  will update to allow the user to either downgrade back to a child with the \ |STYLE310|\  button or to add a new child for this parent item with the \ |STYLE311|\  \ |STYLE312|\  
+The bullet icon on the left of the item in the \ |STYLE307|\  will update to reflect it is now a P\ |STYLE308|\   and the buttons in the \ |STYLE309|\  will update to allow the user to either downgrade back to a child with the \ |STYLE310|\  button or to add a new child for this parent item with the \ |STYLE311|\  \ |STYLE312|\
 
-The user can toggle the item between \ |STYLE313|\  as necessary by clicking the \ |STYLE314|\  or \ |STYLE315|\  buttons respectively. 
+The user can toggle the item between \ |STYLE313|\  as necessary by clicking the \ |STYLE314|\  or \ |STYLE315|\  buttons respectively.
 
-Note an item can be a Child of an item and a Parent to other items, however an item can not be a Child of an item with children below it. This item must be upgraded to a Parent to have children. 
+Note an item can be a Child of an item and a Parent to other items, however an item can not be a Child of an item with children below it. This item must be upgraded to a Parent to have children.
 
-\ |IMG115|\ 
+\ |IMG115|\
 
-The user can repeat this process an unlimited number of times to continue adding all items and marking them as Parents when appropriate to complete the full content for the framework. 
+The user can repeat this process an unlimited number of times to continue adding all items and marking them as Parents when appropriate to complete the full content for the framework.
 
-\ |IMG116|\ 
+\ |IMG116|\
 
-\ |IMG117|\ 
+\ |IMG117|\
 
-\ |IMG118|\ 
+\ |IMG118|\
 
-\ |IMG119|\ 
+\ |IMG119|\
 
 .. _h8201a81d2a91674762e145b5a4931:
 
 6.3.5 Edit Items
 ~~~~~~~~~~~~~~~~
 
-\ |STYLE316|\ 
+\ |STYLE316|\
 
 .. _h5e35241f59206069503f4201efa4e:
 
 6.3.5.1 Edit Item Content
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To \ |STYLE317|\  an item, the user must click on the item in the \ |STYLE318|\  and then click on the \ |STYLE319|\  button in the \ |STYLE320|\  
+To \ |STYLE317|\  an item, the user must click on the item in the \ |STYLE318|\  and then click on the \ |STYLE319|\  button in the \ |STYLE320|\
 
-\ |IMG120|\ 
+\ |IMG120|\
 
-The \ |STYLE321|\  window will display. And the user can alter the data fields as needed. 
+The \ |STYLE321|\  window will display. And the user can alter the data fields as needed.
 
-\ |IMG121|\ 
+\ |IMG121|\
 
 To \ |STYLE322|\  the changes, click the \ |STYLE323|\  button.
 
@@ -1492,33 +1492,33 @@ To \ |STYLE324|\  and discard the changes , click the \ |STYLE325|\  button.
 6.3.5.2 Edit Item Positions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-\ |STYLE326|\ 
+\ |STYLE326|\
 
 OpenSALT enables users to move items within frameworks and reorder without the need to edit each item. The user must first enable the functionality but checkin on the box at the top of the Framework Display to Enable drag-drop reordering.
 
-\ |IMG122|\ 
+\ |IMG122|\
 
-With the box checked and the function enabled, the user can now click on an item and drag and drop it to another location. Note clicking on a child will only move the child, whereas selecting a Parent will move the parent and all of it’s children. 
+With the box checked and the function enabled, the user can now click on an item and drag and drop it to another location. Note clicking on a child will only move the child, whereas selecting a Parent will move the parent and all of it’s children.
 
-\ |IMG123|\ \ |IMG124|\ 
+\ |IMG123|\ \ |IMG124|\
 
-Note with the drag and drop feature, items can be indented (moved to new parents) outdented to become parents, and all data can be fully moved around. However once an item is moved, there is no undo button, so the user would need to manually move (drag/drop) the item to the original position if the move is not required or done in error. Because of this, the feature is always defaulted to unchecked so no errors are accidentally made. 
+Note with the drag and drop feature, items can be indented (moved to new parents) outdented to become parents, and all data can be fully moved around. However once an item is moved, there is no undo button, so the user would need to manually move (drag/drop) the item to the original position if the move is not required or done in error. Because of this, the feature is always defaulted to unchecked so no errors are accidentally made.
 
 .. _h74193831603277236269697960746e75:
 
 6.3.6 Delete Items
 ~~~~~~~~~~~~~~~~~~
 
-\ |STYLE327|\ 
+\ |STYLE327|\
 
-All credentialed users can delete items that they have access to edit. 
+All credentialed users can delete items that they have access to edit.
 
 .. _h496724721a584f59624426723f296750:
 
 6.3.6.1 Delete Child Item
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To \ |STYLE328|\  a child item, the user must click on the item in the \ |STYLE329|\  and then click on the \ |STYLE330|\  button in the \ |STYLE331|\  
+To \ |STYLE328|\  a child item, the user must click on the item in the \ |STYLE329|\  and then click on the \ |STYLE330|\  button in the \ |STYLE331|\
 
 .. _h336e6a1d1678622c20691174730325d:
 
@@ -1526,7 +1526,7 @@ To \ |STYLE328|\  a child item, the user must click on the item in the \ |STYLE3
 
 The delete action can not be undone. The user will be prompted with a warning message and must acknowledge the action cannot be reversed by clicking on the \ |STYLE332|\  button to proceed.
 
-\ |IMG126|\ 
+\ |IMG126|\
 
 To cancel and leave the item in the Framework, click the \ |STYLE333|\  button.
 
@@ -1535,7 +1535,7 @@ To cancel and leave the item in the Framework, click the \ |STYLE333|\  button.
 6.3.6.2 Delete Parent Item
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To \ |STYLE334|\  a parent item, the user must click on the item in the \ |STYLE335|\  and then click on the \ |STYLE336|\  button in the \ |STYLE337|\  
+To \ |STYLE334|\  a parent item, the user must click on the item in the \ |STYLE335|\  and then click on the \ |STYLE336|\  button in the \ |STYLE337|\
 
 .. _h2137497f644f6de4c4c69506531722d:
 
@@ -1543,7 +1543,7 @@ To \ |STYLE334|\  a parent item, the user must click on the item in the \ |STYLE
 
 The delete action can not be undone. The user will be prompted with a warning message that the item and all of it’s children will be deleted if the user proceeds. The user and must acknowledge the action cannot be reversed by clicking on the \ |STYLE338|\  button to proceed.
 
-\ |IMG128|\ 
+\ |IMG128|\
 
 To cancel and leave the item in the Framework, click the \ |STYLE339|\  button.
 
@@ -1552,42 +1552,42 @@ To cancel and leave the item in the Framework, click the \ |STYLE339|\  button.
 6.4 Exemplars for Items
 -----------------------
 
-\ |STYLE340|\ 
+\ |STYLE340|\
 
-OpenSALT provides the ability for a user to connect an example or \ |STYLE341|\  to any item within a Framework.  Note the Exemplars can not be associated to the Framework, rather only the items within. However an Exemplar can be associated to a Parent or a Child Item. 
+OpenSALT provides the ability for a user to connect an example or \ |STYLE341|\  to any item within a Framework.  Note the Exemplars can not be associated to the Framework, rather only the items within. However an Exemplar can be associated to a Parent or a Child Item.
 
 .. _h1f2d7057546c742f477446913652e37:
 
 6.4.1 Add Exemplar
 ~~~~~~~~~~~~~~~~~~
 
-To connect an example or \ |STYLE342|\  to an item. Select the item within the framework on the \ |STYLE343|\  page. Then click on the \ |STYLE344|\  button on in the \ |STYLE345|\ . 
+To connect an example or \ |STYLE342|\  to an item. Select the item within the framework on the \ |STYLE343|\  page. Then click on the \ |STYLE344|\  button on in the \ |STYLE345|\ .
 
-\ |IMG129|\ 
+\ |IMG129|\
 
 The \ |STYLE346|\  window will open.
 
-\ |IMG130|\ 
+\ |IMG130|\
 
-The user can either enter in a URL to an Exemplar or type text into the box. To save the Exemplar, click on the \ |STYLE347|\  button. To discard changes click on the \ |STYLE348|\  button. 
+The user can either enter in a URL to an Exemplar or type text into the box. To save the Exemplar, click on the \ |STYLE347|\  button. To discard changes click on the \ |STYLE348|\  button.
 
 
-After clicking the \ |STYLE349|\  button, the F\ |STYLE350|\  page will refresh and the exemplar is linked to the item. This can be verified in the \ |STYLE351|\ . 
+After clicking the \ |STYLE349|\  button, the F\ |STYLE350|\  page will refresh and the exemplar is linked to the item. This can be verified in the \ |STYLE351|\ .
 
-\ |IMG131|\ 
+\ |IMG131|\
 
 .. _h121a4c79224b7fc925545a2e64286f:
 
 6.4.2 Delete Exemplar
 ~~~~~~~~~~~~~~~~~~~~~
 
-To delete an \ |STYLE352|\  from an item, click on the ‘\ |STYLE353|\ ’ icon next to the exemplar detail in the \ |STYLE354|\  of the I\ |STYLE355|\  on the \ |STYLE356|\  page. Note this action can not be reversed once completed. The user will be promoted with a warning message to proceed.  
+To delete an \ |STYLE352|\  from an item, click on the ‘\ |STYLE353|\ ’ icon next to the exemplar detail in the \ |STYLE354|\  of the I\ |STYLE355|\  on the \ |STYLE356|\  page. Note this action can not be reversed once completed. The user will be promoted with a warning message to proceed.
 
-\ |IMG132|\ 
+\ |IMG132|\
 
 Note this action can not be reversed once completed. The user will be promoted with a warning message and must acknowledge the \ |STYLE357|\  button to proceed.
 
-\ |IMG133|\ 
+\ |IMG133|\
 
 .. _h2c1d74277104e41780968148427e:
 
@@ -1599,64 +1599,64 @@ Note this action can not be reversed once completed. The user will be promoted w
 6.5 Derivative Frameworks - Copy Items
 --------------------------------------
 
-\ |STYLE358|\ 
+\ |STYLE358|\
 
 OpenSALT allows users to create derivative frameworks  from frameworks within an OpenSALT server or instance.  Creating a derivative framework allows organizations to take a base original copy of a framework and expand it to better meet its needs.  The illustration below shows how the derivative frameworks fit with the scope of frameworks as a whole. Derivative frameworks essentially act as a bridge for organizations to navigate education needs.
 
-\ |IMG134|\ 
+\ |IMG134|\
 
-The user will need to be logged into OpenSALT and create or select the framework that will act as the new derivative framework or copy. Please see section \ |LINK17|\  if assistance is needed on how to create a framework. On the \ |STYLE359|\  page, click on the \ |STYLE360|\  button in the \ |STYLE361|\  frame. 
+The user will need to be logged into OpenSALT and create or select the framework that will act as the new derivative framework or copy. Please see section \ |LINK17|\  if assistance is needed on how to create a framework. On the \ |STYLE359|\  page, click on the \ |STYLE360|\  button in the \ |STYLE361|\  frame.
 
-\ |IMG135|\ 
+\ |IMG135|\
 
-In the C\ |STYLE362|\  frame select the document/Framework to copy. Note if the framework to copy is not listed in the document view it is not currently on the OpenSALT server. Please see section \ |LINK18|\  for instructions on importing frameworks into OpenSALT. 
+In the C\ |STYLE362|\  frame select the document/Framework to copy. Note if the framework to copy is not listed in the document view it is not currently on the OpenSALT server. Please see section \ |LINK18|\  for instructions on importing frameworks into OpenSALT.
 
-Select the desired framework in the \ |STYLE363|\  dropdown. The Copy ITems frame will refresh and load the selected framework so its items can be viewed. 
+Select the desired framework in the \ |STYLE363|\  dropdown. The Copy ITems frame will refresh and load the selected framework so its items can be viewed.
 
-\ |IMG136|\ 
+\ |IMG136|\
 
-The user can now select individual items or the full set to copy over to the derivative framework on \ |STYLE364|\  on the left. 
+The user can now select individual items or the full set to copy over to the derivative framework on \ |STYLE364|\  on the left.
 
 To select and copy a single item, expand the framework to the level/item desired. Click on the item and drag and drop it to the appropriate location on the left.
 
-\ |IMG137|\  
+\ |IMG137|\
 
-\ |IMG138|\ 
+\ |IMG138|\
 
 When the user releases the item on the left, the framework will refresh and the item will now display as part of the framework.
 
-\ |IMG139|\ 
+\ |IMG139|\
 
-A user can select a parent item and add it to the framework, which will copy over all children under the parent as well. 
+A user can select a parent item and add it to the framework, which will copy over all children under the parent as well.
 
-\ |IMG140|\ 
+\ |IMG140|\
 
-\ |IMG141|\ 
+\ |IMG141|\
 
-To select multiple items at once the user can expand the multi select function by clicking on the empty checkbox above the framework displayed in the Copy Items frame. 
+To select multiple items at once the user can expand the multi select function by clicking on the empty checkbox above the framework displayed in the Copy Items frame.
 
-\ |IMG142|\ 
+\ |IMG142|\
 
-The user can now check one or more boxes and click on an item to drag and drop to the left. All items selected will move. Note if a Parent is selected all the children will also move with it even if they are not individually checked. 
+The user can now check one or more boxes and click on an item to drag and drop to the left. All items selected will move. Note if a Parent is selected all the children will also move with it even if they are not individually checked.
 
-\ |IMG143|\ 
+\ |IMG143|\
 
-Note to close the multi select function, click on \ |STYLE365|\  and select \ |STYLE366|\ .   
+Note to close the multi select function, click on \ |STYLE365|\  and select \ |STYLE366|\ .
 
-\ |IMG144|\ 
+\ |IMG144|\
 
-\ |IMG145|\ 
+\ |IMG145|\
 
 .. _h3130761b154e2b57715e7f2385a5548:
 
 6.6 Association Management
 --------------------------
 
-\ |STYLE367|\ 
+\ |STYLE367|\
 
-OpenSALT provides users with a robust way to include associations following the IMS GLobal CASE Standards. The application enables users to connect frameworks and framework items together to bring together relationship models that integrate and blend frameworks in a meaningful way.  The illustration below provides a visual mapping for how associations can connect frameworks and help to crosswalk standards. 
+OpenSALT provides users with a robust way to include associations following the IMS GLobal CASE Standards. The application enables users to connect frameworks and framework items together to bring together relationship models that integrate and blend frameworks in a meaningful way.  The illustration below provides a visual mapping for how associations can connect frameworks and help to crosswalk standards.
 
-\ |IMG146|\ 
+\ |IMG146|\
 
 .. _h7529305c281925361d6f9354e774716:
 
@@ -1665,7 +1665,7 @@ OpenSALT provides users with a robust way to include associations following the 
 
 OpenSALT allows for the associations defined by \ |LINK19|\ . The permitted associations are:
 
- 
+
 
 
 +----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -1692,85 +1692,85 @@ OpenSALT allows for the associations defined by \ |LINK19|\ . The permitted asso
 
 .. _h5b382e5f3a7b484e5e49c7b706545f:
 
-6.6.1.1 Create Associations 
+6.6.1.1 Create Associations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-OpenSALT allows users to create associations to and between Framework items that either reside in the same OpenSALT instance or to any other outside CASE-compliant system.  
+OpenSALT allows users to create associations to and between Framework items that either reside in the same OpenSALT instance or to any other outside CASE-compliant system.
 
 To create an association, open the Framework target in the \ |STYLE368|\  page.then click \ |STYLE369|\  to open the Associations frame.
 
-\ |IMG147|\  
+\ |IMG147|\
 
-In the Document dropdown, select the framework you want to use with the associations.  If the framework is within the OpenSALT server instance, the framework name will display organized by the owning Organization.  
+In the Document dropdown, select the framework you want to use with the associations.  If the framework is within the OpenSALT server instance, the framework name will display organized by the owning Organization.
 
-\ |IMG148|\ 
+\ |IMG148|\
 
-Click on the required Framework to display the framework and items. 
+Click on the required Framework to display the framework and items.
 
-Alternatively you can select The final option: \ |STYLE370|\  This allows the user to select any CASE compliant framework that is stored on an external location. 
+Alternatively you can select The final option: \ |STYLE370|\  This allows the user to select any CASE compliant framework that is stored on an external location.
 
-The \ |STYLE371|\  window will display. The user will need to copy and paste, or type in the url for the Case-compliant framework.  
+The \ |STYLE371|\  window will display. The user will need to copy and paste, or type in the url for the Case-compliant framework.
 
-\ |IMG149|\ 
+\ |IMG149|\
 
-In instances of OpenSALT, the \ |STYLE372|\  can be found on the \ |STYLE373|\  page in the \ |STYLE374|\  frame. 
+In instances of OpenSALT, the \ |STYLE372|\  can be found on the \ |STYLE373|\  page in the \ |STYLE374|\  frame.
 
-\ |IMG150|\ 
+\ |IMG150|\
 
-Note if the copied URL does not have the .JSON extension, you will need to add it for the document to load.  
+Note if the copied URL does not have the .JSON extension, you will need to add it for the document to load.
 
-\ |IMG151|\ 
+\ |IMG151|\
 
-To load the framework, click the \ |STYLE375|\  button. 
+To load the framework, click the \ |STYLE375|\  button.
 
-To cancel and return to the \ |STYLE376|\  page, click the \ |STYLE377|\  button. 
+To cancel and return to the \ |STYLE376|\  page, click the \ |STYLE377|\  button.
 
 The selected framework will display in the \ |STYLE378|\  frame.
 
-\ |IMG152|\ 
+\ |IMG152|\
 
-Select the item from the right by clicking on it and dragging it over the associated item on the left. 
+Select the item from the right by clicking on it and dragging it over the associated item on the left.
 
-\ |IMG153|\ 
+\ |IMG153|\
 
 The Create Association window will display showing the item that was both dragged and dropped as well as the item that it was connected to.
 
-\ |IMG154|\ 
+\ |IMG154|\
 
- The user can select the \ |STYLE379|\  from the drop down and change the relationship arrow as needed by clicking on the \ |STYLE380|\  button. 
+ The user can select the \ |STYLE379|\  from the drop down and change the relationship arrow as needed by clicking on the \ |STYLE380|\  button.
 
-\ |IMG155|\ 
+\ |IMG155|\
 
-To save the association, click the \ |STYLE381|\  button. 
+To save the association, click the \ |STYLE381|\  button.
 
-To cancel and abandon the association, click the \ |STYLE382|\  button. 
+To cancel and abandon the association, click the \ |STYLE382|\  button.
 
-The \ |STYLE383|\  page will refresh. If the user clicks on the item in the \ |STYLE384|\  and then clicks \ |STYLE385|\  , the newly created association will be visible. 
+The \ |STYLE383|\  page will refresh. If the user clicks on the item in the \ |STYLE384|\  and then clicks \ |STYLE385|\  , the newly created association will be visible.
 
-\ |IMG156|\ 
+\ |IMG156|\
 
-To add several of the same type of association to one item, the user can open the multi select function by clicking on the empty checkbox above the framework displayed in the \ |STYLE386|\  frame. 
+To add several of the same type of association to one item, the user can open the multi select function by clicking on the empty checkbox above the framework displayed in the \ |STYLE386|\  frame.
 
-\ |IMG157|\ 
+\ |IMG157|\
 
-The user can now check one or more boxes and click on an item to drag and drop to the left. All items selected will become part of the association. Note if a Parent is selected all the children will associate even if they are not individually checked. 
+The user can now check one or more boxes and click on an item to drag and drop to the left. All items selected will become part of the association. Note if a Parent is selected all the children will associate even if they are not individually checked.
 
-\ |IMG158|\ 
+\ |IMG158|\
 
-When the users drags the items to the the left and associates them with an item, the \ |STYLE387|\  window will display. The user will note that the list will only display the first of the associated item, and will indicate there are additional items selected. Also note all items will have the same association, as you can only select one association type. Set the associations as required and click the Associate button.  
+When the users drags the items to the the left and associates them with an item, the \ |STYLE387|\  window will display. The user will note that the list will only display the first of the associated item, and will indicate there are additional items selected. Also note all items will have the same association, as you can only select one association type. Set the associations as required and click the Associate button.
 
-\ |IMG159|\ 
+\ |IMG159|\
 
-Note to close the multi select function, click on \ |STYLE388|\  and select \ |STYLE389|\ .   
+Note to close the multi select function, click on \ |STYLE388|\  and select \ |STYLE389|\ .
 
-\ |IMG160|\ 
+\ |IMG160|\
 
 .. _hd1b6e2e5a1562f4f60da1a3f1f60:
 
-6.6.1.2 Edit Associations 
+6.6.1.2 Edit Associations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To Edit an association, the user must delete the association and create a new association. PLease see section \ |LINK20|\  for how to delete an association and \ |LINK21|\  for how to create a new association. 
+To Edit an association, the user must delete the association and create a new association. PLease see section \ |LINK20|\  for how to delete an association and \ |LINK21|\  for how to create a new association.
 
 .. _h3465b16792e30151f3c47675d20f4c:
 
@@ -1781,65 +1781,65 @@ Users can either use the \ |STYLE390|\  or the \ |STYLE391|\  to delete associat
 
 6.6.1.2.1 Delete Associations from Tree View
 
-On the \ |STYLE392|\  page, click on the \ |STYLE393|\  button if not already selected. Then locate the association in the I\ |STYLE394|\  frame. Click the \ |STYLE395|\  icon next to the association to remove. 
+On the \ |STYLE392|\  page, click on the \ |STYLE393|\  button if not already selected. Then locate the association in the I\ |STYLE394|\  frame. Click the \ |STYLE395|\  icon next to the association to remove.
 
-\ |IMG161|\ 
+\ |IMG161|\
 
 The user will get a popup window warning that he action can not be undone. If the user wants to proceed and delete the association, the user will click the \ |STYLE396|\  button. Otherwise the user can cancel by clicking on the \ |STYLE397|\  button.
 
-\ |IMG162|\ 
+\ |IMG162|\
 
 6.6.1.2.2 Delete Associations from Association View
 
-On the \ |STYLE398|\  page, click on the \ |STYLE399|\  button if not already selected. 
+On the \ |STYLE398|\  page, click on the \ |STYLE399|\  button if not already selected.
 
-\ |IMG163|\ 
+\ |IMG163|\
 
-Locate the association in the in the list to be deleted. Click the \ |STYLE400|\  icon next to the association to remove. 
+Locate the association in the in the list to be deleted. Click the \ |STYLE400|\  icon next to the association to remove.
 
-\ |IMG164|\ 
+\ |IMG164|\
 
 The user will get a popup window warning that he action can not be undone. If the user wants to proceed and delete the association, the user will click the \ |STYLE401|\  button. Otherwise the user can cancel by clicking on the \ |STYLE402|\  button.
 
-\ |IMG165|\ 
+\ |IMG165|\
 
 .. _h48482a61264d7437205d1a12f3f3d6b:
 
 6.6.2 Association Groups
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-\ |STYLE403|\ 
+\ |STYLE403|\
 
 Associations can belong to an association group. There is a selector to filter the view for only those items and associations for a specific group, if there are any. If there are no group, all associations belong to the default “Null” group. If there are any association group, the default view is “All” association groups. The Association group filter drop list allows you to choose the “null” group, the “All” group or any specific group. In the view, an association that belongs to an association group is tagged in the display as such:
 
-On the \ |STYLE404|\  page, click the \ |STYLE405|\  button in the \ |STYLE406|\  frame. 
+On the \ |STYLE404|\  page, click the \ |STYLE405|\  button in the \ |STYLE406|\  frame.
 
-\ |IMG166|\ 
+\ |IMG166|\
 
-The \ |STYLE407|\  window will display. Click on the \ |STYLE408|\  button. \ |IMG167|\  
+The \ |STYLE407|\  window will display. Click on the \ |STYLE408|\  button. \ |IMG167|\
 
-The \ |STYLE409|\  window will display. The user will need to enter a \ |STYLE410|\  and the optional \ |STYLE411|\ . Next click on the \ |STYLE412|\  button. 
+The \ |STYLE409|\  window will display. The user will need to enter a \ |STYLE410|\  and the optional \ |STYLE411|\ . Next click on the \ |STYLE412|\  button.
 
-\ |IMG168|\ 
+\ |IMG168|\
 
-The user will repeat the process to add any needed \ |STYLE413|\ . 
+The user will repeat the process to add any needed \ |STYLE413|\ .
 
-\ |IMG169|\ 
+\ |IMG169|\
 
-After creating the required Association Groups, the user can \ |STYLE414|\  a Group, \ |STYLE415|\  a Group or click \ |STYLE416|\ . 
+After creating the required Association Groups, the user can \ |STYLE414|\  a Group, \ |STYLE415|\  a Group or click \ |STYLE416|\ .
 
-The filter option for the \ |STYLE417|\  will now display on the \ |STYLE418|\  page. 
+The filter option for the \ |STYLE417|\  will now display on the \ |STYLE418|\  page.
 
-\ |IMG170|\ 
+\ |IMG170|\
 
-The user will now need to associate items with the appropriate groups.  
+The user will now need to associate items with the appropriate groups.
 
 .. _h6fe4164b12672914514d4f13492564:
 
 6.6.3 Crosswalk Associations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-\ |STYLE419|\ 
+\ |STYLE419|\
 
 OpenSALT allows for users to create crosswalks between frameworks. To create a crosswalk the user will need to start with an empty framework. For instructions on creating a framework see section \ |LINK22|\ .
 
@@ -1848,79 +1848,79 @@ OpenSALT allows for users to create crosswalks between frameworks. To create a c
 6.6.3.1 Create Crosswalk Associations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Open the framework to the \ |STYLE420|\  page. In the click on \ |STYLE421|\  to select the first framework to use in the crosswalk. 
+Open the framework to the \ |STYLE420|\  page. In the click on \ |STYLE421|\  to select the first framework to use in the crosswalk.
 
-\ |IMG171|\ 
+\ |IMG171|\
 
-This will open a Document dropdown. The user can select a framework that is in their current OpenSALT server from the list by clicking on the desired framework. 
+This will open a Document dropdown. The user can select a framework that is in their current OpenSALT server from the list by clicking on the desired framework.
 
-\ |IMG172|\ 
+\ |IMG172|\
 
-Alternatively the user can connect to a framework that is outside their system by selecting the final option: \ |STYLE422|\  This allows the user to select any CASE compliant framework that is stored on an external location. 
+Alternatively the user can connect to a framework that is outside their system by selecting the final option: \ |STYLE422|\  This allows the user to select any CASE compliant framework that is stored on an external location.
 
-The \ |STYLE423|\  window will display. The user will need to copy and paste, or type in the url for the Case-compliant framework.  
+The \ |STYLE423|\  window will display. The user will need to copy and paste, or type in the url for the Case-compliant framework.
 
-\ |IMG173|\ 
+\ |IMG173|\
 
-In instances of OpenSALT, the \ |STYLE424|\  can be found on the \ |STYLE425|\  page in the \ |STYLE426|\  frame. 
+In instances of OpenSALT, the \ |STYLE424|\  can be found on the \ |STYLE425|\  page in the \ |STYLE426|\  frame.
 
-\ |IMG174|\ 
+\ |IMG174|\
 
-Note if the copied URL does not have the .JSON extension, you will need to add it for the document to load.  
+Note if the copied URL does not have the .JSON extension, you will need to add it for the document to load.
 
-\ |IMG175|\ 
+\ |IMG175|\
 
-To load the framework, click the \ |STYLE427|\  button. 
+To load the framework, click the \ |STYLE427|\  button.
 
-Next the user will click on the \ |STYLE428|\  option above the \ |STYLE429|\  frame. 
+Next the user will click on the \ |STYLE428|\  option above the \ |STYLE429|\  frame.
 
-\ |IMG176|\ 
+\ |IMG176|\
 
-A Document dropdown will display to allow the user to select the second framework to be selected. Again the user can select an existing framework from their OpenSALT server or can select an outside CASE-compliant framework. 
+A Document dropdown will display to allow the user to select the second framework to be selected. Again the user can select an existing framework from their OpenSALT server or can select an outside CASE-compliant framework.
 
-\ |IMG177|\ 
+\ |IMG177|\
 
-The user can now use drag and drop to select items from the right and drag to connect to items on the left to establish the cross walk. After an association is connected with the drag and drop, the Create Association window will display and the user can define the association. 
+The user can now use drag and drop to select items from the right and drag to connect to items on the left to establish the cross walk. After an association is connected with the drag and drop, the Create Association window will display and the user can define the association.
 
-\ |IMG178|\ 
+\ |IMG178|\
 
-When the user is satisfied with the association definition, click on the \ |STYLE430|\  button. 
+When the user is satisfied with the association definition, click on the \ |STYLE430|\  button.
 
-To cancel, click on the \ |STYLE431|\  button. 
+To cancel, click on the \ |STYLE431|\  button.
 
 The user should repeat this process to connect all required framework items for the crosswalk.
 
 To view the cross walk, the user will click on the \ |STYLE432|\  at the top of the screen.
 
-\ |IMG179|\  
+\ |IMG179|\
 
-\ |IMG180|\ 
+\ |IMG180|\
 
 .. _h0571ea6415539114494f5a71425a:
 
 6.6.3.2 Edit Crosswalk Associations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To Edit a crosswalk association, the user must delete the associations and create new associations. Please see section \ |LINK23|\  for how to delete an association and \ |LINK24|\  for how to create a new association. 
+To Edit a crosswalk association, the user must delete the associations and create new associations. Please see section \ |LINK23|\  for how to delete an association and \ |LINK24|\  for how to create a new association.
 
 .. _h5d772b55c793e1c441729195453c14:
 
 6.6.3.3 Delete Crosswalk Associations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-On the \ |STYLE433|\  page, click on the \ |STYLE434|\  button if not already selected. 
+On the \ |STYLE433|\  page, click on the \ |STYLE434|\  button if not already selected.
 
-\ |IMG181|\ 
+\ |IMG181|\
 
-Locate the association in the in the list to be deleted. Click the \ |STYLE435|\  icon next to the association to remove. 
+Locate the association in the in the list to be deleted. Click the \ |STYLE435|\  icon next to the association to remove.
 
-\ |IMG182|\ 
+\ |IMG182|\
 
 The user will get a popup window warning that he action can not be undone. If the user wants to proceed and delete the association, the user will click the \ |STYLE436|\  button. Otherwise the user can cancel by clicking on the \ |STYLE437|\  button.
 
-\ |IMG183|\ 
+\ |IMG183|\
 
-Alternatively if the entire crosswalk needs to be deleted and all associations, the user can delete the framework instead of removing all associations. Please see section \ |LINK25|\  for instructions on deleting a framework. 
+Alternatively if the entire crosswalk needs to be deleted and all associations, the user can delete the framework instead of removing all associations. Please see section \ |LINK25|\  for instructions on deleting a framework.
 
 .. _h2c1d74277104e41780968148427e:
 
@@ -1929,18 +1929,18 @@ Alternatively if the entire crosswalk needs to be deleted and all associations, 
 
 .. _h783d576b5c1c507f6d718562d5c5:
 
-6.7 Export Frameworks Packages 
+6.7 Export Frameworks Packages
 -------------------------------
 
-\ |STYLE438|\ 
+\ |STYLE438|\
 
-OpenSALT is designed to enable all users roles to \ |STYLE439|\  complete framework packages or documents. While \ |STYLE440|\  users can only export framework packages that are in an \ |STYLE441|\ , \ |STYLE442|\ , or \ |STYLE443|\  release status, credentialed users will have the ability to export \ |STYLE444|\  and \ |STYLE445|\  framework packages as well. 
+OpenSALT is designed to enable all users roles to \ |STYLE439|\  complete framework packages or documents. While \ |STYLE440|\  users can only export framework packages that are in an \ |STYLE441|\ , \ |STYLE442|\ , or \ |STYLE443|\  release status, credentialed users will have the ability to export \ |STYLE444|\  and \ |STYLE445|\  framework packages as well.
 
-To \ |STYLE446|\  a framework package the user needs to be on the \ |STYLE447|\  page for the selected framework and then click on the \ |STYLE448|\  button.  
+To \ |STYLE446|\  a framework package the user needs to be on the \ |STYLE447|\  page for the selected framework and then click on the \ |STYLE448|\  button.
 
-\ |IMG184|\ 
+\ |IMG184|\
 
-An Export window will display to provide the user with several \ |STYLE449|\  options: 
+An Export window will display to provide the user with several \ |STYLE449|\  options:
 
 * Competency Framework Package (JSON)
 
@@ -1952,7 +1952,7 @@ An Export window will display to provide the user with several \ |STYLE449|\  op
 
 * Direct OpenSALT Link
 
-\ |IMG185|\ 
+\ |IMG185|\
 
 The user can select an \ |STYLE450|\  option or can click on the \ |STYLE451|\  button or the ‘\ |STYLE452|\ ’ at the top of the window  to close the \ |STYLE453|\  window. Each \ |STYLE454|\  type will be discussed in the following subsections.
 
@@ -1961,53 +1961,53 @@ The user can select an \ |STYLE450|\  option or can click on the \ |STYLE451|\  
 6.7.1 Export Competency Framework Package (JSON) File
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The first \ |STYLE455|\  option is the \ |STYLE456|\ . This option allows users to extract the data for the framework packaging in the JavaScript Object Notation (JSON) file format. This is a lightweight, text-based, language-independent data interchange format that allows for easy ingestion into other system and applications using a common standard programming language. 
+The first \ |STYLE455|\  option is the \ |STYLE456|\ . This option allows users to extract the data for the framework packaging in the JavaScript Object Notation (JSON) file format. This is a lightweight, text-based, language-independent data interchange format that allows for easy ingestion into other system and applications using a common standard programming language.
 
 When a user mouses over the \ |STYLE457|\  button, a soft explanation is displayed that advises the user of the button’s intended purpose: ‘Exports a JSON file using the IMS-standard format. This is the best format to user for Archiving Frameworks.’
 
-\ |IMG186|\ 
+\ |IMG186|\
 
-To generate a JSON file for the Framework Package, the user will click on the \ |STYLE458|\  \ |STYLE459|\  The browser will automatically create and down load a JSON file for the Framework Package. The user will need to retrieve the file following the browser’s specific protocol and path. The image below shows the download in Chrome. Note the file is in the download frame at the bottom of the page. It has also been added to the user’s Download folder within the user’s My Documents. 
+To generate a JSON file for the Framework Package, the user will click on the \ |STYLE458|\  \ |STYLE459|\  The browser will automatically create and down load a JSON file for the Framework Package. The user will need to retrieve the file following the browser’s specific protocol and path. The image below shows the download in Chrome. Note the file is in the download frame at the bottom of the page. It has also been added to the user’s Download folder within the user’s My Documents.
 
-\ |IMG187|\ 
+\ |IMG187|\
 
  To open the JSON file the user will need to identify a compatible application on their computer. Notepad or NotePad ++ can be used if no preferred application is identified.
 
-The following is an example of the generated JSON file viewed in Notepad.\ |IMG188|\   
+The following is an example of the generated JSON file viewed in Notepad.\ |IMG188|\
 
 .. _h69105f5c3a80644f6a806369c586458:
 
 6.7.2 Export Styled PDF (Future Function)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The second \ |STYLE460|\  option is the \ |STYLE461|\  button. 
+The second \ |STYLE460|\  option is the \ |STYLE461|\  button.
 
-\ |IMG189|\ 
+\ |IMG189|\
 
 The purpose of this \ |STYLE462|\  option is to produce a system generated \ |STYLE463|\  with nice formatting and styling that can be used to compare against a source document for validation or can replace source documentation as needed.
 
-Users will note that at this time the button is not active. A description will not display when a user mouses-over the button, nor will the button respond with clicked. This is a placeholder for future functionality. As of the current release of OpenSALT this feature is not available. Though it is on the road map and is expected to be in a future release. If any organization requires this functionality, you can sponsor the development of the feature to help prioritize the development timeline by contacting PCG, ACT, or School City to discuss development costs and your needs. 
+Users will note that at this time the button is not active. A description will not display when a user mouses-over the button, nor will the button respond with clicked. This is a placeholder for future functionality. As of the current release of OpenSALT this feature is not available. Though it is on the road map and is expected to be in a future release. If any organization requires this functionality, you can sponsor the development of the feature to help prioritize the development timeline by contacting PCG, ACT, or School City to discuss development costs and your needs.
 
 .. _h596b20112477664e57757b30727b58:
 
 6.7.3 Export Spreadsheet
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-The third \ |STYLE464|\  option is the \ |STYLE465|\  This option allows users to extract the data for the framework packaging in a spreadsheet file that can be opened/viewed/edited in a program like Microsoft’s Excel or Google Sheets. 
+The third \ |STYLE464|\  option is the \ |STYLE465|\  This option allows users to extract the data for the framework packaging in a spreadsheet file that can be opened/viewed/edited in a program like Microsoft’s Excel or Google Sheets.
 
 When a user mouses over the \ |STYLE466|\  button, a soft explanation is displayed that advises the user of the button’s intended purpose: ‘Exports as an Excel spreadsheet file that you can open and edit in spreadsheet programs such as Microsoft Excel. ’
 
-\ |IMG190|\ 
+\ |IMG190|\
 
-To generate a spreadsheet file for the Framework Package, the user will click on the \ |STYLE467|\  \ |STYLE468|\  The browser will automatically create and download a case xlsx file for the Framework Package. The user will need to retrieve the file following the browser’s specific protocol and path. The image below shows the download in Chrome. Note the file is in the download frame at the bottom of the page. It has also been added to the user’s Download folder within the user’s My Documents. 
+To generate a spreadsheet file for the Framework Package, the user will click on the \ |STYLE467|\  \ |STYLE468|\  The browser will automatically create and download a case xlsx file for the Framework Package. The user will need to retrieve the file following the browser’s specific protocol and path. The image below shows the download in Chrome. Note the file is in the download frame at the bottom of the page. It has also been added to the user’s Download folder within the user’s My Documents.
 
-\ |IMG191|\ 
+\ |IMG191|\
 
-To open the spreadsheet file the user will need to identify a compatible application on their computer. The most common applications used are Microsoft Excel or Google Sheets. 
+To open the spreadsheet file the user will need to identify a compatible application on their computer. The most common applications used are Microsoft Excel or Google Sheets.
 
-Users credentialed users who are experienced with importing Frameworks into OpenSALT with the CASE template will already be familiar with this spreadsheet format. For all other users, the following details the exported spreadsheet file.  
+Users credentialed users who are experienced with importing Frameworks into OpenSALT with the CASE template will already be familiar with this spreadsheet format. For all other users, the following details the exported spreadsheet file.
 
-When opened the spreadsheet file will have three tabs: 
+When opened the spreadsheet file will have three tabs:
 
 #. CF Doc
 
@@ -2015,18 +2015,18 @@ When opened the spreadsheet file will have three tabs:
 
 #. CF Association
 
-\ |IMG192|\ 
+\ |IMG192|\
 
 .. _h2c3d432f26522266f31614d703c15b:
 
 6.7.3.1 CF Doc Tab
 ^^^^^^^^^^^^^^^^^^
 
-The purpose of the first tab, CF Doc, is to provide the user with basic background information on the Framework Package.  
+The purpose of the first tab, CF Doc, is to provide the user with basic background information on the Framework Package.
 
-\ |IMG193|\ 
+\ |IMG193|\
 
-The columns on the spreadsheet include the following: 
+The columns on the spreadsheet include the following:
 
 * \ |STYLE469|\   The identifier is intended to be used as the primary key global identifier within or external to the system. This is a mandatory field in OpenSALT and the export will contain data.
 
@@ -2036,19 +2036,19 @@ The columns on the spreadsheet include the following:
 
 * \ |STYLE472|\  The field is used to establish any change, not just major version revisions. This is a mandatory field in OpenSALT and the export will contain data.
 
-* \ |STYLE473|\ :  The URL of the artifact adopted by the Standard Setting Entity. Often this document is published in html and/or as pdf and is used by the standard setting entity as part of its approval process. Since it is not the intent of this specification to fully reproduce the human-facing content and formatting of the source document, it is recommended that this document be transmitted as part of the competency framework package. This is an optional field in OpenSALT. If best practices are not followed, this field may be blank. 
+* \ |STYLE473|\ :  The URL of the artifact adopted by the Standard Setting Entity. Often this document is published in html and/or as pdf and is used by the standard setting entity as part of its approval process. Since it is not the intent of this specification to fully reproduce the human-facing content and formatting of the source document, it is recommended that this document be transmitted as part of the competency framework package. This is an optional field in OpenSALT. If best practices are not followed, this field may be blank.
 
-* \ |STYLE474|\   The entity that loads and publishes the Framework. Note that in  many cases, the Standard Setting Entity may lack technical capabilities to publish the Competency Framework in a standard format so a third party may be displayed. This is an optional field in OpenSALT. If best practices are not followed, this field may be blank. 
+* \ |STYLE474|\   The entity that loads and publishes the Framework. Note that in  many cases, the Standard Setting Entity may lack technical capabilities to publish the Competency Framework in a standard format so a third party may be displayed. This is an optional field in OpenSALT. If best practices are not followed, this field may be blank.
 
-* \ |STYLE475|\   The description is typically created by the the Publisher as a standard description of the Competency Framework.This is an optional field in OpenSALT. If best practices are not followed, this field may be blank. 
+* \ |STYLE475|\   The description is typically created by the the Publisher as a standard description of the Competency Framework.This is an optional field in OpenSALT. If best practices are not followed, this field may be blank.
 
-* \ |STYLE476|\  This is a string expressing the general subject area of the Competency Framework (e.g. Mathematics). This is an optional field in OpenSALT. If best practices are not followed, this field may be blank. 
+* \ |STYLE476|\  This is a string expressing the general subject area of the Competency Framework (e.g. Mathematics). This is an optional field in OpenSALT. If best practices are not followed, this field may be blank.
 
 * \ |STYLE477|\  HTML Language Country Code VIA- country code from \ |LINK26|\ . This is an optional field in OpenSALT. If best practices are not followed, this field may be blank. However OpenSALT assumes English if not other language value is entered.
 
-* \ |STYLE478|\  This is used to separate any version information expressed by the Official Source artifact. Once and CF Pkg has been approved and published, any changes to an CF Item will constitute a new version of the CF Doc. This is an optional field in OpenSALT. If best practices are not followed, this field may be blank. 
+* \ |STYLE478|\  This is used to separate any version information expressed by the Official Source artifact. Once and CF Pkg has been approved and published, any changes to an CF Item will constitute a new version of the CF Doc. This is an optional field in OpenSALT. If best practices are not followed, this field may be blank.
 
-* \ |STYLE479|\  Adoption status displays the Framework's current status as Draft, Private, Draft,  Adopted, or Deprecated.  OpenSALT assumes Adopted as the default if no status is specifically selected for the framework. This is an optional field in OpenSALT. If best practices are not followed, this field may be blank. OpenSALT assumes Adopted as the default if no status is specifically selected for the framework. 
+* \ |STYLE479|\  Adoption status displays the Framework's current status as Draft, Private, Draft,  Adopted, or Deprecated.  OpenSALT assumes Adopted as the default if no status is specifically selected for the framework. This is an optional field in OpenSALT. If best practices are not followed, this field may be blank. OpenSALT assumes Adopted as the default if no status is specifically selected for the framework.
 
 * \ |STYLE480|\  The date that the CF Doc status started. This is an optional field in OpenSALT. If best practices are not followed, this field may be blank.
 
@@ -2063,11 +2063,11 @@ The columns on the spreadsheet include the following:
 6.7.3.2 CF Item Tab
 ^^^^^^^^^^^^^^^^^^^
 
-The purpose of the second tab, CF Item, is to provide the user with items and content within the Framework Package.  
+The purpose of the second tab, CF Item, is to provide the user with items and content within the Framework Package.
 
-\ |IMG194|\ 
+\ |IMG194|\
 
-The columns on the spreadsheet include the following: 
+The columns on the spreadsheet include the following:
 
 * \ |STYLE484|\   The identifier is intended to be used as the primary key global identifier within or external to the system. This is a mandatory field in OpenSALT and the export will contain data.
 
@@ -2089,7 +2089,7 @@ The columns on the spreadsheet include the following:
 
 * \ |STYLE493|\  	The current US K12 defined vocabulary is to use CEDS https://ceds.ed.gov/cedselementdetaiCF.aspx?termid=8267. Multiple values are allowed via comma delimitation and should be used to express grade spans. This is an optional field in OpenSALT and may be blank.
 
-* \ |STYLE494|\  e.g., "Standard," "Benchmark," "Strand," or "Topic." or "Level 1, Level 2,..." This is an optional field in OpenSALT and may be blank.	
+* \ |STYLE494|\  e.g., "Standard," "Benchmark," "Strand," or "Topic." or "Level 1, Level 2,..." This is an optional field in OpenSALT and may be blank.
 
 * \ |STYLE495|\ Systems may filter for content with particular licences to support discovery. This is an optional field in OpenSALT and may be blank.
 
@@ -2100,11 +2100,11 @@ The columns on the spreadsheet include the following:
 6.7.3.3 CF Association Tab
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The purpose of the third tab, CF Association, is to provide the user with items and content within the Framework Package.  
+The purpose of the third tab, CF Association, is to provide the user with items and content within the Framework Package.
 
-\ |IMG195|\ 
+\ |IMG195|\
 
-The columns on the spreadsheet include the following: 
+The columns on the spreadsheet include the following:
 
 * \ |STYLE497|\   The identifier is an unambiguous, synthetic, unique reference to the association. This is a mandatory field in OpenSALT and the export will contain data.
 
@@ -2127,22 +2127,22 @@ The columns on the spreadsheet include the following:
 6.7.4 Export HTML Archive (Future Function)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The fourth \ |STYLE505|\  option is the \ |STYLE506|\  button. 
+The fourth \ |STYLE505|\  option is the \ |STYLE506|\  button.
 
-\ |IMG196|\ The purpose of this \ |STYLE507|\  option is to produce an \ |STYLE508|\  code snippet that can be used on an alternative website that renders the framework in a consistent manner to the display on OpenSALT. 
+\ |IMG196|\ The purpose of this \ |STYLE507|\  option is to produce an \ |STYLE508|\  code snippet that can be used on an alternative website that renders the framework in a consistent manner to the display on OpenSALT.
 
-Users will note that at this time the button is not active. A description will not display when a user mouses-over the button, nor will the button respond with clicked. This is a placeholder for future functionality. As of the current release of OpenSALT this feature is not available. Though it is on the road map and is expected to be in a future release. If any organization requires this functionality, you can sponsor the development of the feature to help prioritize the development timeline by contacting PCG,ACT, or School City to discuss development costs and your needs. 
+Users will note that at this time the button is not active. A description will not display when a user mouses-over the button, nor will the button respond with clicked. This is a placeholder for future functionality. As of the current release of OpenSALT this feature is not available. Though it is on the road map and is expected to be in a future release. If any organization requires this functionality, you can sponsor the development of the feature to help prioritize the development timeline by contacting PCG,ACT, or School City to discuss development costs and your needs.
 
 .. _h74c126565a611e731014cb6b8:
 
 6.7.5 Link for Browser View
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The final share option to connect to the Framework Package outside of OpenSALT is the \ |STYLE509|\ .  
+The final share option to connect to the Framework Package outside of OpenSALT is the \ |STYLE509|\ .
 
-\ |IMG197|\ 
+\ |IMG197|\
 
-OpenSALT provides the users with the direct \ |STYLE510|\  for the selected Framework Package as both a \ |STYLE511|\  and display the text of the unique \ |STYLE512|\ . The sure can copy the \ |STYLE513|\  to us in any document, application or website. The \ |STYLE514|\  will return the audience to the selected \ |STYLE515|\  page within OpenSALT when followed. Any user will be able to access the selected Framework package as no credentials or login are required when following the URL link. 
+OpenSALT provides the users with the direct \ |STYLE510|\  for the selected Framework Package as both a \ |STYLE511|\  and display the text of the unique \ |STYLE512|\ . The sure can copy the \ |STYLE513|\  to us in any document, application or website. The \ |STYLE514|\  will return the audience to the selected \ |STYLE515|\  page within OpenSALT when followed. Any user will be able to access the selected Framework package as no credentials or login are required when following the URL link.
 
 .. _h3e237e1a4d5b2d787d76433f407b725f:
 
@@ -2154,34 +2154,34 @@ OpenSALT provides the users with the direct \ |STYLE510|\  for the selected Fram
 7.1 Commenting Module
 ---------------------
 
-	Published frameworks are able to be commented on by authenticated users for the purpose of collecting feedback on framework item metadata.  Commenting must be turned on by a system administrator. 
+	Published frameworks are able to be commented on by authenticated users for the purpose of collecting feedback on framework item metadata.  Commenting must be turned on by a system administrator.
 
 .. _h7b36562d3c294c5a7d537c95a1a6c59:
 
 7.1.1 Features
 ~~~~~~~~~~~~~~
 
-	Provisioned users are able to upvote and reply to other users comments. You are able to delete comments that you have written as well. Simply navigate to any framework item and make your comment, or upvote/respond to others previous comments. The comment panel may be hidden - it will be on the bottom of the ride side panel. 
+	Provisioned users are able to upvote and reply to other users comments. You are able to delete comments that you have written as well. Simply navigate to any framework item and make your comment, or upvote/respond to others previous comments. The comment panel may be hidden - it will be on the bottom of the ride side panel.
 
-\ |IMG198|\ 
+\ |IMG198|\
 
 .. _h32706aa7115195a6b334365a5d5e41:
 
 7.1.2 Viewing Comments
 ~~~~~~~~~~~~~~~~~~~~~~
 
-You are able to sort comments by the three tabs - newest, Oldest, and Most Popular (see graphic above). You may use these tabs to sort comments in the way that suits your interest and purpose best. Comments are not a part of the framework itself but independently stored. Due to a feature that truncates the email address of a participant, users cannot start their usernames with the @ symbol. 
+You are able to sort comments by the three tabs - newest, Oldest, and Most Popular (see graphic above). You may use these tabs to sort comments in the way that suits your interest and purpose best. Comments are not a part of the framework itself but independently stored. Due to a feature that truncates the email address of a participant, users cannot start their usernames with the @ symbol.
 
-\ |IMG199|\ 
+\ |IMG199|\
 
 .. _h49416333194b564671d134e68507a60:
 
 7.1.3 Commenting Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To turn on commenting, a system administrator can follow the steps outlined here: \ |LINK28|\   
+To turn on commenting, a system administrator can follow the steps outlined here: \ |LINK28|\
 
-OpenSALT has integrated with this third party code with a congruent MIT license in order for reviewing frameworks. 
+OpenSALT has integrated with this third party code with a congruent MIT license in order for reviewing frameworks.
 
 .. _h662f65664e775a707382e4d3e1c37:
 
@@ -2193,32 +2193,32 @@ OpenSALT has integrated with this third party code with a congruent MIT license 
 7.2.1 Features
 ~~~~~~~~~~~~~~
 
-Users have the ability to create their own accounts and organizations on signup. 
+Users have the ability to create their own accounts and organizations on signup.
 
 .. _h3f22573470264f2f57929163e1b1118:
 
 7.2.2 Process
 ~~~~~~~~~~~~~
 
-#. Select “Sign up” from the top right page or Log In page. 
+#. Select “Sign up” from the top right page or Log In page.
 
-\ |IMG200|\ 
+\ |IMG200|\
 
-#. User enters their desired email address and password (twice). They cannot enter an email address already in use and their passwords must match. \ |IMG201|\ 
+#. User enters their desired email address and password (twice). They cannot enter an email address already in use and their passwords must match. \ |IMG201|\
 
-#. They also can select their Organization and if no Organization exists, create one. 
+#. They also can select their Organization and if no Organization exists, create one.
 
-\ |IMG202|\ 
+\ |IMG202|\
 
-4. Once the Super Admin receives an email notification, they can navigate to the USer List page and Approve or Suspend/Reject the user. 
+4. Once the Super Admin receives an email notification, they can navigate to the USer List page and Approve or Suspend/Reject the user.
 
-\ |IMG203|\ 
+\ |IMG203|\
 
 .. _h6258e4b2b1053774bf793f5353b50:
 
 7.2.3 Configuration
 ~~~~~~~~~~~~~~~~~~~
-
+$. System Administrators can turn this feature on or off in their parameters.yml file to "always-on" then restart docker. You must also enable the email server. This change triggers the Create Account button as well as allows user access to the Create account page and shows Pending users on User List page. 
 
 .. bottom of content
 
