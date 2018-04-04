@@ -3365,7 +3365,7 @@ More information: \ |LINK28|\
 
 .. |LINK28| raw:: html
 
-    <a href="https://github.com/opensalt/opensalt/blob/develop/CONFIGURATION.md" target="_blank">https://github.com/opensalt/opensalt/blob/develop/CONFIGURATION.md</a>
+    <a href="https://github.com/opensalt/opensalt/blob/develop/docs/CONFIGURATION.md" target="_blank">https://github.com/opensalt/opensalt/blob/develop/docs/CONFIGURATION.md</a>
 
 
 .. |IMG1| image:: static/OpenSALT_User_Manual_1.png
