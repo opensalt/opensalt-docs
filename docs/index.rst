@@ -1,6 +1,6 @@
 \ |IMG1|\
 
-OpenSALT v.1.3 - User Manual (draft)
+OpenSALT v.2.0 - User Manual
 
 \ |STYLE0|\
 
@@ -11,7 +11,7 @@ OpenSALT v.1.3 - User Manual (draft)
 +---------+------------+-------+-----------------------+----------------+
 |BDorman  |ACT         |11/2017|Updating Import Guide  |.1              |
 +---------+------------+-------+-----------------------+----------------+
-|         |            |       |                       |                |
+|JMarks   | PCG        |03/2017|Updates for OpenSALT 2 |.2              |
 +---------+------------+-------+-----------------------+----------------+
 
 \ |STYLE1|\
@@ -2176,10 +2176,8 @@ You are able to sort comments by the three tabs - newest, Oldest, and Most Popul
 
 .. _h49416333194b564671d134e68507a60:
 
-7.1.3 Commenting Configuration
+7.1.3 License
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-To turn on commenting, a system administrator can follow the steps outlined here: \ |LINK28|\
 
 OpenSALT has integrated with this third party code with a congruent MIT license in order for reviewing frameworks.
 
@@ -2218,7 +2216,8 @@ Users have the ability to create their own accounts and organizations on signup.
 
 7.2.3 Configuration
 ~~~~~~~~~~~~~~~~~~~
-$. System Administrators can turn this feature on or off in their parameters.yml file to "always-on" then restart docker. You must also enable the email server. This change triggers the Create Account button as well as allows user access to the Create account page and shows Pending users on User List page. 
+$. System Administrators can turn this feature on or off in their parameters.yml file to "always-on" then restart docker. You must also enable the email server. This change triggers the Create Account button as well as allows user access to the Create account page and shows Pending users on User List page.
+More information: \ |LINK28|\
 
 .. bottom of content
 
