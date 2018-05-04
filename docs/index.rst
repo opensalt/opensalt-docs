@@ -14,7 +14,9 @@ OpenSALT v.2.0 - User Manual
 +---------+------------+-------+-----------------------+----------------+
 |B Dorman | ACT        |11/2017|Updating Import Guide  |.1              |
 +---------+------------+-------+-----------------------+----------------+
-|J Marks  | PCG        |03/2017|OpenSALT v2.0          |.2              |
+|J Marks  | PCG        |03/2018|OpenSALT v2.0          |.2              |
++---------+------------+-------+-----------------------+----------------+
+|B Dorman | ACT        |05/2018|OpenSALT v2.1          |.3              |
 +---------+------------+-------+-----------------------+----------------+
 
 **Table of Contents**
@@ -104,9 +106,9 @@ OpenSALT v.2.0 - User Manual
 |         `6.7.5 Link for Browser View <#h74c126565a611e731014cb6b8>`_
 | `7.0 Options <#h3e237e1a4d5b2d787d76433f407b725f>`_
 |     `7.1 Commenting Module <#h366f59222a45735257254b1927547c6a>`_
-|     `7.2. Features <#h2e1e53322a7678fc1a293916464311>`_
-|     `7.3 Viewing Comments <#hf2b15673b1ad53c735328544e7e1d>`_
-|     `7.4 Commenting Configuration <#h5cc5056584c262f761b5b2746a346b>`_
+|         `7.1.2. Features <#h2e1e53322a7678fc1a293916464311>`_
+|         `7.1.3 Viewing Comments <#hf2b15673b1ad53c735328544e7e1d>`_
+|         `7.1.4 Commenting Configuration <#h5cc5056584c262f761b5b2746a346b>`_
 
 .. _hb79795d3e46b47696c7c5b6d3a41e:
 
@@ -1306,7 +1308,7 @@ SequenceNumber may be used to denote a particular order within parent nodes.
 
 Currently the only fields with Rich Text capability through markdown are FullStatement and Notes.
 
-See "CASE sample.csv" in the /opensalt/sample files/. 
+See "CASE sample.csv" in the /opensalt/sample files/.
 
 Tab 1: Step 1 Read This
 
@@ -2816,7 +2818,7 @@ You are able to sort comments by the three tabs - newest, Oldest, and Most Popul
 7.1.3 License
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-OpenSALT has integrated with this third party code with a congruent MIT license in order for reviewing frameworks.
+OpenSALT has integrated this third party code ( http://viima.github.io/jquery-comments/ )with a congruent MIT license in order for reviewing frameworks.
 
 .. _h662f65664e775a707382e4d3e1c37:
 
@@ -2855,13 +2857,15 @@ Users have the ability to create their own accounts and organizations on signup.
    :height: 148 px
    :width: 625 px
 
+Upon submitting this information a short email is sent notifying the user of a pending account status.
 
-4. Once the Super Admin receives an email notification, they can navigate to the USer List page and Approve or Suspend/Reject the user.
+4. Once the Super Admin receives an email notification, they can navigate to the User List page and Approve or Suspend/Reject the user.
 
 .. image:: static/OpenSALT_User_Manual_190.png
    :height: 148 px
    :width: 624 px
 
+Rejecting the users will simply suspend the accounts. Accepting the user will generate another confirmation email to the users notifying them of successful account creation, 
 
 .. _h6258e4b2b1053774bf793f5353b50:
 
