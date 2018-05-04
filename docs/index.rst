@@ -560,7 +560,7 @@ If the Admin wants to cancel, and not create the organization, click the **Back 
 An Admin can access the **Organization edit** screen using two paths:
 
 #. On the **Organization List** click on the **Edit** button in the **Actions** section of the Organization table for the selected organization.
-   
+
 .. image:: static/OpenSALT_User_Manual_15.png
    :height: 78 px
    :width: 622 px
@@ -727,7 +727,7 @@ There are two ways to view an individual user’s information beyond the **User 
 
 
 #. On the **User List** click on the **Show** button in the **Actions** section of the User table for the selected user.
-   
+
 .. image:: static/OpenSALT_User_Manual_27.png
    :height: 128 px
    :width: 624 px
@@ -760,7 +760,7 @@ From the **User** screen the Admin can:
 An Admin can access the **User edit** screen using two paths:
 
 #. On the **User List** click on the **Edit** button in the **Actions** section of the User table for the selected user.
-   
+
 .. image:: static/OpenSALT_User_Manual_29.png
    :height: 150 px
    :width: 624 px
@@ -1296,7 +1296,17 @@ Users can create their own CASE-compliant data files to load into OpenSALT using
 6.3.1.1 CSV Loading Guide for CASE
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The CSV Loading Guide for CASE provides a step by step explanation on the process to convert frameworks into CASE-Compliant data. The guide contains six (6) tabs  to walk the user through the process. Most of these tabs are explanations of the process and the final tab is the template itself.
+General notes when loading/creating CSV files for bulk upload of child statements:
+
+The only required field to upload a framework is FullStatement, but to build a hierarchy you will need Human Coding Scheme as well as the two layers for IsChildOf.
+
+If an identifier exists, it will be transferred to the OpenSALT system. If it does not exist one will be created upon upload and creation.
+
+SequenceNumber may be used to denote a particular order within parent nodes.
+
+Currently the only fields with Rich Text capability through markdown are FullStatement and Notes.
+
+See "CASE sample.csv" in the /opensalt/sample files/. 
 
 Tab 1: Step 1 Read This
 
@@ -2833,7 +2843,7 @@ Users have the ability to create their own accounts and organizations on signup.
 
 
 #. User enters their desired email address and password (twice). They cannot enter an email address already in use and their passwords must match.
-   
+
 .. image:: static/OpenSALT_User_Manual_188.png
    :height: 165 px
    :width: 624 px
@@ -2863,4 +2873,3 @@ More information: \ |LINK28|\
 .. |LINK28| raw:: html
 
     <a href="https://github.com/opensalt/opensalt/blob/develop/docs/CONFIGURATION.md" target="_blank">https://github.com/opensalt/opensalt/blob/develop/docs/CONFIGURATION.md</a>
-
