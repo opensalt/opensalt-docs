@@ -2857,7 +2857,7 @@ Users have the ability to create their own accounts and organizations on signup.
 
 7.2.3 Configuration
 ~~~~~~~~~~~~~~~~~~~
-$. System Administrators can turn this feature on or off in their parameters.yml file to "always-on" then restart docker. You must also enable the email server. This change triggers the Create Account button as well as allows user access to the Create account page and shows Pending users on User List page.
+$. System Administrators can turn this feature on or off in their .env file to "always-on" then restart docker. You must also enable the email server. This change triggers the Create Account button as well as allows user access to the Create account page and shows Pending users on User List page.
 More information: \ |LINK28|\
 
 .. |LINK28| raw:: html
