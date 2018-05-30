@@ -14,7 +14,9 @@ OpenSALT v.2.0 - User Manual
 +---------+------------+-------+-----------------------+----------------+
 |B Dorman | ACT        |11/2017|Updating Import Guide  |.1              |
 +---------+------------+-------+-----------------------+----------------+
-|J Marks  | PCG        |03/2017|OpenSALT v2.0          |.2              |
+|J Marks  | PCG        |03/2018|OpenSALT v2.0          |.2              |
++---------+------------+-------+-----------------------+----------------+
+|B Dorman | ACT        |05/2018|OpenSALT v2.1          |.3              |
 +---------+------------+-------+-----------------------+----------------+
 
 **Table of Contents**
@@ -63,6 +65,7 @@ OpenSALT v.2.0 - User Manual
 |         `6.2.2  Manually Create Frameworks <#h603062394f35362239624c28149787d>`_
 |         `6.2.3 Edit Frameworks <#h2a278644e81e7672704d5078541c5>`_
 |         `6.2.4 Delete Frameworks <#hf69755472157a75920314a7d7d5a4a>`_
+          `6.2.5 Update Frameworks from spreadsheet`_
 |     `6.3 Framework Items <#h10414a76521969321d1aa7b43555d10>`_
 |         `6.3.1 Import Items with OpenSALT Template <#h8523c2e335f3f114642662c4257c>`_
 |             `6.3.1.1 CSV Loading Guide for CASE <#h5777746416576973633711c4a42414c>`_
@@ -104,9 +107,9 @@ OpenSALT v.2.0 - User Manual
 |         `6.7.5 Link for Browser View <#h74c126565a611e731014cb6b8>`_
 | `7.0 Options <#h3e237e1a4d5b2d787d76433f407b725f>`_
 |     `7.1 Commenting Module <#h366f59222a45735257254b1927547c6a>`_
-|     `7.2. Features <#h2e1e53322a7678fc1a293916464311>`_
-|     `7.3 Viewing Comments <#hf2b15673b1ad53c735328544e7e1d>`_
-|     `7.4 Commenting Configuration <#h5cc5056584c262f761b5b2746a346b>`_
+|         `7.1.2. Features <#h2e1e53322a7678fc1a293916464311>`_
+|         `7.1.3 Viewing Comments <#hf2b15673b1ad53c735328544e7e1d>`_
+|         `7.1.4 Commenting Configuration <#h5cc5056584c262f761b5b2746a346b>`_
 
 .. _hb79795d3e46b47696c7c5b6d3a41e:
 
@@ -560,7 +563,7 @@ If the Admin wants to cancel, and not create the organization, click the **Back 
 An Admin can access the **Organization edit** screen using two paths:
 
 #. On the **Organization List** click on the **Edit** button in the **Actions** section of the Organization table for the selected organization.
-   
+
 .. image:: static/OpenSALT_User_Manual_15.png
    :height: 78 px
    :width: 622 px
@@ -727,7 +730,7 @@ There are two ways to view an individual user’s information beyond the **User 
 
 
 #. On the **User List** click on the **Show** button in the **Actions** section of the User table for the selected user.
-   
+
 .. image:: static/OpenSALT_User_Manual_27.png
    :height: 128 px
    :width: 624 px
@@ -760,7 +763,7 @@ From the **User** screen the Admin can:
 An Admin can access the **User edit** screen using two paths:
 
 #. On the **User List** click on the **Edit** button in the **Actions** section of the User table for the selected user.
-   
+
 .. image:: static/OpenSALT_User_Manual_29.png
    :height: 150 px
    :width: 624 px
@@ -1275,6 +1278,18 @@ Note this action can not be undone. Do not click **Delete** if you need to abort
 
 .. _h10414a76521969321d1aa7b43555d10:
 
+6.2.5 Update Frameworks from a spreadsheet
+
+OpenSALT allows organization admins and above to download a framework as an excel document and make the following changes that can be merged back into the framework on the server:
+- Update an item's text based on the same guid (will overwrite any other field in that line)
+- Add an item to the the spreadsheet - do not enter an identifier; one will be created for you on update
+- Delete an item when removing the identifier
+
+Other notes:
+- If a parent statement is deleted, those children statements will be ungrouped as "orphans"
+
+Note that the framework should only be updated from within the Document itself using the Update button. Furthermore, note that currently these changes are irreversible within the application. The Update code searches for the Cf Item identifier and then performs the update procedures described above based on that business logic. (Eg if it finds a new identifier, it adds the CF Item. If it does not find an identifier previously present, that item is removed from the server). 
+
 6.3 Framework Items
 -------------------
 
@@ -1296,7 +1311,17 @@ Users can create their own CASE-compliant data files to load into OpenSALT using
 6.3.1.1 CSV Loading Guide for CASE
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The CSV Loading Guide for CASE provides a step by step explanation on the process to convert frameworks into CASE-Compliant data. The guide contains six (6) tabs  to walk the user through the process. Most of these tabs are explanations of the process and the final tab is the template itself.
+General notes when loading/creating CSV files for bulk upload of child statements:
+
+The only required field to upload a framework is FullStatement, but to build a hierarchy you will need Human Coding Scheme as well as the two layers for IsChildOf.
+
+If an identifier exists, it will be transferred to the OpenSALT system. If it does not exist one will be created upon upload and creation.
+
+SequenceNumber may be used to denote a particular order within parent nodes.
+
+Currently the only fields with Rich Text capability through markdown are FullStatement and Notes.
+
+See "CASE sample.csv" in the /opensalt/sample files/.
 
 Tab 1: Step 1 Read This
 
@@ -2806,7 +2831,7 @@ You are able to sort comments by the three tabs - newest, Oldest, and Most Popul
 7.1.3 License
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-OpenSALT has integrated with this third party code with a congruent MIT license in order for reviewing frameworks.
+OpenSALT has integrated this third party code ( http://viima.github.io/jquery-comments/ )with a congruent MIT license in order for reviewing frameworks.
 
 .. _h662f65664e775a707382e4d3e1c37:
 
@@ -2833,7 +2858,7 @@ Users have the ability to create their own accounts and organizations on signup.
 
 
 #. User enters their desired email address and password (twice). They cannot enter an email address already in use and their passwords must match.
-   
+
 .. image:: static/OpenSALT_User_Manual_188.png
    :height: 165 px
    :width: 624 px
@@ -2845,13 +2870,15 @@ Users have the ability to create their own accounts and organizations on signup.
    :height: 148 px
    :width: 625 px
 
+Upon submitting this information a short email is sent notifying the user of a pending account status.
 
-4. Once the Super Admin receives an email notification, they can navigate to the USer List page and Approve or Suspend/Reject the user.
+4. Once the Super Admin receives an email notification, they can navigate to the User List page and Approve or Suspend/Reject the user.
 
 .. image:: static/OpenSALT_User_Manual_190.png
    :height: 148 px
    :width: 624 px
 
+Rejecting the users will simply suspend the accounts. Accepting the user will generate another confirmation email to the users notifying them of successful account creation, 
 
 .. _h6258e4b2b1053774bf793f5353b50:
 
@@ -2863,4 +2890,3 @@ More information: \ |LINK28|\
 .. |LINK28| raw:: html
 
     <a href="https://github.com/opensalt/opensalt/blob/develop/docs/CONFIGURATION.md" target="_blank">https://github.com/opensalt/opensalt/blob/develop/docs/CONFIGURATION.md</a>
-
