@@ -65,7 +65,7 @@ OpenSALT v.2.0 - User Manual
 |         `6.2.2  Manually Create Frameworks <#h603062394f35362239624c28149787d>`_
 |         `6.2.3 Edit Frameworks <#h2a278644e81e7672704d5078541c5>`_
 |         `6.2.4 Delete Frameworks <#hf69755472157a75920314a7d7d5a4a>`_
-          `6.2.5 Update Frameworks from spreadsheet`_
+          `6.2.5 Update Frameworks from spreadsheet`_ <#h10414a76521969321d1aa7b43555d10>`_
 |     `6.3 Framework Items <#h10414a76521969321d1aa7b43555d10>`_
 |         `6.3.1 Import Items with OpenSALT Template <#h8523c2e335f3f114642662c4257c>`_
 |             `6.3.1.1 CSV Loading Guide for CASE <#h5777746416576973633711c4a42414c>`_
@@ -1288,7 +1288,10 @@ OpenSALT allows organization admins and above to download a framework as an exce
 Other notes:
 - If a parent statement is deleted, those children statements will be ungrouped as "orphans"
 
-Note that the framework should only be updated from within the Document itself using the Update button. Furthermore, note that currently these changes are irreversible within the application. The Update code searches for the Cf Item identifier and then performs the update procedures described above based on that business logic. (Eg if it finds a new identifier, it adds the CF Item. If it does not find an identifier previously present, that item is removed from the server). 
+Note that the framework should only be updated from within the Document itself using the Update button. Furthermore, note that currently these changes are irreversible within the application. The Update code searches for the Cf Item identifier and then performs the update procedures described above based on that business logic. (Eg if it finds a new identifier, it adds the CF Item. If it does not find an identifier previously present, that item is removed from the server).
+
+How-To Video:
+<https://www.youtube.com/watch?v=thJb43wD6ZM&t=1s>`_.
 
 6.3 Framework Items
 -------------------
@@ -2878,7 +2881,7 @@ Upon submitting this information a short email is sent notifying the user of a p
    :height: 148 px
    :width: 624 px
 
-Rejecting the users will simply suspend the accounts. Accepting the user will generate another confirmation email to the users notifying them of successful account creation, 
+Rejecting the users will simply suspend the accounts. Accepting the user will generate another confirmation email to the users notifying them of successful account creation,
 
 .. _h6258e4b2b1053774bf793f5353b50:
 
