@@ -1279,6 +1279,7 @@ Note this action can not be undone. Do not click **Delete** if you need to abort
 .. _h10414a76521969321d1aa7b43555d12:
 
 6.2.5 Update Frameworks from a spreadsheet
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 OpenSALT allows organization admins and above to download a framework as an excel document and make the following changes that can be merged back into the framework on the server:
 - Update an item's text based on the same guid (will overwrite any other field in that line)
@@ -1291,7 +1292,7 @@ Other notes:
 Note that the framework should only be updated from within the Document itself using the Update button. Furthermore, note that currently these changes are irreversible within the application. The Update code searches for the Cf Item identifier and then performs the update procedures described above based on that business logic. (Eg if it finds a new identifier, it adds the CF Item. If it does not find an identifier previously present, that item is removed from the server).
 
 How-To Video:
-<https://www.youtube.com/watch?v=thJb43wD6ZM&t=1s>`_.
+<https://www.youtube.com/watch?v=thJb43wD6ZM&t=1s>
 
 6.3 Framework Items
 -------------------
