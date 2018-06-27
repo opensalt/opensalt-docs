@@ -3,7 +3,7 @@
    :width: 230 px
 
 
-OpenSALT v.2.0 - User Manual
+OpenSALT v.2.1 - User Manual
 
 **Revision History**
 
