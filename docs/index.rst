@@ -3,7 +3,7 @@
    :width: 230 px
 
 
-OpenSALT v.2.0 - User Manual
+OpenSALT v.2.1 - User Manual
 
 **Revision History**
 
@@ -61,11 +61,10 @@ OpenSALT v.2.0 - User Manual
 |     `6.2 OpenSALT Frameworks <#h6e1cc76c3a603b3c6b78172573b9>`_
 |         `6.2.1 Import Frameworks <#h13a3f4f5767166b3c411a397a2511b>`_
 |             `6.2.1.1 Import CASE-Compliant (JSON) File <#h3f23193f6633791f3f387f632bb3d54>`_
-|             `6.2.1.2 Import framework from SALT Spreadsheet Template <#h0203b6f35784a134519337c451c6f5c>`_
 |         `6.2.2  Manually Create Frameworks <#h603062394f35362239624c28149787d>`_
 |         `6.2.3 Edit Frameworks <#h2a278644e81e7672704d5078541c5>`_
 |         `6.2.4 Delete Frameworks <#hf69755472157a75920314a7d7d5a4a>`_
-          `6.2.5 Update Frameworks from spreadsheet`_ <#h10414a76521969321d1aa7b43555d10>`_
+|         `6.2.5 Update Frameworks from spreadsheet <#h10414a76521969321d1aa7b43555d12>`_
 |     `6.3 Framework Items <#h10414a76521969321d1aa7b43555d10>`_
 |         `6.3.1 Import Items with OpenSALT Template <#h8523c2e335f3f114642662c4257c>`_
 |             `6.3.1.1 CSV Loading Guide for CASE <#h5777746416576973633711c4a42414c>`_
@@ -987,8 +986,6 @@ OpenSALT has two methods for importing in an existing CASE-compliant framework i
 
 #. Import CASE-compliant file (JSON)
 
-#. Import from Spreadsheet
-
 To import data the user must first log into OpenSALT. After login, the **Import Framework** button will be displayed at the top of the screen.
 
 .. image:: static/OpenSALT_User_Manual_45.png
@@ -1032,10 +1029,6 @@ To cancel the action and not import the file, click on the **Close** button.
 
 .. _h0203b6f35784a134519337c451c6f5c:
 
-6.2.1.2 Import framework from SALT Spreadsheet Template
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-[Content Pending 1.2 Version]
 
 .. _h1d5d104a7b4f6a7c4a7715d503b1470:
 
@@ -1276,9 +1269,10 @@ Note this action can not be undone. Do not click **Delete** if you need to abort
    :width: 341 px
 
 
-.. _h10414a76521969321d1aa7b43555d10:
+.. _h10414a76521969321d1aa7b43555d12:
 
 6.2.5 Update Frameworks from a spreadsheet
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 OpenSALT allows organization admins and above to download a framework as an excel document and make the following changes that can be merged back into the framework on the server:
 - Update an item's text based on the same guid (will overwrite any other field in that line)
@@ -1291,7 +1285,7 @@ Other notes:
 Note that the framework should only be updated from within the Document itself using the Update button. Furthermore, note that currently these changes are irreversible within the application. The Update code searches for the Cf Item identifier and then performs the update procedures described above based on that business logic. (Eg if it finds a new identifier, it adds the CF Item. If it does not find an identifier previously present, that item is removed from the server).
 
 How-To Video:
-<https://www.youtube.com/watch?v=thJb43wD6ZM&t=1s>`_.
+<https://www.youtube.com/watch?v=thJb43wD6ZM&t=1s>
 
 6.3 Framework Items
 -------------------
@@ -1400,14 +1394,14 @@ The template itself that will be used to add the data into the correct format an
    :width: 708 px
 
 
-Notes: The only required fields are fullStatement and HumanCodingScheme. SequenceNumber or IsChildOf are needed to properly created nested trees of statements as well.
+Notes: The only required fields are fullStatement and HumanCodingScheme. SequenceNumber or IsChildOf are needed for OpenSALT to properly created nested trees of statements as well.
 
 .. _h9291733595a7a78664a32f6e6f6f12:
 
 6.3.1.2 Import Process
 ^^^^^^^^^^^^^^^^^^^^^^
 
-After reviewing the **Spreadsheet Loading Guide for CASE** and the user will need to format their data into the Template Tab then save the file locally to their computer as a CSV file. This will save only the Template Tab and convert the data from an Excel file to a CSV file for import.
+After reviewing the **CSV Loading Guide for CASE** and the user will need to format their data into the Template Tab then save the file locally to their computer as a CSV file. This will save only the Template Tab and convert the data from an Excel file to a CSV file for import.
 
 .. image:: static/OpenSALT_User_Manual_77.png
    :height: 192 px
