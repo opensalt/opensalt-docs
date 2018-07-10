@@ -1029,10 +1029,6 @@ To cancel the action and not import the file, click on the **Close** button.
 
 .. _h0203b6f35784a134519337c451c6f5c:
 
-6.2.1.2 Import framework from SALT Spreadsheet Template
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-[Content Pending 1.2 Version]
 
 .. _h1d5d104a7b4f6a7c4a7715d503b1470:
 
@@ -1398,14 +1394,14 @@ The template itself that will be used to add the data into the correct format an
    :width: 708 px
 
 
-Notes: The only required fields are fullStatement and HumanCodingScheme. SequenceNumber or IsChildOf are needed to properly created nested trees of statements as well.
+Notes: The only required fields are fullStatement and HumanCodingScheme. SequenceNumber or IsChildOf are needed for OpenSALT to properly created nested trees of statements as well.
 
 .. _h9291733595a7a78664a32f6e6f6f12:
 
 6.3.1.2 Import Process
 ^^^^^^^^^^^^^^^^^^^^^^
 
-After reviewing the **Spreadsheet Loading Guide for CASE** and the user will need to format their data into the Template Tab then save the file locally to their computer as a CSV file. This will save only the Template Tab and convert the data from an Excel file to a CSV file for import.
+After reviewing the **CSV Loading Guide for CASE** and the user will need to format their data into the Template Tab then save the file locally to their computer as a CSV file. This will save only the Template Tab and convert the data from an Excel file to a CSV file for import.
 
 .. image:: static/OpenSALT_User_Manual_77.png
    :height: 192 px
