@@ -61,7 +61,6 @@ OpenSALT v.2.1 - User Manual
 |     `6.2 OpenSALT Frameworks <#h6e1cc76c3a603b3c6b78172573b9>`_
 |         `6.2.1 Import Frameworks <#h13a3f4f5767166b3c411a397a2511b>`_
 |             `6.2.1.1 Import CASE-Compliant (JSON) File <#h3f23193f6633791f3f387f632bb3d54>`_
-|             `6.2.1.2 Import framework from SALT Spreadsheet Template <#h0203b6f35784a134519337c451c6f5c>`_
 |         `6.2.2  Manually Create Frameworks <#h603062394f35362239624c28149787d>`_
 |         `6.2.3 Edit Frameworks <#h2a278644e81e7672704d5078541c5>`_
 |         `6.2.4 Delete Frameworks <#hf69755472157a75920314a7d7d5a4a>`_
@@ -986,8 +985,6 @@ Credentialed users will have additional administrative controls and functions on
 OpenSALT has two methods for importing in an existing CASE-compliant framework into the site.
 
 #. Import CASE-compliant file (JSON)
-
-#. Import from Spreadsheet
 
 To import data the user must first log into OpenSALT. After login, the **Import Framework** button will be displayed at the top of the screen.
 
