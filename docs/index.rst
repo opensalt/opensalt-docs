@@ -63,7 +63,7 @@ OpenSALT v.2.1 - User Manual
 |             `6.2.1.1 Import CASE-Compliant (JSON) File <#h3f23193f6633791f3f387f632bb3d54>`_
 |         `6.2.2  Manually Create Frameworks <#h603062394f35362239624c28149787d>`_
 |         `6.2.3 Edit Frameworks <#h2a278644e81e7672704d5078541c5>`_
-|         `6.2.4 Delete Frameworks <#hf69755472157a75920314a7d7d5a4a>`_
+|         `6.2.4 Delete Frameworks <#ha6bf1778138296b7384e6b3d144c>`_
 |         `6.2.5 Update Frameworks from spreadsheet <#h10414a76521969321d1aa7b43555d12>`_
 |     `6.3 Framework Items <#h10414a76521969321d1aa7b43555d10>`_
 |         `6.3.1 Import Items with OpenSALT Template <#h8523c2e335f3f114642662c4257c>`_
@@ -1224,7 +1224,7 @@ Next view the selected Framework by expanding the organization and clicking on t
 
 .. image:: static/OpenSALT_User_Manual_64.png
    :height: 224 px
-   :width: 325 px
+   :width: 500 px
 
 
 
@@ -1235,7 +1235,7 @@ Once you are sure the correct Framework is selected and you are ready to **delet
    :width: 329 px
 
 
-You will be asked to manually confirm deletion. 
+You will be asked to manually confirm deletion.
 
 
 .. _h10414a76521969321d1aa7b43555d12:
