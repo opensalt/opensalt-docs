@@ -1227,46 +1227,15 @@ Next view the selected Framework by expanding the organization and clicking on t
    :width: 325 px
 
 
-Take note of the document number in the Framework’s URL address in the browser bar of the **Framework Display** page.
 
-.. image:: static/OpenSALT_User_Manual_65.png
-   :height: 150 px
-   :width: 366 px
-
-
-Note the current URL will be:
-
-    **https:[your OpenSALT site]/cftree/doc/#**
-
-*  **.../cftree/doc/** = the path for the general view of the Framework
-
-* **#** =  the unique document number for the selected Framework
-
-Change the url path in the browser to:
-
-     https: **[your OpenSALTsite]/cfdoc/[framework document number]**
-
-The **LsDoc** Page will display for the selected Framework.
-
-.. image:: static/OpenSALT_User_Manual_66.png
-   :height: 409 px
-   :width: 414 px
-
-
-Confirm and confirm again you have the correct Framework selected.
-
-Once you are sure the correct Framework is selected and you are ready to **delete**, click the **Delete** button at the bottom of the page.
+Once you are sure the correct Framework is selected and you are ready to **delete**, click the **Delete** button.
 
 .. image:: static/OpenSALT_User_Manual_67.png
    :height: 570 px
    :width: 329 px
 
 
-Note this action can not be undone. Do not click **Delete** if you need to abort the action. If you need to return to your Frameworks and **not delete** the current select, click on the **Back to the list** button.
-
-.. image:: static/OpenSALT_User_Manual_68.png
-   :height: 601 px
-   :width: 341 px
+You will be asked to manually confirm deletion. 
 
 
 .. _h10414a76521969321d1aa7b43555d12:
