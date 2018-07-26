@@ -1258,15 +1258,15 @@ Confirm and confirm again you have the correct Framework selected.
 Once you are sure the correct Framework is selected and you are ready to **delete**, click the **Delete** button at the bottom of the page.
 
 .. image:: static/OpenSALT_User_Manual_67.png
-   :height: 570 px
+   :height: 500 px
    :width: 329 px
 
 
 Note this action can not be undone. Do not click **Delete** if you need to abort the action. If you need to return to your Frameworks and **not delete** the current select, click on the **Back to the list** button.
 
 .. image:: static/OpenSALT_User_Manual_68.png
-   :height: 601 px
-   :width: 341 px
+   :height: 300 px
+   :width: 600 px
 
 
 .. _h10414a76521969321d1aa7b43555d12:
