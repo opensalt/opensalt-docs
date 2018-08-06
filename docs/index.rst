@@ -993,7 +993,7 @@ To import data the user must first log into OpenSALT. After login, the **Import 
    :width: 624 px
 
 
-Click on the **Import Framework** button to open the **Import Framework** window.  From this window the user can either **Import an ANS Framework** or **Import a CASE-compliant JSON file,** *or* **Import a Spreadsheet** using the provided template.
+Click on the **Import Framework** button to open the **Import Framework** window.  From this window the user can either **Import a CASE-compliant JSON file** or **Import a Spreadsheet** using the provided template.
 
 .. image:: static/OpenSALT_User_Manual_46.png
    :height: 217 px
