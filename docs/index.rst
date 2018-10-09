@@ -109,6 +109,10 @@ OpenSALT v.2.1 - User Manual
 |         `7.1.2. Features <#h2e1e53322a7678fc1a293916464311>`_
 |         `7.1.3 Viewing Comments <#hf2b15673b1ad53c735328544e7e1d>`_
 |         `7.1.4 Commenting Configuration <#h5cc5056584c262f761b5b2746a346b>`_
+|      '7.2 Automated User Sign up <#h662f65664e775a707382e4d3e1c37>`_
+|          '7.2.1 Features <#h5cc5056584c262f761b5b2746a3437>`_
+|          '7.2.2 Process <#h5cc5056584c262f761b5b2746a324a>`_
+|          '7.2.3 Configuration <#j5cc5056584c262f761b5b2746a346o>`_
 
 .. _hb79795d3e46b47696c7c5b6d3a41e:
 
@@ -2835,14 +2839,14 @@ OpenSALT has integrated this third party code ( http://viima.github.io/jquery-co
 7.2 User Account Self-Creation
 ------------------------------
 
-.. _h4c18236538464b7c146562282c323a5e:
+.. _h5cc5056584c262f761b5b2746a3437:
 
 7.2.1 Features
 ~~~~~~~~~~~~~~
 
 Users have the ability to create their own accounts and organizations on signup.
 
-.. _h3f22573470264f2f57929163e1b1118:
+.. _h5cc5056584c262f761b5b2746a324a:
 
 7.2.2 Process
 ~~~~~~~~~~~~~
@@ -2877,11 +2881,11 @@ Upon submitting this information a short email is sent notifying the user of a p
 
 Rejecting the users will simply suspend the accounts. Accepting the user will generate another confirmation email to the users notifying them of successful account creation,
 
-.. _h6258e4b2b1053774bf793f5353b50:
+.. _j5cc5056584c262f761b5b2746a346o:
 
 7.2.3 Configuration
 ~~~~~~~~~~~~~~~~~~~
-$. System Administrators can turn this feature on or off in their parameters.yml file to "always-on" then restart docker. You must also enable the email server. This change triggers the Create Account button as well as allows user access to the Create account page and shows Pending users on User List page.
+$. System Administrators can turn this feature on or off as well as email addresses/text in their parameters.yml file to "always-on" then restart docker. You must also enable the email server. This change triggers the Create Account button as well as allows user access to the Create account page and shows Pending users on User List page.
 More information: \ |LINK28|\
 
 .. |LINK28| raw:: html
