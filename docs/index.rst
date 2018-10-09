@@ -109,10 +109,10 @@ OpenSALT v.2.1 - User Manual
 |         `7.1.2. Features <#h2e1e53322a7678fc1a293916464311>`_
 |         `7.1.3 Viewing Comments <#hf2b15673b1ad53c735328544e7e1d>`_
 |         `7.1.4 Commenting Configuration <#h5cc5056584c262f761b5b2746a346b>`_
-|      '7.2 Automated User Sign up <#h662f65664e775a707382e4d3e1c37>`_
-|          '7.2.1 Features <#h5cc5056584c262f761b5b2746a3437>`_
-|          '7.2.2 Process <#h5cc5056584c262f761b5b2746a324a>`_
-|          '7.2.3 Configuration <#j5cc5056584c262f761b5b2746a346o>`_
+|      `7.2 Automated User Sign up <#h662f65664e775a707382e4d3e1c37>`_
+|          `7.2.1 Features <#h5cc5056584c262f761b5b2746a3437>`_
+|          `7.2.2 Process <#h5cc5056584c262f761b5b2746a324a>`_
+|          `7.2.3 Configuration <#j5cc5056584c262f761b5b2746a346o>`_
 
 .. _hb79795d3e46b47696c7c5b6d3a41e:
 
