@@ -63,7 +63,7 @@ OpenSALT v.2.1 - User Manual
 |             `6.2.1.1 Import CASE-Compliant (JSON) File <#h3f23193f6633791f3f387f632bb3d54>`_
 |         `6.2.2  Manually Create Frameworks <#h603062394f35362239624c28149787d>`_
 |         `6.2.3 Edit Frameworks <#h2a278644e81e7672704d5078541c5>`_
-|         `6.2.4 Delete Frameworks <#hf69755472157a75920314a7d7d5a4a>`_
+|         `6.2.4 Delete Frameworks <#ha6bf1778138296b7384e6b3d144c>`_
 |         `6.2.5 Update Frameworks from spreadsheet <#h10414a76521969321d1aa7b43555d12>`_
 |     `6.3 Framework Items <#h10414a76521969321d1aa7b43555d10>`_
 |         `6.3.1 Import Items with OpenSALT Template <#h8523c2e335f3f114642662c4257c>`_
@@ -1228,49 +1228,15 @@ Next view the selected Framework by expanding the organization and clicking on t
 
 .. image:: static/OpenSALT_User_Manual_64.png
    :height: 224 px
-   :width: 325 px
+   :width: 500 px
 
 
-Take note of the document number in the Framework’s URL address in the browser bar of the **Framework Display** page.
 
-.. image:: static/OpenSALT_User_Manual_65.png
-   :height: 150 px
-   :width: 366 px
-
-
-Note the current URL will be:
-
-    **https:[your OpenSALT site]/cftree/doc/#**
-
-*  **.../cftree/doc/** = the path for the general view of the Framework
-
-* **#** =  the unique document number for the selected Framework
-
-Change the url path in the browser to:
-
-     https: **[your OpenSALTsite]/cfdoc/[framework document number]**
-
-The **LsDoc** Page will display for the selected Framework.
-
-.. image:: static/OpenSALT_User_Manual_66.png
-   :height: 409 px
-   :width: 414 px
-
-
-Confirm and confirm again you have the correct Framework selected.
-
-Once you are sure the correct Framework is selected and you are ready to **delete**, click the **Delete** button at the bottom of the page.
+Once you are sure the correct Framework is selected and you are ready to **delete**, click the **Delete** button.
 
 .. image:: static/OpenSALT_User_Manual_67.png
    :height: 500 px
    :width: 329 px
-
-
-Note this action can not be undone. Do not click **Delete** if you need to abort the action. If you need to return to your Frameworks and **not delete** the current select, click on the **Back to the list** button.
-
-.. image:: static/OpenSALT_User_Manual_68.png
-   :height: 300 px
-   :width: 600 px
 
 
 .. _h10414a76521969321d1aa7b43555d12:
