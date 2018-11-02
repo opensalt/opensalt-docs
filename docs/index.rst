@@ -58,7 +58,7 @@ OpenSALT v.2.1 - User Manual
 |         `6.1.2 Display Frameworks Page <#h715a2b6d63b2a41b18341215f345f>`_
 |             `6.1.2.1 Public View <#h473664e5a545502f3e27165c142d>`_
 |             `6.1.2.2 Credentialed View <#hb622c455c38115d3972105a6f2f751e>`_
-|              `6.1.2.3 'Log View <#hb622c455c38115d3972105a6f2f751f>`_
+|             `6.1.2.3 Log View <#hb622c455c38115d3972105a6f2f751f>`_
 |     `6.2 OpenSALT Frameworks <#h6e1cc76c3a603b3c6b78172573b9>`_
 |         `6.2.1 Import Frameworks <#h13a3f4f5767166b3c411a397a2511b>`_
 |             `6.2.1.1 Import CASE-Compliant (JSON) File <#h3f23193f6633791f3f387f632bb3d54>`_
