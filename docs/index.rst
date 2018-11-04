@@ -982,11 +982,15 @@ Credentialed users will have additional administrative controls and functions on
 
 Logged in Editors will have additional insights into what changes have been made on a framework by selecting the Log View Tab.
 
-.. image: static/log_loggedin.png
+.. image:: static/log_loggedin.png
+   :height: 150 px
+   :width: 100 px
 
 This view provides a comprehensive history of changes made to the framework in general as well as a method of exporting as a CSV file.
 
-.. image: static/log_full.png
+.. image:: static/log_full.png
+   :height: 468 px
+   :width: 446 px
 
 .. _h6e1cc76c3a603b3c6b78172573b9:
 
