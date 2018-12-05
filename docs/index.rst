@@ -3,7 +3,7 @@
    :width: 230 px
 
 
-OpenSALT v.2.1 - User Manual
+OpenSALT v.2.2 - User Manual
 
 **Revision History**
 
@@ -17,6 +17,8 @@ OpenSALT v.2.1 - User Manual
 |J Marks  | PCG        |03/2018|OpenSALT v2.0          |.2              |
 +---------+------------+-------+-----------------------+----------------+
 |B Dorman | ACT        |05/2018|OpenSALT v2.1          |.3              |
++---------+------------+-------+-----------------------+----------------+
+|B Dorman | ACT        |11/2018|OpenSALT v2.2          |.4              |
 +---------+------------+-------+-----------------------+----------------+
 
 **Table of Contents**
@@ -58,7 +60,7 @@ OpenSALT v.2.1 - User Manual
 |         `6.1.2 Display Frameworks Page <#h715a2b6d63b2a41b18341215f345f>`_
 |             `6.1.2.1 Public View <#h473664e5a545502f3e27165c142d>`_
 |             `6.1.2.2 Credentialed View <#hb622c455c38115d3972105a6f2f751e>`_
-|              '6.1.2.3 'Log View <#hb622c455c38115d3972105a6f2f751f>'_'
+|             `6.1.2.3 Log View <#hb622c455c38115d3972105a6f2f751f>`_
 |     `6.2 OpenSALT Frameworks <#h6e1cc76c3a603b3c6b78172573b9>`_
 |         `6.2.1 Import Frameworks <#h13a3f4f5767166b3c411a397a2511b>`_
 |             `6.2.1.1 Import CASE-Compliant (JSON) File <#h3f23193f6633791f3f387f632bb3d54>`_
@@ -66,6 +68,9 @@ OpenSALT v.2.1 - User Manual
 |         `6.2.3 Edit Frameworks <#h2a278644e81e7672704d5078541c5>`_
 |         `6.2.4 Delete Frameworks <#ha6bf1778138296b7384e6b3d144c>`_
 |         `6.2.5 Update Frameworks from spreadsheet <#h10414a76521969321d1aa7b43555d12>`_
+|         `6.2.6 Create new associations via Spreadsheet Update Features <#h405471134e472ab58320531a7c433>`_
+|         `6.2.6.1 Update Associations on the same server <#h405471134e472ab58320531a7c444>`_
+|         `6.2.6.2 Update Associations from an external server <#h405471134e472ab58320531a7c455>`_
 |     `6.3 Framework Items <#h10414a76521969321d1aa7b43555d10>`_
 |         `6.3.1 Import Items with OpenSALT Template <#h8523c2e335f3f114642662c4257c>`_
 |             `6.3.1.1 CSV Loading Guide for CASE <#h5777746416576973633711c4a42414c>`_
@@ -982,11 +987,11 @@ Credentialed users will have additional administrative controls and functions on
 
 Logged in Editors will have additional insights into what changes have been made on a framework by selecting the Log View Tab.
 
-.. image: static/log_loggedin.png
+.. image:: static/log_loggedin.png
 
 This view provides a comprehensive history of changes made to the framework in general as well as a method of exporting as a CSV file.
 
-.. image: static/log_full.png 
+.. image:: static/log_full.png
 
 .. _h6e1cc76c3a603b3c6b78172573b9:
 
@@ -1270,6 +1275,35 @@ Note that the framework should only be updated from within the Document itself u
 
 How-To Video:
 <https://www.youtube.com/watch?v=thJb43wD6ZM&t=1s>
+
+.. _h405471134e472ab58320531a7c433:
+
+6.2.6 Create new associations via Spreadsheet Update Features
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+OpenSALT is able to use this function as well to update/create associations with generally the same user actions. Note that you have to be using the 'latest' spreadsheet download each time you update a framework.
+
+.. _h405471134e472ab58320531a7c444:
+
+6.2.6.1 Update Associations for frameworks on the same server
+
+Simply enter the guids and association type you want in the appropriate columns on the Cf Association Tab of the downloaded spreadsheet. Do not enter an identiifer for the association action itself; this will be created by OpenSALT on upload.
+
+.. image:: static/associations_update.png
+   :height: 224 px
+   :width: 500 px
+
+.. _h405471134e472ab58320531a7c455:
+
+6.2.6.2 Update Associations from an external server
+
+This process is the same as for frameworks on the same server with two steps prior to the download, change, and update.
+
+Steps:
+1) Load an external framework within the framework you are working in.
+2) Make one association from that document to the framework you are working on now.
+3) Now use the guids from the external framework in the spreadsheet update tool as detailed above and the associations will load with connections to that external framework.
+
 
 6.3 Framework Items
 -------------------
