@@ -70,7 +70,7 @@ OpenSALT v.2.2 - User Manual
 |         `6.2.5 Update Frameworks from spreadsheet <#h10414a76521969321d1aa7b43555d12>`_
 |         `6.2.6 Create new associations via Spreadsheet Update Features <#h405471134e472ab58320531a7c433>`_
 |         `6.2.6.1 Update Associations on the same server <#h405471134e472ab58320531a7c444>`_
-|         `6.2.6.2 Update Associations from an external server<#h405471134e472ab58320531a7c455>`_
+|         `6.2.6.2 Update Associations from an external server <#h405471134e472ab58320531a7c455>`_
 |     `6.3 Framework Items <#h10414a76521969321d1aa7b43555d10>`_
 |         `6.3.1 Import Items with OpenSALT Template <#h8523c2e335f3f114642662c4257c>`_
 |             `6.3.1.1 CSV Loading Guide for CASE <#h5777746416576973633711c4a42414c>`_
