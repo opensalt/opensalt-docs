@@ -69,7 +69,8 @@ OpenSALT v.2.2 - User Manual
 |         `6.2.4 Delete Frameworks <#ha6bf1778138296b7384e6b3d144c>`_
 |         `6.2.5 Update Frameworks from spreadsheet <#h10414a76521969321d1aa7b43555d12>`_
 |         `6.2.6 Create new associations via Spreadsheet Update Features <#h405471134e472ab58320531a7c433>`_
-|         `6.2.6.1 Update Associations from an External Server <#h405471134e472ab58320531a7c444>`_
+|         `6.2.6.1 Update Associations on the same server <#h405471134e472ab58320531a7c444>`_
+|         `6.2.6.2 Update Associations from an external server<#h405471134e472ab58320531a7c455>`_
 |     `6.3 Framework Items <#h10414a76521969321d1aa7b43555d10>`_
 |         `6.3.1 Import Items with OpenSALT Template <#h8523c2e335f3f114642662c4257c>`_
 |             `6.3.1.1 CSV Loading Guide for CASE <#h5777746416576973633711c4a42414c>`_
@@ -1275,14 +1276,14 @@ Note that the framework should only be updated from within the Document itself u
 How-To Video:
 <https://www.youtube.com/watch?v=thJb43wD6ZM&t=1s>
 
-.. _h405471134e472ab58320531a7c433
+.. _h405471134e472ab58320531a7c433:
 
 6.2.6 Create new associations via Spreadsheet Update Features
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 OpenSALT is able to use this function as well to update/create associations with generally the same user actions. Note that you have to be using the 'latest' spreadsheet download each time you update a framework.
 
-.. _h405471134e472ab58320531a7c444
+.. _h405471134e472ab58320531a7c444:
 
 6.2.6.1 Update Associations for frameworks on the same server
 
@@ -1292,9 +1293,9 @@ Simply enter the guids and association type you want in the appropriate columns 
    :height: 224 px
    :width: 500 px
 
-.. _h405471134e472ab58320531a7c455
+.. _h405471134e472ab58320531a7c455:
 
-6.2.6.2 Update Associations for a framework on an external server
+6.2.6.2 Update Associations from an external server
 
 This process is the same as for frameworks on the same server with two steps prior to the download, change, and update.
 
