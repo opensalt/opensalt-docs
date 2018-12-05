@@ -1273,6 +1273,27 @@ Note that the framework should only be updated from within the Document itself u
 How-To Video:
 <https://www.youtube.com/watch?v=thJb43wD6ZM&t=1s>
 
+6.2.6 Create new associations via Spreadsheet Update Features
+
+OpenSALT is able to use this function as well to update/create associations
+
+6.2.6.1 Update Associations for frameworks on the same server
+
+Simply enter the guids and association type you want in the appropriate columns on the Cf Association Tab of the downloaded spreadsheet. Do not enter an identiifer for the association action itself; this will be created by OpenSALT on upload.
+
+.. image:: static/associations_update.png
+   :height: 224 px
+   :width: 500 px
+
+6.2.6.2 Update Associations for a framework on an external server
+
+This process is the same as for frameworks on the same server with two steps prior to the download, change, and update.
+
+Steps:
+1) Load an external framework within the framework you are working in.
+2) Make one association from that document to the framework you are working on now.
+3) Now use the guids from the external framework in the spreadsheet update tool as detailed above and the associations will load with connections to that external framework. 
+
 6.3 Framework Items
 -------------------
 
