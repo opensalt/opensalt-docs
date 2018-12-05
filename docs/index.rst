@@ -68,6 +68,8 @@ OpenSALT v.2.2 - User Manual
 |         `6.2.3 Edit Frameworks <#h2a278644e81e7672704d5078541c5>`_
 |         `6.2.4 Delete Frameworks <#ha6bf1778138296b7384e6b3d144c>`_
 |         `6.2.5 Update Frameworks from spreadsheet <#h10414a76521969321d1aa7b43555d12>`_
+|         `6.2.6 Update Associations from <#h405471134e472ab58320531a7c433>`_
+|         `6.2.6.1 Update Associations from an External Server <#h405471134e472ab58320531a7c444>`_
 |     `6.3 Framework Items <#h10414a76521969321d1aa7b43555d10>`_
 |         `6.3.1 Import Items with OpenSALT Template <#h8523c2e335f3f114642662c4257c>`_
 |             `6.3.1.1 CSV Loading Guide for CASE <#h5777746416576973633711c4a42414c>`_
@@ -1275,7 +1277,7 @@ How-To Video:
 
 6.2.6 Create new associations via Spreadsheet Update Features
 
-OpenSALT is able to use this function as well to update/create associations
+OpenSALT is able to use this function as well to update/create associations with generally the same user actions. Note that you have to be using the 'latest' spreadsheet download each time you update a framework.
 
 6.2.6.1 Update Associations for frameworks on the same server
 
@@ -1285,6 +1287,8 @@ Simply enter the guids and association type you want in the appropriate columns 
    :height: 224 px
    :width: 500 px
 
+.. _h405471134e472ab58320531a7c433:
+
 6.2.6.2 Update Associations for a framework on an external server
 
 This process is the same as for frameworks on the same server with two steps prior to the download, change, and update.
@@ -1292,8 +1296,9 @@ This process is the same as for frameworks on the same server with two steps pri
 Steps:
 1) Load an external framework within the framework you are working in.
 2) Make one association from that document to the framework you are working on now.
-3) Now use the guids from the external framework in the spreadsheet update tool as detailed above and the associations will load with connections to that external framework. 
+3) Now use the guids from the external framework in the spreadsheet update tool as detailed above and the associations will load with connections to that external framework.
 
+.. _h405471134e472ab58320531a7c444:
 6.3 Framework Items
 -------------------
 
