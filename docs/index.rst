@@ -2142,6 +2142,7 @@ OpenSALT allows for the associations defined by \ |LINK19|\ . The permitted asso
 
     <a href="https://www.imsglobal.org/sites/default/files/CASE/casev1p0/information_model/caseservicev1p0_infomodelv1p0.html#Enumerated_CFAssociationTypeEnum" target="_blank">IMS Global’s CASE specification as noted in figure 7.3.1</a>
 
+|
 
     +----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
     |Association Type|Description                                                                                                                                                                                                                     |Commentary (Unofficial, not representative of official CASE documentation)        |
