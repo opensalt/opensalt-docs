@@ -277,9 +277,22 @@ OpenSALT currently has five user roles with specified permissions for the tool:
 
 The Chart below provides an overview of the users and their provisioned roles and detailed descriptions follow.
 
-.. image:: static/OpenSALT_User_Manual_7.png
-   :height: 452 px
-   :width: 624 px
++-----------------+--------------+--------+-----------+--------------+----------+
+|                 |Logged in User|Editor  |Org Admin  | Super Editor |Super User|
++-----------------+==============+========+===========+==============+==========+
+|Access Frameworks|              |        |           |              |          |
++-----------------+--------------+--------+-----------+--------------+----------+
+|Edit a framework |              |        |           |              |          |
+|in their own     |     X        |    X   |     X     |              |          |
+|organization     |              |        |           |              |          |
++-----------------+--------------+--------+-----------+--------------+----------+
+|Edit a framework |              |   X    |     X     |   X          |    X     |
++-----------------+--------------+--------+-----------+--------------+----------+
+|                 |              |        |           |              |          |
++-----------------+--------------+--------+-----------+--------------+----------+
+|                 |              |        |           |              |          |
++-----------------+--------------+--------+-----------+--------------+----------+
+
 
 
 .. _h155d6d5f4916497a1c6b10341f214165:
