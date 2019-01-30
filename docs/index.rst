@@ -286,11 +286,23 @@ The Chart below provides an overview of the users and their provisioned roles an
 |in their own     |     X        |    X   |     X     |              |          |
 |organization     |              |        |           |              |          |
 +-----------------+--------------+--------+-----------+--------------+----------+
-|Edit a framework |              |   X    |     X     |   X          |    X     |
+|Edit a framework |              |   X    |     X     |    X         |    X     |
 +-----------------+--------------+--------+-----------+--------------+----------+
-|                 |              |        |           |              |          |
+|Export frameworks|     x        |    x   |     X     |     X        |    X     |
 +-----------------+--------------+--------+-----------+--------------+----------+
-|                 |              |        |           |              |          |
+|View Comments    |     x        |    x   |     X     |     X        |    X     |
++-----------------+--------------+--------+-----------+--------------+----------+
+| Manage Framework|              |        |           |              |          |
+| rights          |              |        |     X     |     X        |    X     |
++-----------------+--------------+--------+-----------+--------------+----------+
+| Manage framework|              |        |           |              |          |
+| ownership       |              |        |     X     |     X        |    X     |
++-----------------+--------------+--------+-----------+--------------+----------+
+|                 |     x        |    x   |     X     |     X        |    X     |
++-----------------+--------------+--------+-----------+--------------+----------+
+|                 |     x        |    x   |     X     |     X        |    X     |
++-----------------+--------------+--------+-----------+--------------+----------+
+|                 |     x        |    x   |     X     |     X        |    X     |
 +-----------------+--------------+--------+-----------+--------------+----------+
 
 
@@ -1382,20 +1394,32 @@ Step 5: Select Import Children
 
 Tab 2: CF DOC
 
-This graphic shows what is  required to create a Framework. Please note this data does not need to be contained in the CSV file as it will be created when the user creates the framework in OpenSALT.
-
-.. image:: static/OpenSALT_User_Manual_72.png
-   :height: 652 px
-   :width: 606 px
+The only required fields are Creator and title. Creator is the folder that will be created.
 
 
 Tab 3: CF ITEM
 
 Explanation of the item fields that will be included in template for the Framework. Note that technically only fullStatement and humanCodingScheme are required.
 
-.. image:: static/OpenSALT_User_Manual_73.png
-   :height: 424 px
-   :width: 624 px
+The only required field is fullstatement.
+
+To create a hierarchy however, use human coding scheme, ischildOf and SequenceNumber
+
+example:
+
++---------------+------------------+-----------+----------------+
+|fullStatement | humanCodingscheme | IsChildOf | SequenceNumber |
++---------------+------------------+-----------+----------------+
+|Parent Item    | P                |           | 1              |
++---------------+------------------+-----------+----------------+
+|Child 1        | P.C              | P         | 1              |
++---------------+------------------+-----------+----------------+
+| Grandchild 1  | P.C.G            | P.C       | 1              |
++---------------+------------------+-----------+----------------+
+| Child 2       | P.C2             | P         | 2              |
++---------------+------------------+-----------+----------------+
+| Grandchild 2  |P.C2.G            | P.C2      | 1              |
++---------------+------------------+-----------+----------------+
 
 
 Tab 4: CF Association
@@ -1407,25 +1431,14 @@ The process for associations which can be associated in the template if desired,
    :width: 682 px
 
 
-Tab 5: Example Standards File
-
-The fifth tab is an example or sample of a filled in/completed template with data to be imported into OpenSALT.
-
-.. image:: static/OpenSALT_User_Manual_75.png
-   :height: 122 px
-   :width: 708 px
-
-
 Tab 6: Template
 
 The template itself that will be used to add the data into the correct format and  saved as a CSV to import into OpenSALT.
 
-.. image:: static/OpenSALT_User_Manual_76.png
-   :height: 186 px
-   :width: 708 px
-
-
-Notes: The only required fields are fullStatement and HumanCodingScheme. SequenceNumber or IsChildOf are needed for OpenSALT to properly created nested trees of statements as well.
+You may use these fields as your template and save into a CSV.
++---------------+---------------+------------------+-----------+----------------+
+|Identifier     |fullStatement | humanCodingscheme | IsChildOf | SequenceNumber |
++---------------+----------------+-----------+----------------+
 
 .. _h9291733595a7a78664a32f6e6f6f12:
 
