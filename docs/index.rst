@@ -283,7 +283,7 @@ The Chart below provides an overview of the users and their provisioned roles an
 |Access Frameworks|      X       |     X  |     X     |       X      |     X     |
 +-----------------+--------------+--------+-----------+--------------+-----------+
 |Edit a framework |              |        |           |              |           |
-|in their own     |     X        |    X   |     X     |              |           |
+|in their own     |              |    X   |     X     |      X       |     X     |
 |organization     |              |        |           |              |           |
 +-----------------+--------------+--------+-----------+--------------+-----------+
 |Edit a framework |              |   X    |     X     |    X         |    X      |
@@ -298,9 +298,14 @@ The Chart below provides an overview of the users and their provisioned roles an
 | Manage framework|              |        |           |              |           |
 | ownership       |              |        |     X     |     X        |    X      |
 +-----------------+--------------+--------+-----------+--------------+-----------+
-| Edit Metadata   |              |        |           |              |    X      |
+| Edit Metadata   |              |        |           |      X       |    X      |
 | across orgs     |              |        |           |              |           |
 +-----------------+--------------+--------+-----------+--------------+-----------+
+|Add/edit Users   |              |        |     X     |      X       |     X     |
++-----------------+--------------+--------+-----------+--------------+-----------+
+|Add/Edit Orgs    |              |        |           |      X       |     X     |
++-----------------+--------------+--------+-----------+--------------+-----------+
+
 
 
 
@@ -1405,7 +1410,7 @@ To create a hierarchy however, use human coding scheme, ischildOf and SequenceNu
 example:
 
 +---------------+------------------+-----------+----------------+
-|fullStatement | humanCodingscheme | IsChildOf | SequenceNumber |
+|fullStatement  |humanCodingScheme |IsChildOf  |SequenceNumber  |
 +---------------+------------------+-----------+----------------+
 |Parent Item    | P                |           | 1              |
 +---------------+------------------+-----------+----------------+
