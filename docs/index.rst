@@ -2421,7 +2421,10 @@ The filter option for the **Association Groups** will now display on the **Displ
 
 The user will now need to associate items with the appropriate groups.
 
+
 .. _h6fe4164b12672914514d4f13492564:
+
+Note that association groups do not currently import correclty to others instances of OpenSALT 2.2. 
 
 6.6.3 Crosswalk Associations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
