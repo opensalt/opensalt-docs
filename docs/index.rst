@@ -64,6 +64,7 @@ OpenSALT v.2.2 - User Manual
 |     `6.2 OpenSALT Frameworks <#h6e1cc76c3a603b3c6b78172573b9>`_
 |         `6.2.1 Import Frameworks <#h13a3f4f5767166b3c411a397a2511b>`_
 |             `6.2.1.1 Import CASE-Compliant (JSON) File <#h3f23193f6633791f3f387f632bb3d54>`_
+|             `6.2.1.2 Import framework from Spreadsheet <#h3f23193f6633791f3f387f632bb3d55>`_
 |         `6.2.2  Manually Create Frameworks <#h603062394f35362239624c28149787d>`_
 |         `6.2.3 Edit Frameworks <#h2a278644e81e7672704d5078541c5>`_
 |         `6.2.4 Delete Frameworks <#ha6bf1778138296b7384e6b3d144c>`_
@@ -1034,20 +1035,8 @@ This view provides a comprehensive history of changes made to the framework in g
 
 OpenSALT has two methods for importing in an existing CASE-compliant framework into the site.
 
-#. Import CASE-compliant file (JSON)
-
-To import data the user must first log into OpenSALT. After login, the **Import Framework** button will be displayed at the top of the screen.
-
-.. image:: static/OpenSALT_User_Manual_45.png
-   :height: 74 px
-   :width: 624 px
-
-
-Click on the **Import Framework** button to open the **Import Framework** window.  From this window the user can either **Import a CASE-compliant JSON file** or **Import a Spreadsheet** using the provided template.
-
-.. image:: static/OpenSALT_User_Manual_46.png
-   :height: 217 px
-   :width: 627 px
+1) Import a CASE Compliant (JSON) file
+2) Import a non-CASE compliant Spreadsheet file
 
 .. _h3f23193f6633791f3f387f632bb3d54:
 
@@ -1077,8 +1066,23 @@ The filename will display in the Choose File box, then click the **Import Framew
 
 To cancel the action and not import the file, click on the **Close** button.
 
-.. _h0203b6f35784a134519337c451c6f5c:
+.. _h3f23193f6633791f3f387f632bb3d55:
 
+6.2.1.2 Import Framework from spreadsheet
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. image:: static/OpenSALT_User_Manual_spreadsheet.png
+   :height: 171 px
+   :width: 489 px
+
+On the Import screen, you are able to import a spreadsheet. For the spreadsheet importer, FullStatement is again the primary required field.
+Screenshot of a sample file (template and larger sample located here_:
+
+.. _here: https://github.com/opensalt/opensalt/tree/develop/sample%20files
+
+.. image:: static/spreadshet_sample.png 
+
+If the framework you are importing already exists on the server, it will update that framework and let you know with a message.
 
 .. _h1d5d104a7b4f6a7c4a7715d503b1470:
 
@@ -2424,7 +2428,7 @@ The user will now need to associate items with the appropriate groups.
 
 .. _h6fe4164b12672914514d4f13492564:
 
-Note that association groups do not currently import correclty to others instances of OpenSALT 2.2. 
+Note that association groups do not currently import correclty to others instances of OpenSALT 2.2.
 
 6.6.3 Crosswalk Associations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
