@@ -1080,7 +1080,7 @@ Screenshot of a sample file (template and larger sample located here_:
 
 .. _here: https://github.com/opensalt/opensalt/tree/develop/sample%20files
 
-.. image:: static/spreadshet_sample.png 
+.. image:: static/spreadsheet_sample.png 
 
 If the framework you are importing already exists on the server, it will update that framework and let you know with a message.
 
