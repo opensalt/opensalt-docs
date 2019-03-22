@@ -306,8 +306,9 @@ The Chart below provides an overview of the users and their provisioned roles an
 |Add/Edit Orgs    |              |        |           |      X       |     X     |
 +-----------------+--------------+--------+-----------+--------------+-----------+
 
+Additionally, there are built in permissions regarding which users can edit organization-owned frameworks.
 
-
+.. image:: static/user_orgs.png
 
 .. _h155d6d5f4916497a1c6b10341f214165:
 
