@@ -302,7 +302,8 @@ The Chart below provides an overview of the users and their provisioned roles an
 | Edit Metadata   |              |        |           |      X       |    X      |
 | across orgs     |              |        |           |              |           |
 +-----------------+--------------+--------+-----------+--------------+-----------+
-|Add/edit Users   |              |        |     X     |      X       |     X     |
+|Add/edit Users   |              |        |           |              |           |
+|within an Org    |              |        |     X     |      X       |     X     |
 +-----------------+--------------+--------+-----------+--------------+-----------+
 |Add/Edit Orgs    |              |        |           |      X       |     X     |
 +-----------------+--------------+--------+-----------+--------------+-----------+
@@ -1081,7 +1082,7 @@ Screenshot of a sample file (template and larger sample located here_:
 
 .. _here: https://github.com/opensalt/opensalt/tree/develop/sample%20files
 
-.. image:: static/spreadsheet_sample.png 
+.. image:: static/spreadsheet_sample.png
 
 If the framework you are importing already exists on the server, it will update that framework and let you know with a message.
 
