@@ -1080,7 +1080,7 @@ Screenshot of a sample file (template and larger sample located here_:
 
 .. _here: https://github.com/opensalt/opensalt/tree/develop/sample%20files
 
-.. image:: static/spreadsheet_sample.png
+.. image:: static/spreadsheet_sample.png 
 
 If the framework you are importing already exists on the server, it will update that framework and let you know with a message.
 
@@ -1367,7 +1367,7 @@ SequenceNumber may be used to denote a particular order within parent nodes.
 
 Currently the only fields with Rich Text capability through markdown are FullStatement and Notes.
 
-See "CASE sample.csv" in the /opensalt/sample files/.
+See "CASE.csv" in the /opensalt/sample files/.
 
 Tab 1: Step 1 Read This
 
