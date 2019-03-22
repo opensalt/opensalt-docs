@@ -302,13 +302,15 @@ The Chart below provides an overview of the users and their provisioned roles an
 | Edit Metadata   |              |        |           |      X       |    X      |
 | across orgs     |              |        |           |              |           |
 +-----------------+--------------+--------+-----------+--------------+-----------+
-|Add/edit Users   |              |        |     X     |      X       |     X     |
+|Add/edit Users   |              |        |           |              |           |
+|within an Org    |              |        |     X     |      X       |     X     |
 +-----------------+--------------+--------+-----------+--------------+-----------+
 |Add/Edit Orgs    |              |        |           |      X       |     X     |
 +-----------------+--------------+--------+-----------+--------------+-----------+
 
+Additionally, there are built in permissions regarding which users can edit organization-owned frameworks.
 
-
+.. image:: static/user_orgs.png
 
 .. _h155d6d5f4916497a1c6b10341f214165:
 
@@ -1080,7 +1082,7 @@ Screenshot of a sample file (template and larger sample located here_:
 
 .. _here: https://github.com/opensalt/opensalt/tree/develop/sample%20files
 
-.. image:: static/spreadsheet_sample.png 
+.. image:: static/spreadsheet_sample.png
 
 If the framework you are importing already exists on the server, it will update that framework and let you know with a message.
 
