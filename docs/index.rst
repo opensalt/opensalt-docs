@@ -1340,7 +1340,7 @@ Steps:
 2) Make one association from that document to the framework you are working on now.
 3) Now use the guids from the external framework in the spreadsheet update tool as detailed above and the associations will load with connections to that external framework.
 
-.. _h405471134e472ab58320531a7c456
+.. _h405471134e472ab58320531a7c456:
 
 6.2.7  Copy Framework Only
 
@@ -1348,7 +1348,7 @@ When viewing a framework in the tree view, on the CF Document item detail pane y
 
 .. image:: static/copyframeworkbutton.png
 
-.. _h405471134e472ab58320531a7c457
+.. _h405471134e472ab58320531a7c457:
 
 6.2.7.1 Copy Content Only
 
@@ -1356,7 +1356,7 @@ If you are intending on creating a new framework from the existing one, or simpl
 
 .. image:: static/copy_content.png
 
-.. _h405471134e472ab58320531a7c458
+.. _h405471134e472ab58320531a7c458:
 
 6.2.7.2 Copy and Make Derivative Framework
 
@@ -1364,7 +1364,7 @@ This will copy the framework items into a the target document and create Exact M
 
 .. image:: static/copy_derivative.png
 
-
+.. _h10414a76521969321d1aa7b43555d10:
 
 6.3 Framework Items
 -------------------
