@@ -1360,7 +1360,7 @@ If you are intending on creating a new framework from the existing one, or simpl
 
 6.2.7.2 Copy and Make Derivative Framework
 
-This will copy the framework items into a the target document and create Exact Match Of associations between origin and target items. No other associations will be copied. *There is a bug in OpenSALT 2.2 where for some systems, a **hard refresh** is necessary before the copied Cf Items are viewable to the user underating the copy action.*
+This will copy the framework items into a the target document and create Exact Match Of associations between origin and target items. No other associations will be copied. **There is a bug in OpenSALT 2.2 where a hard refresh is necessary before the copied CFItems are viewable to the user undertaking the copy action.**
 
 .. image:: static/copy_derivative.png
 
