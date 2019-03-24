@@ -72,6 +72,9 @@ OpenSALT v.2.2 - User Manual
 |         `6.2.6 Create new associations via Spreadsheet Update Features <#h405471134e472ab58320531a7c433>`_
 |         `6.2.6.1 Update Associations on the same server <#h405471134e472ab58320531a7c444>`_
 |         `6.2.6.2 Update Associations from an external server <#h405471134e472ab58320531a7c455>`_
+|         `6.2.7 Copy Framework <#h405471134e472ab58320531a7c456>`_
+|         `6.2.7.1 Copy Framework only <#h405471134e472ab58320531a7c457>`_
+|         `6.2.7.2 Copy entire framework and Make Derivative Framework <#h405471134e472ab58320531a7c458>`_
 |     `6.3 Framework Items <#h10414a76521969321d1aa7b43555d10>`_
 |         `6.3.1 Import Items with OpenSALT Template <#h8523c2e335f3f114642662c4257c>`_
 |             `6.3.1.1 CSV Loading Guide for CASE <#h5777746416576973633711c4a42414c>`_
@@ -1336,6 +1339,31 @@ Steps:
 1) Load an external framework within the framework you are working in.
 2) Make one association from that document to the framework you are working on now.
 3) Now use the guids from the external framework in the spreadsheet update tool as detailed above and the associations will load with connections to that external framework.
+
+.. _h405471134e472ab58320531a7c456
+
+6.2.7  Copy Framework Only
+
+When viewing a framework in the tree view, on the CF Document item detail pane you with sufficient rights you will see a button to Copy Framework. This will open up an additional dialog box for multiple options to copy the entire framework documents
+
+.. image:: static/copyframeworkbutton.png
+
+.. _h405471134e472ab58320531a7c457
+
+6.2.7.1 Copy Content Only
+
+If you are intending on creating a new framework from the existing one, or simply with to add the current items to an existing framework, use this option. It will copy the framework items and structure and create new GUIDS for the items in the new framework. Associations are not transferred or created.
+
+.. image:: static/copy_content.png
+
+.. _h405471134e472ab58320531a7c458
+
+6.2.7.2 Copy and Make Derivative Framework
+
+This will copy the framework items into a the target document and create Exact Match Of associations between origin and target items. No other associations will be copied. *There is a bug in OpenSALT 2.2 where for some systems, a **hard refresh** is necessary before the copied Cf Items are viewable to the user underating the copy action.*
+
+.. image:: static/copy_derivative.png
+
 
 
 6.3 Framework Items
