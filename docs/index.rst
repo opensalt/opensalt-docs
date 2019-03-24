@@ -1397,7 +1397,7 @@ SequenceNumber may be used to denote a particular order within parent nodes.
 
 Currently the only fields with Rich Text capability through markdown are FullStatement and Notes.
 
-See "CASE sample.csv" in the /opensalt/sample files/.
+See "CASE.csv" in the /opensalt/sample files/.
 
 Tab 1: Step 1 Read This
 
