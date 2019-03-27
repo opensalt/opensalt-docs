@@ -64,6 +64,7 @@ OpenSALT v.2.2 - User Manual
 |     `6.2 OpenSALT Frameworks <#h6e1cc76c3a603b3c6b78172573b9>`_
 |         `6.2.1 Import Frameworks <#h13a3f4f5767166b3c411a397a2511b>`_
 |             `6.2.1.1 Import CASE-Compliant (JSON) File <#h3f23193f6633791f3f387f632bb3d54>`_
+|             `6.2.1.2 Import framework from Spreadsheet <#h3f23193f6633791f3f387f632bb3d55>`_
 |         `6.2.2  Manually Create Frameworks <#h603062394f35362239624c28149787d>`_
 |         `6.2.3 Edit Frameworks <#h2a278644e81e7672704d5078541c5>`_
 |         `6.2.4 Delete Frameworks <#ha6bf1778138296b7384e6b3d144c>`_
@@ -71,6 +72,9 @@ OpenSALT v.2.2 - User Manual
 |         `6.2.6 Create new associations via Spreadsheet Update Features <#h405471134e472ab58320531a7c433>`_
 |         `6.2.6.1 Update Associations on the same server <#h405471134e472ab58320531a7c444>`_
 |         `6.2.6.2 Update Associations from an external server <#h405471134e472ab58320531a7c455>`_
+|         `6.2.7 Copy Framework <#h405471134e472ab58320531a7c456>`_
+|         `6.2.7.1 Copy Framework only <#h405471134e472ab58320531a7c457>`_
+|         `6.2.7.2 Copy entire framework and Make Derivative Framework <#h405471134e472ab58320531a7c458>`_
 |     `6.3 Framework Items <#h10414a76521969321d1aa7b43555d10>`_
 |         `6.3.1 Import Items with OpenSALT Template <#h8523c2e335f3f114642662c4257c>`_
 |             `6.3.1.1 CSV Loading Guide for CASE <#h5777746416576973633711c4a42414c>`_
@@ -119,6 +123,7 @@ OpenSALT v.2.2 - User Manual
 |          `7.2.1 Features <#h5cc5056584c262f761b5b2746a3437>`_
 |          `7.2.2 Process <#h5cc5056584c262f761b5b2746a324a>`_
 |          `7.2.3 Configuration <#j5cc5056584c262f761b5b2746a346o>`_
+|      `7.3 Additional Fields <#j5cc5056584c262f761b5b2746a3460>`_
 
 .. _hb79795d3e46b47696c7c5b6d3a41e:
 
@@ -278,12 +283,12 @@ OpenSALT currently has five user roles with specified permissions for the tool:
 The Chart below provides an overview of the users and their provisioned roles and detailed descriptions follow.
 
 +-----------------+--------------+--------+-----------+--------------+-----------+
-|                 |Logged in User|Editor  |Org Admin  |Super Editor  |Super User |
+|User Type        |Logged in User|Editor  |Org Admin  |Super Editor  |Super User |
 +=================+==============+========+===========+==============+===========+
 |Access Frameworks|      X       |     X  |     X     |       X      |     X     |
 +-----------------+--------------+--------+-----------+--------------+-----------+
 |Edit a framework |              |        |           |              |           |
-|in their own     |     X        |    X   |     X     |              |           |
+|in their own     |              |    X   |     X     |      X       |     X     |
 |organization     |              |        |           |              |           |
 +-----------------+--------------+--------+-----------+--------------+-----------+
 |Edit a framework |              |   X    |     X     |    X         |    X      |
@@ -298,11 +303,18 @@ The Chart below provides an overview of the users and their provisioned roles an
 | Manage framework|              |        |           |              |           |
 | ownership       |              |        |     X     |     X        |    X      |
 +-----------------+--------------+--------+-----------+--------------+-----------+
-| Edit Metadata   |              |        |           |              |    X      |
+| Edit Metadata   |              |        |           |      X       |    X      |
 | across orgs     |              |        |           |              |           |
 +-----------------+--------------+--------+-----------+--------------+-----------+
+|Add/edit Users   |              |        |           |              |           |
+|within an Org    |              |        |     X     |      X       |     X     |
++-----------------+--------------+--------+-----------+--------------+-----------+
+|Add/Edit Orgs    |              |        |           |      X       |     X     |
++-----------------+--------------+--------+-----------+--------------+-----------+
 
+Additionally, there are built in permissions regarding which users can edit organization-owned frameworks.
 
+.. image:: static/user_orgs.png
 
 .. _h155d6d5f4916497a1c6b10341f214165:
 
@@ -1029,20 +1041,8 @@ This view provides a comprehensive history of changes made to the framework in g
 
 OpenSALT has two methods for importing in an existing CASE-compliant framework into the site.
 
-#. Import CASE-compliant file (JSON)
-
-To import data the user must first log into OpenSALT. After login, the **Import Framework** button will be displayed at the top of the screen.
-
-.. image:: static/OpenSALT_User_Manual_45.png
-   :height: 74 px
-   :width: 624 px
-
-
-Click on the **Import Framework** button to open the **Import Framework** window.  From this window the user can either **Import a CASE-compliant JSON file** or **Import a Spreadsheet** using the provided template.
-
-.. image:: static/OpenSALT_User_Manual_46.png
-   :height: 217 px
-   :width: 627 px
+1) Import a CASE Compliant (JSON) file
+2) Import a non-CASE compliant Spreadsheet file
 
 .. _h3f23193f6633791f3f387f632bb3d54:
 
@@ -1072,8 +1072,23 @@ The filename will display in the Choose File box, then click the **Import Framew
 
 To cancel the action and not import the file, click on the **Close** button.
 
-.. _h0203b6f35784a134519337c451c6f5c:
+.. _h3f23193f6633791f3f387f632bb3d55:
 
+6.2.1.2 Import Framework from spreadsheet
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. image:: static/OpenSALT_User_Manual_spreadsheet.png
+   :height: 171 px
+   :width: 489 px
+
+On the Import screen, you are able to import a spreadsheet. For the spreadsheet importer, FullStatement is again the primary required field.
+Screenshot of a sample file (template and larger sample located here_:
+
+.. _here: https://github.com/opensalt/opensalt/tree/develop/sample%20files
+
+.. image:: static/spreadsheet_sample.png
+
+If the framework you are importing already exists on the server, it will update that framework and let you know with a message.
 
 .. _h1d5d104a7b4f6a7c4a7715d503b1470:
 
@@ -1326,6 +1341,31 @@ Steps:
 2) Make one association from that document to the framework you are working on now.
 3) Now use the guids from the external framework in the spreadsheet update tool as detailed above and the associations will load with connections to that external framework.
 
+.. _h405471134e472ab58320531a7c456:
+
+6.2.7  Copy Framework Only
+
+When viewing a framework in the tree view, on the CF Document item detail pane you with sufficient rights you will see a button to Copy Framework. This will open up an additional dialog box for multiple options to copy the entire framework documents
+
+.. image:: static/copyframeworkbutton.png
+
+.. _h405471134e472ab58320531a7c457:
+
+6.2.7.1 Copy Content Only
+
+If you are intending on creating a new framework from the existing one, or simply with to add the current items to an existing framework, use this option. It will copy the framework items and structure and create new GUIDS for the items in the new framework. Associations are not transferred or created.
+
+.. image:: static/copy_content.png
+
+.. _h405471134e472ab58320531a7c458:
+
+6.2.7.2 Copy and Make Derivative Framework
+
+This will copy the framework items into a the target document and create Exact Match Of associations between origin and target items. No other associations will be copied. **There is a bug in OpenSALT 2.2 where a hard refresh is necessary before the copied CFItems are viewable to the user undertaking the copy action.**
+
+.. image:: static/copy_derivative.png
+
+.. _h10414a76521969321d1aa7b43555d10:
 
 6.3 Framework Items
 -------------------
@@ -1358,7 +1398,7 @@ SequenceNumber may be used to denote a particular order within parent nodes.
 
 Currently the only fields with Rich Text capability through markdown are FullStatement and Notes.
 
-See "CASE sample.csv" in the /opensalt/sample files/.
+See "CASE.csv" in the /opensalt/sample files/.
 
 Tab 1: Step 1 Read This
 
@@ -1405,7 +1445,7 @@ To create a hierarchy however, use human coding scheme, ischildOf and SequenceNu
 example:
 
 +---------------+------------------+-----------+----------------+
-|fullStatement | humanCodingscheme | IsChildOf | SequenceNumber |
+|fullStatement  |humanCodingScheme |IsChildOf  |SequenceNumber  |
 +---------------+------------------+-----------+----------------+
 |Parent Item    | P                |           | 1              |
 +---------------+------------------+-----------+----------------+
@@ -2416,7 +2456,10 @@ The filter option for the **Association Groups** will now display on the **Displ
 
 The user will now need to associate items with the appropriate groups.
 
+
 .. _h6fe4164b12672914514d4f13492564:
+
+Note that association groups do not currently import correclty to others instances of OpenSALT 2.2.
 
 6.6.3 Crosswalk Associations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -2928,3 +2971,24 @@ More information: \ |LINK28|\
 .. |LINK28| raw:: html
 
     <a href="https://github.com/opensalt/opensalt/blob/develop/docs/CONFIGURATION.md" target="_blank">https://github.com/opensalt/opensalt/blob/develop/docs/CONFIGURATION.md</a>
+
+.. _j5cc5056584c262f761b5b2746a3460:
+
+7.3 Additional Fields
+~~~~~~~~~~~~~~~~~~~~~
+
+OpenSALT 2.2 has the ability to add additional fields to the CfItem entity. These fields will NOT be exported with a standard CASE export or visible via the API. They will however be viewable when editing the Cf Item of any framework on that OpenSALT instance and be exported/able to be updated via the Spreadsheet Updater.
+
+To view the additional fields, login and a super user and go to <server name>/additional_field eg frameworks.act.org/additional_field
+
+.. image:: static/add_field_screen.png
+
+To create a new field, select New and create your field.
+
+.. image:: static/add_field.png
+
+The video below shows this as well as offering best practices guidance.
+\ |LINK29|\
+
+.. |LINK29| raw:: html
+<a href="https://www.youtube.com/watch?v=7pHAMh8QfJk&list=PLc37jyWQOZ2aLZ1tL3lTiPlti699qsobN&index=5&t=0s" target="_blank">Additional Fields Feature Video</a>
