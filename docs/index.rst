@@ -123,6 +123,7 @@ OpenSALT v.2.2 - User Manual
 |          `7.2.1 Features <#h5cc5056584c262f761b5b2746a3437>`_
 |          `7.2.2 Process <#h5cc5056584c262f761b5b2746a324a>`_
 |          `7.2.3 Configuration <#j5cc5056584c262f761b5b2746a346o>`_
+|       `7.3 Additional Fields <#j5cc5056584c262f761b5b2746a3460`_
 
 .. _hb79795d3e46b47696c7c5b6d3a41e:
 
@@ -2970,3 +2971,24 @@ More information: \ |LINK28|\
 .. |LINK28| raw:: html
 
     <a href="https://github.com/opensalt/opensalt/blob/develop/docs/CONFIGURATION.md" target="_blank">https://github.com/opensalt/opensalt/blob/develop/docs/CONFIGURATION.md</a>
+
+.. _j5cc5056584c262f761b5b2746a3460:
+
+7.3 Additional Fields
+~~~~~~~~~~~~~~~~~~~~~
+
+OpenSALT 2.2 has the ability to add additional fields to the CfItem entity. These fields will NOT be exported with a standard CASE export or visible via the API. They will however be viewable when editing the Cf Item of any framework on that OpenSALT instance and be exported/able to be updated via the Spreadsheet Updater.
+
+To view the additional fields, login and a super user and go to <server name>/additional_field eg frameworks.act.org/additional_field
+
+.. image:: static/add_field_screen.png
+
+To create a new field, select New and create your field.
+
+.. image:: static/add_field.png
+
+The video below shows this as well as offering best practices guidance.
+\ |LINK29|\
+
+.. |LINK29| raw:: html
+<a href="https://www.youtube.com/watch?v=7pHAMh8QfJk&list=PLc37jyWQOZ2aLZ1tL3lTiPlti699qsobN&index=5&t=0s" target="_blank">Additional Fields Feature Video</a>
