@@ -1310,7 +1310,8 @@ Other notes:
 
 Note that the framework should only be updated from within the Document itself using the Update button. Furthermore, note that currently these changes are irreversible within the application. The Update code searches for the Cf Item identifier and then performs the update procedures described above based on that business logic. (Eg if it finds a new identifier, it adds the CF Item. If it does not find an identifier previously present, that item is removed from the server).
 
-How-To Video: https://www.youtube.com/watch?v=thJb43wD6ZM&t=1s
+How-To `Video 
+<https://www.youtube.com/watch?v=thJb43wD6ZM&t=1s>`_
 
 .. _h405471134e472ab58320531a7c433:
 
@@ -2471,8 +2472,8 @@ OpenSALT allows for users to create crosswalks between frameworks. To create a c
 
     <a href="#heading=h.uzlj2tpaic68">6.2.2</a>
     
-How-To `Video_
-<https://youtu.be/eU8dEE2dzr8>`
+How-To `Video
+<https://youtu.be/eU8dEE2dzr8>`_
 
 .. _h3123662d575a5b54732475fd62e:
 
