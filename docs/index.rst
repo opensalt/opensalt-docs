@@ -2472,8 +2472,8 @@ OpenSALT allows for users to create crosswalks between frameworks. To create a c
 
     <a href="#heading=h.uzlj2tpaic68">6.2.2</a>
     
-How-To Video_
-.. _Video: https://youtu.be/eU8dEE2dzr8
+How-To `Video_
+<https://youtu.be/eU8dEE2dzr8>`_.
 
 .. _h3123662d575a5b54732475fd62e:
 
