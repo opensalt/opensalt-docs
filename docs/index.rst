@@ -18,7 +18,7 @@ OpenSALT v.2.2 - User Manual
 +---------+------------+-------+-----------------------+----------------+
 |B Dorman | ACT        |05/2018|OpenSALT v2.1          |.3              |
 +---------+------------+-------+-----------------------+----------------+
-|B Dorman | ACT        |11/2018|OpenSALT v2.2          |.4              |
+|B Dorman | ACT        |07/2019|OpenSALT v2.2          |.4              |
 +---------+------------+-------+-----------------------+----------------+
 
 **Table of Contents**
@@ -124,6 +124,8 @@ OpenSALT v.2.2 - User Manual
 |          `7.2.2 Process <#h5cc5056584c262f761b5b2746a324a>`_
 |          `7.2.3 Configuration <#j5cc5056584c262f761b5b2746a346o>`_
 |      `7.3 Additional Fields <#j5cc5056584c262f761b5b2746a3460>`_
+|      `7.4 Additional Fields <#j5cc5056584c262f761b5b2746a3461>`_
+
 
 .. _hb79795d3e46b47696c7c5b6d3a41e:
 
@@ -1310,7 +1312,7 @@ Other notes:
 
 Note that the framework should only be updated from within the Document itself using the Update button. Furthermore, note that currently these changes are irreversible within the application. The Update code searches for the Cf Item identifier and then performs the update procedures described above based on that business logic. (Eg if it finds a new identifier, it adds the CF Item. If it does not find an identifier previously present, that item is removed from the server).
 
-How-To `Video 
+How-To `Video
 <https://www.youtube.com/watch?v=thJb43wD6ZM&t=1s>`_
 
 .. _h405471134e472ab58320531a7c433:
@@ -2471,7 +2473,7 @@ OpenSALT allows for users to create crosswalks between frameworks. To create a c
 .. |LINK22| raw:: html
 
     <a href="#heading=h.uzlj2tpaic68">6.2.2</a>
-    
+
 How-To `Video
 <https://youtu.be/eU8dEE2dzr8>`_
 
@@ -2995,3 +2997,24 @@ The video below shows this as well as offering best practices guidance.
 
 .. |LINK29| raw:: html
 <a href="https://www.youtube.com/watch?v=7pHAMh8QfJk&list=PLc37jyWQOZ2aLZ1tL3lTiPlti699qsobN&index=5&t=0s" target="_blank">Additional Fields Feature Video</a>
+
+.. _j5cc5056584c262f761b5b2746a3461:
+
+7.4 File Storage and Image Attachment
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Often users want to attach an image to the notes section for clarity, or perhaps fullStatement can point to a learning object etc. The ability to add uploads and images was created for this type of functionality.
+
+7.4.1 Configuration
+While files cannot be stored natively in the CASE JSON, OpenSALT allows administrators setting up OpenSALT to include an AWS bucket as well as a prefix in the docker-compose.yml file - then the images are inserted with the native markdown/attachments are linked. Make sure your bucket is public if you intend for the CASE framework to be shared and disseminated publicly.
+
+AWS_ACCESS_KEY_ID:
+AWS_SECRET_ACCESS_KEY:
+AWS_S3_BUCKET:
+AWS_S3_REGION:
+AWS_S3_PREFIX:
+ATTACHMENT_URL_PREFIX:
+BUCKET_PROVIDER:
+
+7.4.2 Usage
+
+Users may drag and drop and image into the fullStatement and Notes field when this functionality is enabled. Future plans would add it to Exemplar as well but that is not on the OpenSALT roadmap at this time.
