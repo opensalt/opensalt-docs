@@ -1041,12 +1041,10 @@ This view provides a comprehensive history of changes made to the framework in g
 |Public Can View  |Only with     |       No     |       No     |       No     |
 |                 |specific link |              |              |              |
 +-----------------+--------------+--------------+--------------+--------------+
-|Org User can edit|      No      |       No     |       No     |       No     |
+|Org User can edit|      Yes     |       Yes    |       No     |       No     |
 +-----------------+--------------+--------------+--------------+--------------+
-| Non-Org editor  |Must be shared|Must be shared|Must be shared|Must be shared|
+| Non-Org editor  |Must be shared|Must be shared|       No     |       No     |
 |    can edit     |              |              |              |              |
-+-----------------+--------------+--------------+--------------+--------------+
-|Access Frameworks|      X       |     X        |     X        |       X      |
 +-----------------+--------------+--------------+--------------+--------------+
 
 .. _h6e1cc76c3a603b3c6b78172573b9:
