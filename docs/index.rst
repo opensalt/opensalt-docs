@@ -1033,6 +1033,7 @@ This view provides a comprehensive history of changes made to the framework in g
 .. _h473664e5a545502f3e27165c142e:
 
 6.1.3 Adoption Status Security Features
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 +-----------------+--------------+--------------+--------------+--------------+
 |Draft Status     |Private Draft |Draft         |Adopted       |Deprecated    |
