@@ -919,7 +919,7 @@ OpenSALT is designed to be a simple application with few UI screens. The Applica
 
 #. Framework Display Page
 
-Adoption Status Security Features 
+Adoption Status Security Features
 
 +-----------------+--------------+--------------+--------------+--------------+
 |Draft Status     |Private Draft |Draft         |Adopted       |Deprecated    |
@@ -930,7 +930,7 @@ Adoption Status Security Features
 |Org User can edit|      No      |       No     |       No     |       No     |
 +-----------------+--------------+--------------+--------------+--------------+
 | Non-Org editor  |Must be shared|Must be shared|Must be shared|Must be shared|
-|    can edit     |              |              |             |               |
+|    can edit     |              |              |              |              |
 +-----------------+--------------+--------------+--------------+--------------+
 |Access Frameworks|      X       |     X        |     X        |       X      |
 +-----------------+--------------+--------------+--------------+--------------+
