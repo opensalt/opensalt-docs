@@ -61,6 +61,7 @@ OpenSALT v.2.2 - User Manual
 |             `6.1.2.1 Public View <#h473664e5a545502f3e27165c142d>`_
 |             `6.1.2.2 Credentialed View <#hb622c455c38115d3972105a6f2f751e>`_
 |             `6.1.2.3 Log View <#hb622c455c38115d3972105a6f2f751f>`_
+|          `6.1.3 Adoption Status Security Features <#h473664e5a545502f3e27165c142e>`_
 |     `6.2 OpenSALT Frameworks <#h6e1cc76c3a603b3c6b78172573b9>`_
 |         `6.2.1 Import Frameworks <#h13a3f4f5767166b3c411a397a2511b>`_
 |             `6.2.1.1 Import CASE-Compliant (JSON) File <#h3f23193f6633791f3f387f632bb3d54>`_
@@ -913,28 +914,11 @@ If a user needs to be completed removed from OpenSALT, the Admin should delete t
 6.1 Navigate and View Frameworks
 --------------------------------
 
-OpenSALT is designed to be a simple application with few UI screens. The Application has two (2) primary screens for users to view and manger Frameworks and items:
+OpenSALT is designed to be a simple application with few UI screens. The Application has two (2) primary screens for users to view and manage Frameworks and items:
 
 #.  OpenSalt Home / Contents View Page
 
 #. Framework Display Page
-
-Adoption Status Security Features
-
-+-----------------+--------------+--------------+--------------+--------------+
-|Draft Status     |Private Draft |Draft         |Adopted       |Deprecated    |
-+=================+==============+==============+==============+==============+
-|Public Can View  |Only with     |       No     |       No     |       No     |
-|                 |specific link |              |              |              |
-+-----------------+--------------+--------------+--------------+--------------+
-|Org User can edit|      No      |       No     |       No     |       No     |
-+-----------------+--------------+--------------+--------------+--------------+
-| Non-Org editor  |Must be shared|Must be shared|Must be shared|Must be shared|
-|    can edit     |              |              |              |              |
-+-----------------+--------------+--------------+--------------+--------------+
-|Access Frameworks|      X       |     X        |     X        |       X      |
-+-----------------+--------------+--------------+--------------+--------------+
-
 
 .. _h35526e50752d323810506420224185f:
 
@@ -1045,6 +1029,24 @@ Logged in Editors will have additional insights into what changes have been made
 This view provides a comprehensive history of changes made to the framework in general as well as a method of exporting as a CSV file.
 
 .. image:: static/log_full.png
+
+.. _h473664e5a545502f3e27165c142e:
+
+6.1.3 Adoption Status Security Features
+
++-----------------+--------------+--------------+--------------+--------------+
+|Draft Status     |Private Draft |Draft         |Adopted       |Deprecated    |
++=================+==============+==============+==============+==============+
+|Public Can View  |Only with     |       No     |       No     |       No     |
+|                 |specific link |              |              |              |
++-----------------+--------------+--------------+--------------+--------------+
+|Org User can edit|      No      |       No     |       No     |       No     |
++-----------------+--------------+--------------+--------------+--------------+
+| Non-Org editor  |Must be shared|Must be shared|Must be shared|Must be shared|
+|    can edit     |              |              |              |              |
++-----------------+--------------+--------------+--------------+--------------+
+|Access Frameworks|      X       |     X        |     X        |       X      |
++-----------------+--------------+--------------+--------------+--------------+
 
 .. _h6e1cc76c3a603b3c6b78172573b9:
 
