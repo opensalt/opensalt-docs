@@ -919,6 +919,23 @@ OpenSALT is designed to be a simple application with few UI screens. The Applica
 
 #. Framework Display Page
 
+Adoption Status Security Features 
+
++-----------------+--------------+--------------+--------------+--------------+
+|Draft Status     |Private Draft |Draft         |Adopted       |Deprecated    |
++=================+==============+==============+==============+==============+
+|Public Can View  |Only with     |       No     |       No     |       No     |
+|                 |specific link |              |              |              |
++-----------------+--------------+--------------+--------------+--------------+
+|Org User can edit|      No      |       No     |       No     |       No     |
++-----------------+--------------+--------------+--------------+--------------+
+| Non-Org editor  |Must be shared|Must be shared|Must be shared|Must be shared|
+|    can edit     |              |              |             |               |
++-----------------+--------------+--------------+--------------+--------------+
+|Access Frameworks|      X       |     X        |     X        |       X      |
++-----------------+--------------+--------------+--------------+--------------+
+
+
 .. _h35526e50752d323810506420224185f:
 
 6.1.1 OpenSalt Home / Contents View Page
@@ -962,7 +979,7 @@ The default view is for all of the Organizations to be listed and their framewor
    :width: 565 px
 
 
-The user can expand the ORganizations to see all available Frameworks by clicking on either the arrow to the left of the Organization name or on the name itself.
+The user can expand the Organizations to see all available Frameworks by clicking on either the arrow to the left of the Organization name or on the name itself.
 
 .. image:: static/OpenSALT_User_Manual_40.jpeg
    :height: 217 px
