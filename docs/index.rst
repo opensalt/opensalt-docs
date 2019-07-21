@@ -81,9 +81,8 @@ OpenSALT v.2.2 - User Manual
 |             `6.3.1.1 CSV Loading Guide for CASE <#h5777746416576973633711c4a42414c>`_
 |             `6.3.1.2 Import Process <#h9291733595a7a78664a32f6e6f6f12>`_
 |             `6.3.1.3  Error Log <#h23320351bb10619415c7276b33c>`_
-|         `6.3.2 HTML Formatting <#h117048805776102d7a113720452f3f0>`_
-|         `6.3.2 Create Items Manually <#h757c75c270717938461c1778456b40>`_
-|         `6.3.3 Parent vs Child Items <#hee11494ea5a737422533f4857a34>`_
+|         `6.3.2 Formatting for FullStatement and Notes <#h760426c237f1dae3397155354c>`_
+|         `6.3.3 Create Items Manually <#h757c75c270717938461c1778456b40>`_
 |         `6.3.4 Edit Items <#h34582e2c50517f447c3367b591218>`_
 |             `6.3.4.1 Edit Item Content <#h11415a1c7a7424802ff154b3f2252>`_
 |             `6.3.4.2 Edit Item Positions <#h6e264f53772d28c3a845e5e2246>`_
@@ -1560,14 +1559,14 @@ On import, error messages will display when a file is missing fields. These erro
 
 .. _h760426c237f1dae3397155354c:
 
-6.3.2 Formatting for Full Statement
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+6.3.2 Formatting for Full Statement and Notes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Item full statements can be formatted using three different methods / pure UTF8 text can be enhanced with:
 
 * Markdown
 
-* LaTeX
+* Katex
 
 * Limited HTML tags
 
@@ -1595,10 +1594,10 @@ Note that since OpenSALT uses markdown(\ |LINK13|\ ) as the primary formatting l
 
 .. _h712252444f3010471e714d613052609:
 
-6.3.2.3 Using LaTeX
+6.3.2.3 Using Katex
 ^^^^^^^^^^^^^^^^^^^
 
-The LaTeX system supports plain text writing of all KaTeX functions listed \ |LINK14|\ . In-line LaTeX is formatted as braced between dollar signs ($):
+The Katex system supports plain text writing of all KaTeX functions listed \ |LINK14|\ . In-line Katex is formatted as braced between dollar signs ($):
 
 .. |LINK14| raw:: html
 
@@ -1609,16 +1608,16 @@ The LaTeX system supports plain text writing of all KaTeX functions listed \ |LI
    :width: 624 px
 
 
-Alternatively, block text LaTeX is formatted as braced between double dollar signs ($$).
+Alternatively, block text Katex is formatted as braced between double dollar signs ($$).
 
 (no screenshot available)
 
 .. _h3c5d33407b22107e304457e6932141b:
 
-6.3.2.4 Combining text and LaTeX in-line
+6.3.2.4 Combining text and Katex in-line
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-LaTeX formatting may be combined in-line with plain text in the markdown editor:
+Katex formatting may be combined in-line with plain text in the markdown editor:
 
 .. image:: static/OpenSALT_User_Manual_85.png
    :height: 93 px
@@ -1630,7 +1629,7 @@ LaTeX formatting may be combined in-line with plain text in the markdown editor:
 6.3.2.5 Constraints for using HTML tags
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-HTML and LaTeX cannot be combined in-line with anything else.
+HTML and Katex cannot be combined in-line with anything else.
 
 .. _h5e7e11124273126f13a587e68482f6e:
 
