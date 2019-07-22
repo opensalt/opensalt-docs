@@ -1570,7 +1570,7 @@ Item full statements can be formatted using three different methods / pure UTF8 
 
 * Limited HTML tags
 
-These three formatting options for text can be combined in-line with limitations.
+These three formatting options for text can be combined in-line with limitations. Also note that HTML and Katex will not render consistently in the Tree and top of the Item Detail pane.
 
 .. _h7d786e1625325662166b2742346719:
 
