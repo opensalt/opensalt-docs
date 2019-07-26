@@ -1363,7 +1363,7 @@ Steps:
 
 6.2.7  Copy Framework Only
 
-When viewing a framework in the tree view, with sufficient rights on the CF Document item detail pane you will see a button to Copy Framework. This will open up an additional dialog box for multiple options to copy the entire framework documents
+When viewing a framework in the tree view, with sufficient rights on the CF Document item details pane you will see a button to Copy Framework. This will open up an additional dialog box for multiple options to copy the entire framework documents
 
 .. image:: static/copyframeworkbutton.png
 :height: 100 px
@@ -1572,7 +1572,7 @@ Item full statements can be formatted using three different methods / pure UTF8 
 
 * Limited HTML tags
 
-These three formatting options for text can be combined in-line with limitations. Also note that HTML and Katex will not render consistently in the Tree and top of the Item Detail pane.
+These three formatting options for text can be combined in-line with limitations. Also note that HTML and Katex will not render consistently in the Tree and top of the Item Details pane.
 
 .. _h7d786e1625325662166b2742346719:
 
@@ -1895,14 +1895,14 @@ Once the Item is created it will by default only be a child of the item it was c
    :width: 590 px
 
 
-To add items nested below the item created, the user will need to make this item a Parent item. Highlight the item on in the **Framework Display** and click on the **Make This Item a Parent** button in the **Item Detail Frame**.
+To add items nested below the item created, the user will need to make this item a Parent item. Highlight the item on in the **Framework Display** and click on the **Make This Item a Parent** button in the **Item Details Frame**.
 
 .. image:: static/OpenSALT_User_Manual_110.png
    :height: 252 px
    :width: 617 px
 
 
-The bullet icon on the left of the item in the **Framework Display** will update to reflect it is now a P**arent item**  and the buttons in the **Item Detail Frame** will update to allow the user to either downgrade back to a child with the **Make This Item a Child** button or to add a new child for this parent item with the **Add a New Child** *button.*
+The bullet icon on the left of the item in the **Framework Display** will update to reflect it is now a P**arent item**  and the buttons in the **Item Details Frame** will update to allow the user to either downgrade back to a child with the **Make This Item a Child** button or to add a new child for this parent item with the **Add a New Child** *button.*
 
 The user can toggle the item between **Parent or Child** as necessary by clicking the **Make This Item a Parent** or **Make this Item a Child** buttons respectively.
 
@@ -1947,7 +1947,7 @@ The user can repeat this process an unlimited number of times to continue adding
 6.3.5.1 Edit Item Content
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To **edit** an item, the user must click on the item in the **Framework Display** and then click on the **Edit** button in the **Item Detail Frame.**
+To **edit** an item, the user must click on the item in the **Framework Display** and then click on the **Edit** button in the **Item Details Frame.**
 
 .. image:: static/OpenSALT_User_Manual_116.png
    :height: 264 px
@@ -2005,7 +2005,7 @@ All credentialed users can delete items that they have access to edit.
 6.3.6.1 Delete Child Item
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To **delete** a child item, the user must click on the item in the **Framework Display** and then click on the **Delete** button in the **Item Detail Frame.**
+To **delete** a child item, the user must click on the item in the **Framework Display** and then click on the **Delete** button in the **Item Details Frame**.
 
 .. _h336e6a1d1678622c20691174730325d:
 
@@ -2029,7 +2029,7 @@ To cancel and leave the item in the Framework, click the **Cancel** button.
 6.3.6.2 Delete Parent Item
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To **delete** a parent item, the user must click on the item in the **Framework Display** and then click on the **Delete** button in the **Item Detail Frame.**
+To **delete** a parent item, the user must click on the item in the **Framework Display** and then click on the **Delete** button in the **Item Details Frame**.
 
 .. _h2137497f644f6de4c4c69506531722d:
 
@@ -2079,7 +2079,7 @@ The **Add an Exemplar** window will open.
 The user can either enter in a URL to an Exemplar or type text into the box. To save the Exemplar, click on the **Add Exemplar** button. To discard changes click on the **Cancel** button.
 
 
-After clicking the **Add Exemplar** button, the F**ramework Display** page will refresh and the exemplar is linked to the item. This can be verified in the **Item Detail Frame**.
+After clicking the **Add Exemplar** button, the F**ramework Display** page will refresh and the exemplar is linked to the item. This can be verified in the **Item Details Frame**.
 
 .. image:: static/OpenSALT_User_Manual_127.png
    :height: 284 px
@@ -2091,7 +2091,7 @@ After clicking the **Add Exemplar** button, the F**ramework Display** page will 
 6.4.2 Delete Exemplar
 ~~~~~~~~~~~~~~~~~~~~~
 
-To delete an **Exemplar** from an item, click on the ‘**x**’ icon next to the exemplar detail in the **Exemplar section** of the I**tem Detail Frame** on the **Framework Display** page. Note this action can not be reversed once completed. The user will be promoted with a warning message to proceed.
+To delete an **Exemplar** from an item, click on the ‘**x**’ icon next to the exemplar detail in the **Exemplar section** of the **Item Details Frame** on the **Framework Display** page. Note this action can not be reversed once completed. The user will be promoted with a warning message to proceed.
 
 .. image:: static/OpenSALT_User_Manual_128.png
    :height: 337 px
@@ -2394,7 +2394,7 @@ Users can either use the **Tree View** or the **Association View** to delete ass
 
 6.6.1.2.1 Delete Associations from Tree View
 
-On the **Framework Display** page, click on the **Tree View** button if not already selected. Then locate the association in the I**tem Detail** frame. Click the **X** icon next to the association to remove.
+On the **Framework Display** page, click on the **Tree View** button if not already selected. Then locate the association in the **Item Details** frame. Click the **X** icon next to the association to remove.
 
 .. image:: static/OpenSALT_User_Manual_155.png
    :height: 334 px
@@ -2441,7 +2441,7 @@ The user will get a popup window warning that he action can not be undone. If th
 
 Associations can belong to an association group. There is a selector to filter the view for only those items and associations for a specific group, if there are any. If there are no group, all associations belong to the default “Null” group. If there are any association group, the default view is “All” association groups. The Association group filter drop list allows you to choose the “null” group, the “All” group or any specific group. In the view, an association that belongs to an association group is tagged in the display as such:
 
-On the **Framework Display** page, click the **Manage Association Groups** button in the **Item Detail** frame.
+On the **Framework Display** page, click the **Manage Association Groups** button in the **Item Details** frame.
 
 .. image:: static/OpenSALT_User_Manual_159.png
    :height: 269 px
@@ -2527,7 +2527,7 @@ The **Load External Document** window will display. The user will need to copy a
    :width: 568 px
 
 
-In instances of OpenSALT, the **Case Framework URL** can be found on the **Framework Display** page in the **Item Detail** frame.
+In instances of OpenSALT, the **Case Framework URL** can be found on the **Framework Display** page in the **Item Details** frame.
 
 .. image:: static/OpenSALT_User_Manual_146.png
    :height: 170 px
@@ -2543,7 +2543,7 @@ Note if the copied URL does not have the .JSON extension, you will need to add i
 
 To load the framework, click the **Load Document** button.
 
-Next the user will click on the **Create Association** option above the **Item Detail** frame.
+Next the user will click on the **Create Association** option above the **Item Details** frame.
 
 .. image:: static/OpenSALT_User_Manual_166.png
    :height: 234 px
@@ -2785,7 +2785,7 @@ The columns on the spreadsheet include the following:
 
 * *AbbreviatedStatement:* Abbreviated or summary statement provided by the Publisher. This is an optional field in OpenSALT and may be blank.
 
-* *ConceptKeywords:* Upper level CF Item node statements may be used to populate Concept Keywords of lower level nodes. upper The concepts data structure allows a master list of keywords to be defined which can then be parsed down specific to a node. This works as usually concepts will be a less granular hierarchy representation of of the more detailed nodes in CF items. A node could be 'Geometry' and the lower node is 'Tangents' but the keywords for 'tangents' could include the word geometry. This is an optional field in OpenSALT and may be blank.
+* *ConceptKeywords:* Upper level CF Item node statements may be used to populate Concept Keywords of lower level nodes. The concepts data structure allows a master list of keywords to be defined which can then be parsed down specific to a node. This works as usually concepts will be a less granular hierarchy representation of of the more detailed nodes in CF items. A node could be 'Geometry' and the lower node is 'Tangents' but the keywords for 'tangents' could include the word geometry. This is an optional field in OpenSALT and may be blank.
 
 * *Notes:* In some cases, this can be used to contain additional information found in the original source document. This is an optional field in OpenSALT and may be blank.
 
@@ -2797,7 +2797,7 @@ The columns on the spreadsheet include the following:
 
 * *EducationLevel:* 	The current US K12 defined vocabulary is to use CEDS https://ceds.ed.gov/cedselementdetaiCF.aspx?termid=8267. Multiple values are allowed via comma delimitation and should be used to express grade spans. This is an optional field in OpenSALT and may be blank.
 
-* *CFItemType:* e.g., "Standard," "Benchmark," "Strand," or "Topic." or "Level 1, Level 2,..." This is an optional field in OpenSALT and may be blank.
+* *CFItemType:* e.g., "Standard", "Benchmark", "Strand", "Topic" or "Level 1, Level 2,..." This is an optional field in OpenSALT and may be blank.
 
 * *License:* Systems may filter for content with particular licences to support discovery. This is an optional field in OpenSALT and may be blank.
 
@@ -2864,7 +2864,7 @@ OpenSALT provides the users with the direct **URL** for the selected Framework P
 7.1.1 Features
 ~~~~~~~~~~~~~~
 
-	Provisioned users are able to upvote and reply to other users comments. You are able to delete comments that you have written as well. Simply navigate to any framework item and make your comment, or upvote/respond to others previous comments. The comment panel may be hidden - it will be on the bottom of the ride side panel.
+	Provisioned users are able to upvote and reply to other users comments. You are able to delete comments that you have written as well. Simply navigate to any framework item and make your comment, or upvote/respond to others previous comments. The comment panel may be hidden - it will be on the bottom of the right side panel.
 
 .. image:: static/OpenSALT_User_Manual_185.png
    :height: 262 px
@@ -2876,7 +2876,7 @@ OpenSALT provides the users with the direct **URL** for the selected Framework P
 7.1.2 Viewing Comments
 ~~~~~~~~~~~~~~~~~~~~~~
 
-You are able to sort comments by the three tabs - newest, Oldest, and Most Popular (see graphic above). You may use these tabs to sort comments in the way that suits your interest and purpose best. Comments are not a part of the framework itself but independently stored. Due to a feature that truncates the email address of a participant, users cannot start their usernames with the @ symbol.
+You are able to sort comments by the three tabs - Newest, Oldest, and Most Popular (see graphic above). You may use these tabs to sort comments in the way that suits your interest and purpose best. Comments are not a part of the framework itself but independently stored. Due to a feature that truncates the email address of a participant, users cannot start their usernames with the @ symbol.
 
 .. image:: static/OpenSALT_User_Manual_186.png
    :height: 278 px
@@ -2895,7 +2895,7 @@ Configuration for commenting can be found via the Github Config files for admini
 7.1.4 License
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-OpenSALT has integrated this third party code ( http://viima.github.io/jquery-comments/ )with a congruent MIT license in order for reviewing frameworks.
+OpenSALT has integrated this third party code ( http://viima.github.io/jquery-comments/ ) with a congruent MIT license in order for reviewing frameworks.
 
 .. _h662f65664e775a707382e4d3e1c37:
 
@@ -2942,7 +2942,7 @@ Upon submitting this information a short email is sent notifying the user of a p
    :height: 148 px
    :width: 624 px
 
-Rejecting the users will simply suspend the accounts. Accepting the user will generate another confirmation email to the users notifying them of successful account creation,
+Rejecting the users will simply suspend the accounts. Accepting the user will generate another confirmation email to the users notifying them of successful account creation.
 
 .. _j5cc5056584c262f761b5b2746a346o:
 
