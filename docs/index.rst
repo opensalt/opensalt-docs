@@ -18,7 +18,7 @@ OpenSALT v.2.2 - User Manual
 +---------+------------+-------+-----------------------+----------------+
 |B Dorman | ACT        |05/2018|OpenSALT v2.1          |.3              |
 +---------+------------+-------+-----------------------+----------------+
-|B Dorman | ACT        |11/2018|OpenSALT v2.2          |.4              |
+|B Dorman | ACT        |07/2019|OpenSALT v2.2          |.4              |
 +---------+------------+-------+-----------------------+----------------+
 
 **Table of Contents**
@@ -61,6 +61,7 @@ OpenSALT v.2.2 - User Manual
 |             `6.1.2.1 Public View <#h473664e5a545502f3e27165c142d>`_
 |             `6.1.2.2 Credentialed View <#hb622c455c38115d3972105a6f2f751e>`_
 |             `6.1.2.3 Log View <#hb622c455c38115d3972105a6f2f751f>`_
+|          `6.1.3 Adoption Status Security Features <#h473664e5a545502f3e27165c142e>`_
 |     `6.2 OpenSALT Frameworks <#h6e1cc76c3a603b3c6b78172573b9>`_
 |         `6.2.1 Import Frameworks <#h13a3f4f5767166b3c411a397a2511b>`_
 |             `6.2.1.1 Import CASE-Compliant (JSON) File <#h3f23193f6633791f3f387f632bb3d54>`_
@@ -80,9 +81,8 @@ OpenSALT v.2.2 - User Manual
 |             `6.3.1.1 CSV Loading Guide for CASE <#h5777746416576973633711c4a42414c>`_
 |             `6.3.1.2 Import Process <#h9291733595a7a78664a32f6e6f6f12>`_
 |             `6.3.1.3  Error Log <#h23320351bb10619415c7276b33c>`_
-|         `6.3.2 HTML Formatting <#h117048805776102d7a113720452f3f0>`_
-|         `6.3.2 Create Items Manually <#h757c75c270717938461c1778456b40>`_
-|         `6.3.3 Parent vs Child Items <#hee11494ea5a737422533f4857a34>`_
+|         `6.3.2 Formatting for FullStatement and Notes <#h760426c237f1dae3397155354c>`_
+|         `6.3.3 Create Items Manually <#h757c75c270717938461c1778456b40>`_
 |         `6.3.4 Edit Items <#h34582e2c50517f447c3367b591218>`_
 |             `6.3.4.1 Edit Item Content <#h11415a1c7a7424802ff154b3f2252>`_
 |             `6.3.4.2 Edit Item Positions <#h6e264f53772d28c3a845e5e2246>`_
@@ -107,23 +107,24 @@ OpenSALT v.2.2 - User Manual
 |             `6.6.3.3 Delete Crosswalk Associations <#h5d772b55c793e1c441729195453c14>`_
 |     `6.7 Export Frameworks Packages <#h4f5432411f2146301151697341562b46>`_
 |         `6.7.1 Export Competency Framework Package (JSON) File <#h163e401e8291001a4c5447e45136c>`_
-|         `6.7.2 Export Styled PDF (Future Function) <#h69105f5c3a80644f6a806369c586458>`_
-|         `6.7.3 Export Spreadsheet <#h596b20112477664e57757b30727b58>`_
-|             `6.7.3.1 CF Doc Tab <#h2c3d432f26522266f31614d703c15b>`_
-|             `6.7.3.2 CF Item Tab <#h495651a32261e342218226c7b239>`_
-|             `6.7.3.3 CF Association Tab <#h7a453f1eb35d645b3d574c4e4a2552>`_
-|         `6.7.4 Export HTML Archive (Future Function) <#h637197e5b246b4c3f7c222d352d67>`_
-|         `6.7.5 Link for Browser View <#h74c126565a611e731014cb6b8>`_
+|         `6.7.2 Export Spreadsheet <#h596b20112477664e57757b30727b58>`_
+|             `6.7.2.1 CF Doc Tab <#h2c3d432f26522266f31614d703c15b>`_
+|             `6.7.2.2 CF Item Tab <#h495651a32261e342218226c7b239>`_
+|             `6.7.2.3 CF Association Tab <#h7a453f1eb35d645b3d574c4e4a2552>`_
+|         `6.7.3 Link for Browser View <#h74c126565a611e731014cb6b8>`_
 | `7.0 Options <#h3e237e1a4d5b2d787d76433f407b725f>`_
 |     `7.1 Commenting Module <#h366f59222a45735257254b1927547c6a>`_
-|         `7.1.2. Features <#h2e1e53322a7678fc1a293916464311>`_
-|         `7.1.3 Viewing Comments <#hf2b15673b1ad53c735328544e7e1d>`_
-|         `7.1.4 Commenting Configuration <#h5cc5056584c262f761b5b2746a346b>`_
+|         `7.1.1 Features <#h2e1e53322a7678fc1a293916464311>`_
+|         `7.1.2 Viewing Comments <#hf2b15673b1ad53c735328544e7e1d>`_
+|         `7.1.3 Commenting Configuration <#h5cc5056584c262f761b5b2746a346b>`_
+|         `7.1.4 License <#h49416333194b564671d134e68507a60>`_
 |      `7.2 Automated User Sign up <#h662f65664e775a707382e4d3e1c37>`_
 |          `7.2.1 Features <#h5cc5056584c262f761b5b2746a3437>`_
 |          `7.2.2 Process <#h5cc5056584c262f761b5b2746a324a>`_
 |          `7.2.3 Configuration <#j5cc5056584c262f761b5b2746a346o>`_
 |      `7.3 Additional Fields <#j5cc5056584c262f761b5b2746a3460>`_
+|      `7.4 File/Image Upload <#j5cc5056584c262f761b5b2746a3461>`_
+
 
 .. _hb79795d3e46b47696c7c5b6d3a41e:
 
@@ -193,7 +194,7 @@ The user interface should support the latest versions of the following web brows
 
 * Firefox
 
-.. _h556146c2387114251125619317e27:
+.. _h787f432939517708191470483c5f43:
 
 2.0  OpenSALT Structure and Access
 ===================================
@@ -228,7 +229,7 @@ This is a view of an OpenSALT site hosted by ACT, located at frameworks.act.org
 
 All public, non-provisioned users are able to view the frameworks and content with each form this view. Navigating the frameworks will be further discussed in a later section of this document.
 
-.. _h6a553f521677b3b627ff294828321:
+.. _ha586e2f5d293a123c76302e1b7822:
 
 2.3 Log into OpenSALT
 ----------------------
@@ -911,7 +912,7 @@ If a user needs to be completed removed from OpenSALT, the Admin should delete t
 6.1 Navigate and View Frameworks
 --------------------------------
 
-OpenSALT is designed to be a simple application with few UI screens. The Application has two (2) primary screens for users to view and manger Frameworks and items:
+OpenSALT is designed to be a simple application with few UI screens. The Application has two (2) primary screens for users to view and manage Frameworks and items:
 
 #.  OpenSalt Home / Contents View Page
 
@@ -960,7 +961,7 @@ The default view is for all of the Organizations to be listed and their framewor
    :width: 565 px
 
 
-The user can expand the ORganizations to see all available Frameworks by clicking on either the arrow to the left of the Organization name or on the name itself.
+The user can expand the Organizations to see all available Frameworks by clicking on either the arrow to the left of the Organization name or on the name itself.
 
 .. image:: static/OpenSALT_User_Manual_40.jpeg
    :height: 217 px
@@ -1027,6 +1028,23 @@ This view provides a comprehensive history of changes made to the framework in g
 
 .. image:: static/log_full.png
 
+.. _h473664e5a545502f3e27165c142e:
+
+6.1.3 Adoption Status Security Features
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
++-----------------+--------------+--------------+--------------+--------------+
+|Draft Status     |Private Draft |Draft         |Adopted       |Deprecated    |
++=================+==============+==============+==============+==============+
+|Public Can View  |Only with     |       No     |       No     |       No     |
+|                 |specific link |              |              |              |
++-----------------+--------------+--------------+--------------+--------------+
+|Org User can edit|      Yes     |       Yes    |       No     |       No     |
++-----------------+--------------+--------------+--------------+--------------+
+| Non-Org editor  |Must be shared|Must be shared|       No     |       No     |
+|    can edit     |              |              |              |              |
++-----------------+--------------+--------------+--------------+--------------+
+
 .. _h6e1cc76c3a603b3c6b78172573b9:
 
 6.2 OpenSALT Frameworks
@@ -1090,7 +1108,7 @@ Screenshot of a sample file (template and larger sample located here_:
 
 If the framework you are importing already exists on the server, it will update that framework and let you know with a message.
 
-.. _h1d5d104a7b4f6a7c4a7715d503b1470:
+.. _h603062394f35362239624c28149787d:
 
 6.2.2  Manually Create Frameworks
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1284,14 +1302,14 @@ Next view the selected Framework by expanding the organization and clicking on t
 
 .. image:: static/OpenSALT_User_Manual_64.png
    :height: 224 px
-   :width: 500 px
+   :width: 400 px
 
 
 
 Once you are sure the correct Framework is selected and you are ready to **delete**, click the **Delete** button.
 
 .. image:: static/OpenSALT_User_Manual_67.png
-   :height: 500 px
+   :height: 400 px
    :width: 329 px
 
 
@@ -1310,8 +1328,8 @@ Other notes:
 
 Note that the framework should only be updated from within the Document itself using the Update button. Furthermore, note that currently these changes are irreversible within the application. The Update code searches for the Cf Item identifier and then performs the update procedures described above based on that business logic. (Eg if it finds a new identifier, it adds the CF Item. If it does not find an identifier previously present, that item is removed from the server).
 
-How-To Video:
-<https://www.youtube.com/watch?v=thJb43wD6ZM&t=1s>
+How-To `Video
+<https://www.youtube.com/watch?v=thJb43wD6ZM&t=1s>`_
 
 .. _h405471134e472ab58320531a7c433:
 
@@ -1345,9 +1363,11 @@ Steps:
 
 6.2.7  Copy Framework Only
 
-When viewing a framework in the tree view, on the CF Document item detail pane you with sufficient rights you will see a button to Copy Framework. This will open up an additional dialog box for multiple options to copy the entire framework documents
+When viewing a framework in the tree view, with sufficient rights on the CF Document item detail pane you will see a button to Copy Framework. This will open up an additional dialog box for multiple options to copy the entire framework documents
 
 .. image:: static/copyframeworkbutton.png
+:height: 100 px
+:width: 150 px
 
 .. _h405471134e472ab58320531a7c457:
 
@@ -1370,14 +1390,14 @@ This will copy the framework items into a the target document and create Exact M
 6.3 Framework Items
 -------------------
 
-Items can be created for Frameworks either by importing existing data using the OpenSALT template or by manually creating the items.
+Items can be created for Frameworks either by importing existing data using the OpenSALT CSV template or by manually creating the items.
 
 .. _h405471134e472ab58320531a7c422:
 
 6.3.1 Import Items with OpenSALT Template
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Users can create their own CASE-compliant data files to load into OpenSALT using a provided template and guide. This allows users to easily import their items or standards into their created framework and eliminates the need for manually entering the data into the system. The template can be found here:  \ |LINK12|\ .
+Users can create their own CASE-compliant data files to load into OpenSALT using a provided CSV template and guide. This allows users to easily import their items or standards into their created framework and eliminates the need for manually entering the data into the system. The template can be found here:  \ |LINK12|\ .
 
 .. |LINK12| raw:: html
 
@@ -1387,6 +1407,7 @@ Users can create their own CASE-compliant data files to load into OpenSALT using
 
 6.3.1.1 CSV Loading Guide for CASE
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- Note that since OpenSALT 2.0 it is preferred to use the Spreadsheet Importer instead of this CSV Import.
 
 General notes when loading/creating CSV files for bulk upload of child statements:
 
@@ -1540,18 +1561,18 @@ On import, error messages will display when a file is missing fields. These erro
 
 .. _h760426c237f1dae3397155354c:
 
-6.3.2 Formatting for Full Statement
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+6.3.2 Formatting for Full Statement and Notes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Item full statements can be formatted using three different methods / pure UTF8 text can be enhanced with:
 
 * Markdown
 
-* LaTeX
+* Katex
 
 * Limited HTML tags
 
-These three formatting options for text can be combined in-line with limitations.
+These three formatting options for text can be combined in-line with limitations. Also note that HTML and Katex will not render consistently in the Tree and top of the Item Detail pane.
 
 .. _h7d786e1625325662166b2742346719:
 
@@ -1575,10 +1596,10 @@ Note that since OpenSALT uses markdown(\ |LINK13|\ ) as the primary formatting l
 
 .. _h712252444f3010471e714d613052609:
 
-6.3.2.3 Using LaTeX
+6.3.2.3 Using Katex
 ^^^^^^^^^^^^^^^^^^^
 
-The LaTeX system supports plain text writing of all KaTeX functions listed \ |LINK14|\ . In-line LaTeX is formatted as braced between dollar signs ($):
+The Katex system supports plain text writing of all KaTeX functions listed \ |LINK14|\ . In-line Katex is formatted as braced between dollar signs ($):
 
 .. |LINK14| raw:: html
 
@@ -1589,16 +1610,16 @@ The LaTeX system supports plain text writing of all KaTeX functions listed \ |LI
    :width: 624 px
 
 
-Alternatively, block text LaTeX is formatted as braced between double dollar signs ($$).
+Alternatively, block text Katex is formatted as braced between double dollar signs ($$).
 
 (no screenshot available)
 
 .. _h3c5d33407b22107e304457e6932141b:
 
-6.3.2.4 Combining text and LaTeX in-line
+6.3.2.4 Combining text and Katex in-line
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-LaTeX formatting may be combined in-line with plain text in the markdown editor:
+Katex formatting may be combined in-line with plain text in the markdown editor:
 
 .. image:: static/OpenSALT_User_Manual_85.png
    :height: 93 px
@@ -1610,7 +1631,7 @@ LaTeX formatting may be combined in-line with plain text in the markdown editor:
 6.3.2.5 Constraints for using HTML tags
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-HTML and LaTeX cannot be combined in-line with anything else.
+HTML and Katex cannot be combined in-line with anything else.
 
 .. _h5e7e11124273126f13a587e68482f6e:
 
@@ -1805,7 +1826,7 @@ Underline may be utilized by entering Markdown’s emphasis tag, or placing _und
 
 Line Break after markdown table requires the following input: $~$ or an HTML <br>
 
-.. _h439621724a6868657a4a744a69c71:
+.. _h757c75c270717938461c1778456b40:
 
 6.3.3 Create Items Manually
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1914,14 +1935,14 @@ The user can repeat this process an unlimited number of times to continue adding
    :width: 624 px
 
 
-.. _h8201a81d2a91674762e145b5a4931:
+.. _h34582e2c50517f447c3367b591218:
 
 6.3.5 Edit Items
 ~~~~~~~~~~~~~~~~
 
 **Audience: Super Users, Super Editor, Organization Admins, Organization Editor**
 
-.. _h5e35241f59206069503f4201efa4e:
+.. _h11415a1c7a7424802ff154b3f2252:
 
 6.3.5.1 Edit Item Content
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -1944,7 +1965,7 @@ To **save** the changes, click the **Save Changes** button.
 
 To **cancel** and discard the changes , click the **Cancel** button.
 
-.. _h69157d55e5f605ba4d2a777f3b1e2b:
+.. _h6e264f53772d28c3a845e5e2246:
 
 6.3.5.2 Edit Item Positions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -2230,7 +2251,7 @@ OpenSALT allows for the associations defined by \ |LINK19|\ . The permitted asso
     +----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
 
 
-.. _h5b382e5f3a7b484e5e49c7b706545f:
+.. _h2558124e33f4e6a415f47d675f2742:
 
 6.6.1.1 Create Associations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -2347,7 +2368,7 @@ Note to close the multi select function, click on **Actions** and select **Hide 
    :width: 293 px
 
 
-.. _hd1b6e2e5a1562f4f60da1a3f1f60:
+.. _h29645036134039768f4f2c4457652d:
 
 6.6.1.2 Edit Associations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -2369,6 +2390,8 @@ To Edit an association, the user must delete the association and create a new as
 
 Users can either use the **Tree View** or the **Association View** to delete associations.
 
+.. _h1d2176383b1f54c754861c1758301b:
+
 6.6.1.2.1 Delete Associations from Tree View
 
 On the **Framework Display** page, click on the **Tree View** button if not already selected. Then locate the association in the I**tem Detail** frame. Click the **X** icon next to the association to remove.
@@ -2384,6 +2407,7 @@ The user will get a popup window warning that he action can not be undone. If th
    :height: 133 px
    :width: 429 px
 
+.. _h111d2e1478713d77723970494749152:
 
 6.6.1.2.2 Delete Associations from Association View
 
@@ -2471,6 +2495,9 @@ OpenSALT allows for users to create crosswalks between frameworks. To create a c
 .. |LINK22| raw:: html
 
     <a href="#heading=h.uzlj2tpaic68">6.2.2</a>
+
+How-To `Video
+<https://youtu.be/eU8dEE2dzr8>`_
 
 .. _h3123662d575a5b54732475fd62e:
 
@@ -2602,7 +2629,7 @@ Alternatively if the entire crosswalk needs to be deleted and all associations, 
 
     <a href="#heading=h.z5n3wwx83avg">6.8</a>
 
-.. _h783d576b5c1c507f6d718562d5c5:
+.. _h4f5432411f2146301151697341562b46:
 
 6.7 Export Frameworks Packages
 -------------------------------
@@ -2622,13 +2649,8 @@ An Export window will display to provide the user with several **Export** option
 
 * Competency Framework Package (JSON)
 
-* Styled PDF
-
 * Spreadsheet Export
 
-* HTML Archive
-
-* Direct OpenSALT Link
 
 .. image:: static/OpenSALT_User_Manual_172.png
    :height: 229 px
@@ -2646,48 +2668,17 @@ The first **Export** option is the **Competency Framework Package (JSON)**. This
 
 When a user mouses over the **Competency Framework Package (JSON)** button, a soft explanation is displayed that advises the user of the button’s intended purpose: ‘Exports a JSON file using the IMS-standard format. This is the best format to user for Archiving Frameworks.’
 
-.. image:: static/OpenSALT_User_Manual_173.png
+.. image:: static/OpenSALT_User_Manual_172.png
    :height: 249 px
    :width: 624 px
 
-
-To generate a JSON file for the Framework Package, the user will click on the **Competency Framework Package (JSON)** *button.* The browser will automatically create and down load a JSON file for the Framework Package. The user will need to retrieve the file following the browser’s specific protocol and path. The image below shows the download in Chrome. Note the file is in the download frame at the bottom of the page. It has also been added to the user’s Download folder within the user’s My Documents.
-
-.. image:: static/OpenSALT_User_Manual_174.png
-   :height: 270 px
-   :width: 624 px
-
-To open the JSON file the user will need to identify a compatible application on their computer. Notepad or NotePad ++ can be used if no preferred application is identified.
-
-The following is an example of the generated JSON file viewed in Notepad.
-
-.. image:: static/OpenSALT_User_Manual_175.png
-   :height: 200 px
-   :width: 505 px
-
-
-.. _h69105f5c3a80644f6a806369c586458:
-
-6.7.2 Export Styled PDF (Future Function)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-The second **Export** option is the **Styled PDF** button.
-
-.. image:: static/OpenSALT_User_Manual_176.png
-   :height: 249 px
-   :width: 624 px
-
-
-The purpose of this **Export** option is to produce a system generated **PDF** with nice formatting and styling that can be used to compare against a source document for validation or can replace source documentation as needed.
-
-Users will note that at this time the button is not active. A description will not display when a user mouses-over the button, nor will the button respond with clicked. This is a placeholder for future functionality. As of the current release of OpenSALT this feature is not available. Though it is on the road map and is expected to be in a future release. If any organization requires this functionality, you can sponsor the development of the feature to help prioritize the development timeline by contacting PCG, ACT, or School City to discuss development costs and your needs.
 
 .. _h596b20112477664e57757b30727b58:
 
-6.7.3 Export Spreadsheet
+6.7.2 Export Spreadsheet
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-The third **Export** option is the **Spreadsheet Export.** This option allows users to extract the data for the framework packaging in a spreadsheet file that can be opened/viewed/edited in a program like Microsoft’s Excel or Google Sheets.
+The second **Export** option is the **Spreadsheet Export.** This option allows users to extract the data for the framework packaging in a spreadsheet file that can be opened/viewed/edited in a program like Microsoft’s Excel or Google Sheets.
 
 When a user mouses over the **Spreadsheet Export** button, a soft explanation is displayed that advises the user of the button’s intended purpose: ‘Exports as an Excel spreadsheet file that you can open and edit in spreadsheet programs such as Microsoft Excel. ’
 
@@ -2722,7 +2713,7 @@ When opened the spreadsheet file will have three tabs:
 
 .. _h2c3d432f26522266f31614d703c15b:
 
-6.7.3.1 CF Doc Tab
+6.7.2.1 CF Doc Tab
 ^^^^^^^^^^^^^^^^^^
 
 The purpose of the first tab, CF Doc, is to provide the user with basic background information on the Framework Package.
@@ -2770,7 +2761,7 @@ The columns on the spreadsheet include the following:
 
 .. _h495651a32261e342218226c7b239:
 
-6.7.3.2 CF Item Tab
+6.7.2.2 CF Item Tab
 ^^^^^^^^^^^^^^^^^^^
 
 The purpose of the second tab, CF Item, is to provide the user with items and content within the Framework Package.
@@ -2814,7 +2805,7 @@ The columns on the spreadsheet include the following:
 
 .. _h7a453f1eb35d645b3d574c4e4a2552:
 
-6.7.3.3 CF Association Tab
+6.7.2.3 CF Association Tab
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The purpose of the third tab, CF Association, is to provide the user with items and content within the Framework Package.
@@ -2842,24 +2833,9 @@ The columns on the spreadsheet include the following:
 
 * *LastChangeDateTime:* A system generated log of the most recent change to this record. This is a mandatory field in OpenSALT and the export will contain data.
 
-.. _h637197e5b246b4c3f7c222d352d67:
-
-6.7.4 Export HTML Archive (Future Function)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-The fourth **Export** option is the **HTM Archive** button.
-
-.. image:: static/OpenSALT_User_Manual_183.png
-   :height: 248 px
-   :width: 624 px
-
-The purpose of this **Export** option is to produce an **HTML** code snippet that can be used on an alternative website that renders the framework in a consistent manner to the display on OpenSALT.
-
-Users will note that at this time the button is not active. A description will not display when a user mouses-over the button, nor will the button respond with clicked. This is a placeholder for future functionality. As of the current release of OpenSALT this feature is not available. Though it is on the road map and is expected to be in a future release. If any organization requires this functionality, you can sponsor the development of the feature to help prioritize the development timeline by contacting PCG,ACT, or School City to discuss development costs and your needs.
-
 .. _h74c126565a611e731014cb6b8:
 
-6.7.5 Link for Browser View
+6.7.3 Link for Browser View
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The final share option to connect to the Framework Package outside of OpenSALT is the **Browser Link**.
@@ -2883,7 +2859,7 @@ OpenSALT provides the users with the direct **URL** for the selected Framework P
 
 	Published frameworks are able to be commented on by authenticated users for the purpose of collecting feedback on framework item metadata.  Commenting must be turned on by a system administrator.
 
-.. _h7b36562d3c294c5a7d537c95a1a6c59:
+.. _h2e1e53322a7678fc1a293916464311:
 
 7.1.1 Features
 ~~~~~~~~~~~~~~
@@ -2895,7 +2871,7 @@ OpenSALT provides the users with the direct **URL** for the selected Framework P
    :width: 624 px
 
 
-.. _h32706aa7115195a6b334365a5d5e41:
+.. _hf2b15673b1ad53c735328544e7e1d:
 
 7.1.2 Viewing Comments
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -2906,10 +2882,17 @@ You are able to sort comments by the three tabs - newest, Oldest, and Most Popul
    :height: 278 px
    :width: 484 px
 
+.. _h5cc5056584c262f761b5b2746a346b:
+
+7.1.3 Commenting Configuration
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Configuration for commenting can be found via the Github Config files for administrators. Administrators can configure commenting to include the ability for attachments as well as upvoting, replies etc.
+
 
 .. _h49416333194b564671d134e68507a60:
 
-7.1.3 License
+7.1.4 License
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 OpenSALT has integrated this third party code ( http://viima.github.io/jquery-comments/ )with a congruent MIT license in order for reviewing frameworks.
@@ -2992,3 +2975,25 @@ The video below shows this as well as offering best practices guidance.
 
 .. |LINK29| raw:: html
 <a href="https://www.youtube.com/watch?v=7pHAMh8QfJk&list=PLc37jyWQOZ2aLZ1tL3lTiPlti699qsobN&index=5&t=0s" target="_blank">Additional Fields Feature Video</a>
+
+.. _j5cc5056584c262f761b5b2746a3461:
+
+7.4 File Storage and Image Attachment
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Often users want to attach an image to the notes section for clarity, or perhaps fullStatement can point to a learning object etc. The ability to add uploads and images was created for this type of functionality.
+
+*7.4.1 Configuration*
+
+While files cannot be stored natively in the CASE JSON, OpenSALT allows administrators setting up OpenSALT to include an AWS bucket as well as a prefix in the docker-compose.yml file - then the images are inserted with the native markdown/attachments are linked. Make sure your bucket is public if you intend for the CASE framework to be shared and disseminated publicly.
+
+AWS_ACCESS_KEY_ID:
+AWS_SECRET_ACCESS_KEY:
+AWS_S3_BUCKET:
+AWS_S3_REGION:
+AWS_S3_PREFIX:
+ATTACHMENT_URL_PREFIX:
+BUCKET_PROVIDER:
+
+*7.4.2 Usage*
+
+Users may drag and drop and image into the fullStatement and Notes field when this functionality is enabled. Future plans would add it to Exemplar as well but that is not on the OpenSALT roadmap at this time.
