@@ -70,6 +70,7 @@ OpenSALT v.2.2 - User Manual
 |         `6.2.3 Edit Frameworks <#h2a278644e81e7672704d5078541c5>`_
 |         `6.2.4 Delete Frameworks <#ha6bf1778138296b7384e6b3d144c>`_
 |         `6.2.5 Update Frameworks from spreadsheet <#h10414a76521969321d1aa7b43555d12>`_
+|         `6.2.5.1 Creating a new Framework from a template spreadsheet <#h405471134e472ab58320531a7c439>`_
 |         `6.2.6 Create new associations via Spreadsheet Update Features <#h405471134e472ab58320531a7c433>`_
 |         `6.2.6.1 Update Associations on the same server <#h405471134e472ab58320531a7c444>`_
 |         `6.2.6.2 Update Associations from an external server <#h405471134e472ab58320531a7c455>`_
@@ -1323,10 +1324,23 @@ OpenSALT allows organization admins and above to download a framework as an exce
 - Add an item to the the spreadsheet - do not enter an identifier; one will be created for you on update
 - Delete an item when removing the identifier
 
-Other notes:
 - If a parent statement is deleted, those children statements will be ungrouped as "orphans"
 
 Note that the framework should only be updated from within the Document itself using the Update button. Furthermore, note that currently these changes are irreversible within the application. The Update code searches for the Cf Item identifier and then performs the update procedures described above based on that business logic. (Eg if it finds a new identifier, it adds the CF Item. If it does not find an identifier previously present, that item is removed from the server).
+
+.. _h405471134e472ab58320531a7c439:
+
+6.2.5.1 Framework Creation with Spreadsheet Import or Update:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+*SmartLevel*
+
+To create a basic framework via the spreadsheet import tool, you must populaate the FullStataement and SmartLevel. The smart level field works like this:
+
+.. image:: static/smartlevel.png
+
+Once you have corretly populated this, upon import or Update OpenSALT will create identifiers and relevant IsChildOf associations automatically.
+
 
 How-To `Video
 <https://www.youtube.com/watch?v=thJb43wD6ZM&t=1s>`_
