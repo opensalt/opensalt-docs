@@ -1335,17 +1335,17 @@ Note that the framework should only be updated from within the Document itself u
 
 *SmartLevel*
 
-To create a basic framework via the spreadsheet import tool, you must populate the FullStatement and SmartLevel in the CF Item sheet as well as Creator and Title on CF Document. The smart level field works like this:
+To create a basic framework via the spreadsheet import tool, you must populate the FullStatement and SmartLevel in the CF Item sheet as well as Creator and Title on the CF Document sheet. The smart level field works like this:
 
-The spreadsheet view of correctling entering a statement with smartlevel looks as follows: 
+The spreadsheet view of correctly  entering a statement with smartlevel looks as follows:
 
-.. image:: static/smartlevelspreadsheet.png
+.. image:: static/smartlevelspreadsheet1.png
 
-On a real framework, you see:
+On a live framework in OpenSALT, you would see this represented as:
 
 .. image:: static/smartlevel.png
 
-Once you have correctly populated these two fields, upon import or Update OpenSALT will create identifiers and relevant IsChildOf associations automatically.
+Once you have correctly populated these two fields, upon import or Spreadsheet Update OpenSALT will create identifiers and relevant IsChildOf associations automatically.
 
 How-To `Video
 <https://www.youtube.com/watch?v=thJb43wD6ZM&t=1s>`_
