@@ -1105,6 +1105,10 @@ The spreadsheet template is here_:
 
 .. _here: https://github.com/opensalt/opensalt/blob/develop/docs/sample%20files/spreadsheet_import_template.xlsx
 
+Additionally, a Sample Spreadsheet is available as well_:
+
+.. _well https://github.com/opensalt/opensalt/blob/develop/docs/sample%20files/spreadsheet_import_sample.xlsx
+
 To create a basic framework via the spreadsheet import template, you must populate the FullStatement and SmartLevel in the CF Item sheet as well as Creator and Title on the CF Document sheet. The smart level field works like this:
 
 The spreadsheet view of correctly  entering a statement with smartlevel looks as follows:
