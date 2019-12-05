@@ -1100,12 +1100,22 @@ To cancel the action and not import the file, click on the **Close** button.
    :height: 171 px
    :width: 489 px
 
-On the Import screen, you are able to import a spreadsheet. For the spreadsheet importer, FullStatement is again the primary required field.
-Screenshot of a sample file (template and larger sample located here_:
+On the Import screen, you are able to import a spreadsheet. For the spreadsheet importer, FullStatement is the primary required field.
+The spreadsheet template is here_:
 
-.. _here: https://github.com/opensalt/opensalt/tree/develop/sample%20files
+.. _here: https://github.com/opensalt/opensalt/blob/develop/docs/sample%20files/spreadsheet_import_template.xlsx
 
-.. image:: static/spreadsheet_sample.png
+To create a basic framework via the spreadsheet import template, you must populate the FullStatement and SmartLevel in the CF Item sheet as well as Creator and Title on the CF Document sheet. The smart level field works like this:
+
+The spreadsheet view of correctly  entering a statement with smartlevel looks as follows:
+
+.. image:: static/smartlevelspreadsheet1.png
+
+On a live framework in OpenSALT, you would see this represented as:
+
+.. image:: static/smartlevel.png
+
+Once you have populated these two fields, upon import OpenSALT will create identifiers and relevant IsChildOf associations automatically.
 
 If the framework you are importing already exists on the server, it will update that framework and let you know with a message.
 
@@ -1327,25 +1337,6 @@ OpenSALT allows organization admins and above to download a framework as an exce
 - If a parent statement is deleted, those children statements will be ungrouped as "orphans"
 
 Note that the framework should only be updated from within the Document itself using the Update button. Furthermore, note that currently these changes are irreversible within the application. The Update code searches for the Cf Item identifier and then performs the update procedures described above based on that business logic. (Eg if it finds a new identifier, it adds the CF Item. If it does not find an identifier previously present, that item is removed from the server).
-
-.. _h405471134e472ab58320531a7c439:
-
-6.2.5.1 Framework Creation with Spreadsheet Import or Update:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-*SmartLevel*
-
-To create a basic framework via the spreadsheet import tool, you must populate the FullStatement and SmartLevel in the CF Item sheet as well as Creator and Title on the CF Document sheet. The smart level field works like this:
-
-The spreadsheet view of correctly  entering a statement with smartlevel looks as follows:
-
-.. image:: static/smartlevelspreadsheet1.png
-
-On a live framework in OpenSALT, you would see this represented as:
-
-.. image:: static/smartlevel.png
-
-Once you have correctly populated these two fields, upon import or Spreadsheet Update OpenSALT will create identifiers and relevant IsChildOf associations automatically.
 
 How-To `Video
 <https://www.youtube.com/watch?v=thJb43wD6ZM&t=1s>`_
