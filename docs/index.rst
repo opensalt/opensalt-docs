@@ -20,7 +20,8 @@ OpenSALT v.2.2 - User Manual
 +---------+------------+-------+-----------------------+----------------+
 |B Dorman | ACT        |07/2019|OpenSALT v2.2          |.4              |
 +---------+------------+-------+-----------------------+----------------+
-
+|B Dorman | ACT        |12/2019|OpenSALT v2.3          |1.0             |
++---------+------------+-------+-----------------------+----------------+
 **Table of Contents**
 
 | `Introduction <#hb79795d3e46b47696c7c5b6d3a41e>`_
@@ -2279,7 +2280,7 @@ To create an association, open the Framework target in the **Framework Dispaly**
    :width: 580 px
 
 
-In the Document dropdown, select the framework you want to use with the associations.  If the framework is within the OpenSALT server instance, the framework name will display organized by the owning Organization.
+In the Document dropdown, select the framework you want to use with the associations.  If the framework is within the OpenSALT server instance, the framework name will display organized by the owning Organization. In OpenSALT 2.3 this can be changed later by super editors. 
 
 .. image:: static/OpenSALT_User_Manual_144.png
    :height: 342 px
@@ -2497,7 +2498,7 @@ The user will now need to associate items with the appropriate groups.
 
 .. _h6fe4164b12672914514d4f13492564:
 
-Note that association groups do not currently import correclty to others instances of OpenSALT 2.2.
+Note that association groups working is new in OpenSALT 2.3.
 
 6.6.3 Crosswalk Associations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3011,3 +3012,9 @@ BUCKET_PROVIDER:
 *7.4.2 Usage*
 
 Users may drag and drop and image into the fullStatement and Notes field when this functionality is enabled. Future plans would add it to Exemplar as well but that is not on the OpenSALT roadmap at this time.
+
+7.5 Clone Framework
+
+New in OpenSALT 2.3 is the ability to clone a framework directly. This is used in best practice when template frameworks are needed. The clone button shows up for editors with proper permissions
+
+.. image:: static/clonebutton.png
