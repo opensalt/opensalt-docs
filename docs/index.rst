@@ -126,7 +126,7 @@ OpenSALT v.2.2 - User Manual
 |          `7.2.3 Configuration <#j5cc5056584c262f761b5b2746a346o>`_
 |      `7.3 Additional Fields <#j5cc5056584c262f761b5b2746a3460>`_
 |      `7.4 File/Image Upload <#j5cc5056584c262f761b5b2746a3461>`_
-|      `7.5 Clone Feature <#j5cc5056584c262f761b5b2746a3462`_
+|      `7.5 Clone Feature <#j5cc5056584c262f761b5b2746a3462>`_
 
 
 .. _hb79795d3e46b47696c7c5b6d3a41e:
