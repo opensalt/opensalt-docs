@@ -295,7 +295,7 @@ The Chart below provides an overview of the users and their provisioned roles an
 |in their own     |              |    X   |     X     |      X       |     X     |
 |organization     |              |        |           |              |           |
 +-----------------+--------------+--------+-----------+--------------+-----------+
-|Edit a framework |              |   X    |     X     |    X         |    X      |
+|Edit a framework |              |   X    |     X     |     X        |    X      |
 +-----------------+--------------+--------+-----------+--------------+-----------+
 |Export frameworks|     x        |    x   |     X     |     X        |    X      |
 +-----------------+--------------+--------+-----------+--------------+-----------+
@@ -311,9 +311,9 @@ The Chart below provides an overview of the users and their provisioned roles an
 | across orgs     |              |        |           |              |           |
 +-----------------+--------------+--------+-----------+--------------+-----------+
 |Add/edit Users   |              |        |           |              |           |
-|within an Org    |              |        |     X     |      X       |     X     |
+|within an Org    |              |        |     X     |              |     X     |
 +-----------------+--------------+--------+-----------+--------------+-----------+
-|Add/Edit Orgs    |              |        |           |      X       |     X     |
+|Add/Edit Orgs    |              |        |           |              |     X     |
 +-----------------+--------------+--------+-----------+--------------+-----------+
 
 Additionally, there are built in permissions regarding which users can edit organization-owned frameworks.
