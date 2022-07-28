@@ -3011,3 +3011,19 @@ BUCKET_PROVIDER:
 *7.4.2 Usage*
 
 Users may drag and drop and image into the fullStatement and Notes field when this functionality is enabled. Future plans would add it to Exemplar as well but that is not on the OpenSALT roadmap at this time.
+
+7.5 Clone Framework
+New in OpenSALT 2.3 is the ability to clone a framework directly. This is used in best practice when template frameworks are needed. The clone button shows up for editors with proper permissions
+
+_images/clonebutton.png 
+
+New in OpenSALT 2.3 is the ability to clone a framework directly. This is used in best practice when template frameworks are needed. The clone button shows up for editors with proper permissions
+
+7.6 Mirror Frameworks 
+New in OpenSalt 3.1 is the ability to mirror external individual frameworks and external servers containing frameworks within OpenSALT. Selecting "Manage Mirrors" from the drop down menu in the upper righthand corner displays existing mirrors as well as the opportunity to add individually mirrored frameworks or server frameworks from a URL.
+
+
+
+
+
+
