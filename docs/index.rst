@@ -3026,16 +3026,16 @@ Credentialed users will see the list of mirrored servers, the frameworks mirrore
 
 docs/static/mirror 2.png
 
-Editing an existing mirrored server:
+Editing an existing mirrored server;
 docs/static/mirror 3.png
 
-Viewing list of Frameworks within an external server: 
+Viewing list of Frameworks within an external server; 
 docs/static/mirror 4.png
 
-Adding a new server to be mirrored:
+Adding a new server to be mirrored;
 docs/static/mirror 5.png
 
-Adding a single framework to be mirrored:
+Adding a single framework to be mirrored;
 docs/static/mirror 6.png
 
 
