@@ -3026,7 +3026,7 @@ Credentialed users will see the list of mirrored servers, the frameworks mirrore
 
 .. image:: static/mirror2.png
 
-Editing an existing mirrored server;
+Editing an existing mirrored server:
 
 .. image:: static/mirror3.png
 
@@ -3034,12 +3034,17 @@ Viewing list of Frameworks within an external server;
 
 .. image:: static/mirror4.png
 
-Adding a new server to be mirrored;
+Adding a new server to be mirrored:
 
 .. image:: static/mirror5.png
 
-Adding a single framework to be mirrored;
+Adding a single framework to be mirrored:
 
 .. image:: static/mirror6.png 
 
+7.6.2 
+When mirroring an external server to OpenSALT, some component frameworks in the external server may be contained within an existing mirror in OpenSALT already, prompting a collision. In such instances, the credentialed user will need to resolve the identifier conflict by replacing the existing framework or preserving its location. 
 
+.. image:: static/Mirror7.png
+
+.. image:: static/Mirror8.png
