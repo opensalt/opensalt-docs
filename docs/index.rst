@@ -3027,15 +3027,19 @@ Credentialed users will see the list of mirrored servers, the frameworks mirrore
 .. image:: static/mirror2.png
 
 Editing an existing mirrored server;
+
 .. image:: static/mirror3.png
 
 Viewing list of Frameworks within an external server; 
+
 .. image:: static/mirror4.png
 
 Adding a new server to be mirrored;
+
 .. image:: static/mirror5.png
 
 Adding a single framework to be mirrored;
+
 .. image:: static/mirror6.png 
 
 
