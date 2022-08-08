@@ -3036,6 +3036,6 @@ Adding a new server to be mirrored;
 .. image:: static/mirror5.png
 
 Adding a single framework to be mirrored;
-.. image:: static/mirror6.png
+.. image:: static/mirror6.png 
 
 
