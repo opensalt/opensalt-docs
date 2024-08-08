@@ -2973,7 +2973,8 @@ The video below shows this as well as offering best practices guidance.
 \ |LINK29|\
 
 .. |LINK29| raw:: html
-<a href="https://www.youtube.com/watch?v=7pHAMh8QfJk&list=PLc37jyWQOZ2aLZ1tL3lTiPlti699qsobN&index=5&t=0s" target="_blank">Additional Fields Feature Video</a>
+
+    <a href="https://www.youtube.com/watch?v=7pHAMh8QfJk&list=PLc37jyWQOZ2aLZ1tL3lTiPlti699qsobN&index=5&t=0s" target="_blank">Additional Fields Feature Video</a>
 
 .. _j5cc5056584c262f761b5b2746a3461:
 
