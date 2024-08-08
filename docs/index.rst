@@ -2969,6 +2969,7 @@ To create a new field, select New and create your field.
 .. image:: static/add_field.png
 
 The video below shows this as well as offering best practices guidance.
+
 \ |LINK29|\
 
 .. |LINK29| raw:: html
