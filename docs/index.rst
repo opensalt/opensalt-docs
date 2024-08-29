@@ -2960,7 +2960,7 @@ More information: \ |LINK28|\
 
 OpenSALT 2.2 has the ability to add additional fields to the CfItem entity. These fields will NOT be exported with a standard CASE export or visible via the API. They will however be viewable when editing the Cf Item of any framework on that OpenSALT instance and be exported/able to be updated via the Spreadsheet Updater.
 
-To view the additional fields, login and a super user and go to <server name>/additional_field eg frameworks.act.org/additional_field
+To view the additional fields, login and a super user and go to <server name>/additionalfield eg frameworks.act.org/additionalfield
 
 .. image:: static/add_field_screen.png
 
@@ -2969,10 +2969,12 @@ To create a new field, select New and create your field.
 .. image:: static/add_field.png
 
 The video below shows this as well as offering best practices guidance.
+
 \ |LINK29|\
 
 .. |LINK29| raw:: html
-<a href="https://www.youtube.com/watch?v=7pHAMh8QfJk&list=PLc37jyWQOZ2aLZ1tL3lTiPlti699qsobN&index=5&t=0s" target="_blank">Additional Fields Feature Video</a>
+
+    <a href="https://www.youtube.com/watch?v=7pHAMh8QfJk&list=PLc37jyWQOZ2aLZ1tL3lTiPlti699qsobN&index=5&t=0s" target="_blank">Additional Fields Feature Video</a>
 
 .. _j5cc5056584c262f761b5b2746a3461:
 
